@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HRMSAutomation" preserve-order="true">
+	<test name="NewEmp_001">
+    	<parameter name="test-id" value="newemp_001"/>
+	    <parameter name="test-config" value="EmployeeCreationConfig"/>
+	    <parameter name="test-config-sheet" value="NewEmp"/>
+	    <classes>
+	    	<class name="testDrivers.TestDriver"/>
+	    </classes>
+	</test>  
+	 
+	 
+ </suite> <!-- futuregenerali  -->
