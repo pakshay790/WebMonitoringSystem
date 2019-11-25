@@ -12,6 +12,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 import com.aventstack.extentreports.ExtentTest;
+import com.gargoylesoftware.htmlunit.javascript.host.media.webkitMediaStream;
 
 import gtlib.Genlib;
 import modules.common.CommPageObject;
@@ -181,13 +182,203 @@ public class EmployeeCreationTest {
 			
 			// Employee's Employment Details Scripts
 			
+			WebElement txtTotalExp = EmployeeCreationPage.totalExperience(driver);
+			txtTotalExp.sendKeys(datArr[26]);
+			LoggerUtils.logInfo("Total Experience  Entered");
+			Thread.sleep(1000);
 			
+			WebElement txtGTEmail  = EmployeeCreationPage.txtGTEmailID(driver);
+			txtGTEmail.sendKeys(datArr[28]);
+			LoggerUtils.logInfo("Galentic Email-ID  Entered");
+			Thread.sleep(1000);
 			
+			WebElement doj = EmployeeCreationPage.txtDOJ(driver);
+			doj.click();
+			Thread.sleep(1000);
+			WebElement btnOkDOJ = EmployeeCreationPage.btnOkDOJ(driver);
+			btnOkDOJ.click();
+			Thread.sleep(1000);
+			
+			WebElement empType = EmployeeCreationPage.selEmpType(driver);
+			empType.click();
+			WebElement empTypeVal = EmployeeCreationPage.selEmpTypeVal(driver, datArr[29]);
+			empTypeVal.click();
+			LoggerUtils.logInfo("Employee Type  Selected");
+			Thread.sleep(1000);
+			
+			WebElement designation = EmployeeCreationPage.designation(driver);
+			designation.click();
+			Thread.sleep(2000);
+			WebElement designationVal = EmployeeCreationPage.designationVal(driver,datArr[30]);
+			LoggerUtils.logInfo("Employee Designation  Selected");
+			designationVal.click();
+			Thread.sleep(2000);
+			
+			WebElement assign = EmployeeCreationPage.assignProject(driver);
+			assign.click();
+			WebElement assignVal = EmployeeCreationPage.assignProjectVal(driver, datArr[31]);
+			assignVal.click();
+			LoggerUtils.logInfo("Employee Assign Project  Selected");
+			Thread.sleep(1000);
+			
+			WebElement remarks  = EmployeeCreationPage.remarks(driver);
+			remarks.sendKeys(datArr[32]);
+			LoggerUtils.logInfo("Remarks  Entered");
+			Thread.sleep(1000);
+			
+			WebElement bankName  = EmployeeCreationPage.bankName(driver);
+			bankName.sendKeys(datArr[33]);
+			LoggerUtils.logInfo("Bank Name  Entered");
+			Thread.sleep(1000);
+			
+			WebElement location = EmployeeCreationPage.location(driver);
+			location.click();
+			WebElement locationVal = EmployeeCreationPage.locationVal(driver,datArr[34]);
+			LoggerUtils.logInfo("Employee Location  Selected");
+			locationVal.click();
+			Thread.sleep(1000);
+			
+			WebElement bankAccNo  = EmployeeCreationPage.bankAccNo(driver);
+			bankAccNo.sendKeys(datArr[35]);
+			LoggerUtils.logInfo("Bank Account Number  Entered");
+			Thread.sleep(1000);
+			
+			WebElement uanNo  = EmployeeCreationPage.UANNo(driver);
+			uanNo.sendKeys(datArr[36]);
+			LoggerUtils.logInfo("UAN Number  Entered");
+			Thread.sleep(1000);
+			
+			WebElement PFNo  = EmployeeCreationPage.PFNo(driver);
+			PFNo.sendKeys(datArr[37]);
+			LoggerUtils.logInfo("PF Number  Entered");
+			Thread.sleep(1000);
+			
+			WebElement btnNextEmpmntDet = EmployeeCreationPage.btnNextEmpmntDet(driver);
+			btnNextEmpmntDet.click();
+			LoggerUtils.logInfo("Employement Details Feild, Next Button Clicked");
+			Thread.sleep(2000);
 
-			Thread.sleep(4000);
-			LoggerUtils.logInfo("Employee Created Successfully, Tac ID : ");
-			hMapRetObj.put("testRunStatus", Globals.PASS);
-			hMapRetObj.put("depUpdateVal", ""); // updating depval with tacid,id proof val, mobile
+			// Employee's Salary Details Script
+			
+			if (datArr[29].equals("TRAINEE")) {
+				
+				WebElement txtStipend = EmployeeCreationPage.txtStipend(driver);
+				txtStipend.sendKeys(datArr[38]);
+				LoggerUtils.logInfo("Employee's Stipend Entered");
+				Thread.sleep(2000);
+				
+				WebElement btnNextSalDet = EmployeeCreationPage.btnNextSalaryDet(driver);
+				btnNextSalDet.click();
+				LoggerUtils.logInfo("Employee's Salary Details Entered, Next Button Clikced");
+				Thread.sleep(1000);
+				
+			} else if (datArr[29].equals("CONTRACTUAL")) {
+				
+				WebElement txtConsulatationFee = EmployeeCreationPage.txtConsulatationFee(driver);
+				txtConsulatationFee.sendKeys(datArr[39]);
+				LoggerUtils.logInfo("Employee's Salary Details Entered, Next Button Clicked");
+				Thread.sleep(2000);
+				
+				WebElement btnNextSalDet = EmployeeCreationPage.btnNextSalaryDet(driver);
+				btnNextSalDet.click();
+				LoggerUtils.logInfo("Employee's Salary Details Entered, Next Button Clikced");
+				Thread.sleep(1000);	
+				
+			}
+			else {
+				
+				WebElement txtCTC = EmployeeCreationPage.txtCTC(driver);
+				txtCTC.sendKeys(datArr[40]);
+				LoggerUtils.logInfo("Employee's CTC Entered");
+				Thread.sleep(1000);
+				
+				WebElement txtBasic = EmployeeCreationPage.txtBasicSalary(driver);
+				txtBasic.sendKeys(datArr[41]);
+				LoggerUtils.logInfo("Employee's Baisc Salary Entered");
+				Thread.sleep(1000);
+				
+				WebElement txtHRA = EmployeeCreationPage.txtHRA(driver);
+				txtHRA.sendKeys(datArr[42]);
+				LoggerUtils.logInfo("Employee's HRA Amount Entered");
+				Thread.sleep(1000);
+				
+				WebElement txtConveyence = EmployeeCreationPage.txtConvyenceAllowance(driver);
+				txtConveyence.sendKeys(datArr[43]);
+				LoggerUtils.logInfo("Employee's Convyence Allowance Entered");
+				Thread.sleep(1000);
+				
+				WebElement txtMedical = EmployeeCreationPage.txtMedicalAllowance(driver);
+				txtMedical.sendKeys(datArr[44]);
+				LoggerUtils.logInfo("Employee's Medical Allowance Entered");
+				Thread.sleep(1000);
+				
+				WebElement txtMobile = EmployeeCreationPage.txtMobileAllowance(driver);
+				txtMobile.sendKeys(datArr[45]);
+				LoggerUtils.logInfo("Employee's Mobile Allowance Entered");
+				Thread.sleep(1000);
+				
+				WebElement txtExecutive = EmployeeCreationPage.txtExecutiveAllowance(driver);
+				txtExecutive.sendKeys(datArr[46]);
+				LoggerUtils.logInfo("Employee's Executive Allowance Entered");
+				Thread.sleep(1000);
+
+				WebElement txtEmployeeInsurance = EmployeeCreationPage.txtEmployeeInsurance(driver);
+				txtEmployeeInsurance.sendKeys(datArr[47]);
+				LoggerUtils.logInfo("Employee's Insurance Benefit Entered");
+				Thread.sleep(1000);
+				
+				WebElement txtVariable = EmployeeCreationPage.txtVariablePay(driver);
+				txtVariable.sendKeys(datArr[48]);
+				LoggerUtils.logInfo("Employee's Variable Pay Entered");
+				Thread.sleep(1000);
+				
+				WebElement txtEPF = EmployeeCreationPage.txtEPF(driver);
+				txtEPF.sendKeys(datArr[49]);
+				LoggerUtils.logInfo("Employee's EPF Amount Entered");
+				Thread.sleep(1000);
+				
+				WebElement txtJoining = EmployeeCreationPage.txtJoiningBonus(driver);
+				txtJoining.sendKeys(datArr[50]);
+				LoggerUtils.logInfo("Employee's Joining Bonus Enterd");
+				Thread.sleep(1000);
+				
+				WebElement btnNextSalaryDet = EmployeeCreationPage.btnNextSalaryDet(driver);
+				btnNextSalaryDet.click();
+				LoggerUtils.logInfo("Employee's Salary Details Entered");
+				Thread.sleep(2000);
+			}	
+			
+			WebElement btnFinish = EmployeeCreationPage.btnFinish(driver);
+			btnFinish.click();
+			LoggerUtils.logInfo("Finish Button Clicked");
+			Thread.sleep(1000);
+			
+			WebElement btnProceedOK = EmployeeCreationPage.btnProceedOK(driver);
+			btnProceedOK.click();
+			LoggerUtils.logInfo("Proceed Ok button Clicked");
+			Thread.sleep(2000);
+			
+			WebElement successMSG = EmployeeCreationPage.dialogMSG(driver);
+			Thread.sleep(1000);
+			String successMessage = successMSG.getText();
+			
+			if (successMessage.equals(Globals.EMP_CREATED_SUCCESS)) 	
+			{
+				LoggerUtils.logInfo("Employee Created Successfully");
+				WebElement btnOk = EmployeeCreationPage.btnDailogOK(driver);
+				btnOk.click();
+				LoggerUtils.logInfo("Ok Button Clicked");
+				hMapRetObj.put("testRunStatus", Globals.PASS);
+				hMapRetObj.put("depUpdateVal", "");
+			}
+			else {
+				LoggerUtils.logInfo("Unable to create employee");
+				WebElement btnOk = EmployeeCreationPage.btnDailogOK(driver);
+				btnOk.click();
+				LoggerUtils.logInfo("Ok Button Clicked");
+				hMapRetObj.put("testRunStatus", Globals.FAIL);
+				hMapRetObj.put("depUpdateVal", "");
+			}
 
 		} catch (Exception e) {
 			LoggerUtils.logError("Exception In Employee Creation : ", e);

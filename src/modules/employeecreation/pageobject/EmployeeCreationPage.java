@@ -261,6 +261,22 @@ public class EmployeeCreationPage {
 		return element;
 	}
 	
+	public static WebElement txtDOJ(WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='doj']")));
+		return element;
+	}
+	
+	public static WebElement btnOkDOJ(WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[3]/div[1]/div[2]/button[4]")));
+		return element;
+	}
+	
 	public static WebElement selEmpType(WebDriver driver)
 	{
 		WebElement element=null;
@@ -281,17 +297,11 @@ public class EmployeeCreationPage {
 	{
 		WebElement element=null;
 		WebDriverWait wait=new WebDriverWait(driver, 50);
-		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/section[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/section[3]/div[3]/div[4]/div[1]/div[1]/button[1]")));
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//body[@class='theme-red']/section[@class='content']/div[@class='container-fluid']/div[@class='row clearfix']/div[@class='col-lg-12 col-md-12 col-sm-12 col-xs-12']/div[@class='card']/div[@class='body']/form[@id='create_emp_form']/div[@class='content clearfix']/section[@id='create_emp_form-p-2']/div[@class='col-md-6']/div[4]/div[1]/div[1]/button[1]/span[1]")));
 		return element;
 	}
 	
-	public static WebElement designationVal(WebDriver driver, String designationVal)
-	{
-		WebElement element=null;
-		WebDriverWait wait=new WebDriverWait(driver, 50);
-		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[contains(text(),'"+designationVal+"')]")));
-		return element;
-	}
+	
 	
 	public static WebElement assignProject(WebDriver driver)
 	{
@@ -372,4 +382,163 @@ public class EmployeeCreationPage {
 		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[contains(text(),'Next')]")));
 		return element;
 	}
+
+	public static WebElement designationVal(WebDriver driver, String string) {
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[contains(text(),'"+string+"')]")));
+		return element;
+	}
+	
+	// Employee's Salary Details Page Object
+	public static WebElement txtStipend (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='other_fees']")));
+		return element;
+	}
+	
+	public static WebElement txtConsulatationFee (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='other_fees']")));
+		return element;
+	}
+	
+	public static WebElement txtCTC (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='ctc']")));
+		return element;
+	}
+	
+	public static WebElement txtBasicSalary (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='basic_salary']")));
+		return element;
+	}
+	
+	public static WebElement txtHRA (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='hra']")));
+		return element;
+	}
+	
+	public static WebElement txtConvyenceAllowance (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='convyence_allowance']")));
+		return element;
+	}
+	
+	public static WebElement txtMedicalAllowance (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='medical_allowance']")));
+		return element;
+	}
+	
+	public static WebElement txtMobileAllowance (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='mobile_allowance']")));
+		return element;
+	}
+	
+	public static WebElement txtExecutiveAllowance (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='executive_allowance']")));
+		return element;
+	}
+	
+	public static WebElement txtEmployeeInsurance (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='emp_health_benefit']")));
+		return element;
+	}
+	
+	public static WebElement txtVariablePay (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='var_pay']")));
+		return element;
+	}
+
+	public static WebElement txtEPF (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='epf']")));
+		return element;
+	}
+	
+	public static WebElement txtJoiningBonus (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='join_bonus']")));
+		return element;
+	}
+	
+	public static WebElement btnNextSalaryDet (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[contains(text(),'Next')]")));
+		return element;
+	}
+	
+	// Employee's Document Page Object
+	
+	public static WebElement btnFinish (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[contains(text(),'Finish')]")));
+		return element;
+	}
+	
+	public static WebElement btnProceedOK (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[@class='confirm']")));
+		return element;
+	}
+	
+	public static WebElement dialogMSG (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/div[6]/p[1]/b[1]")));
+		return element;
+	}
+	
+	public static WebElement btnDailogOK (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[@class='confirm']")));
+		return element;
+	}
+	
+	
+	
+
+	
 }

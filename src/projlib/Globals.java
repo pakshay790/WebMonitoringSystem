@@ -32,7 +32,7 @@ public class Globals
 	
 	static Properties sysMsgProp = Genlib.readConfig("SystemMessages.properties");
 	public static final String LAND_DELETE_SUCCESS = sysMsgProp.getProperty("landDeletedSuccess");
-	
+	public static final String EMP_CREATED_SUCCESS = sysMsgProp.getProperty("empCreatedSuccess");
 	
 	
 }

@@ -6,7 +6,14 @@ public class TestExecution {
 
 	public static void main(String[] args) {
 		
-			TestDriver.tDriver("newemp_001","EmployeeCreationConfig","NewEmp");
+			String testCases [] = {"newemp_001","newemp_002","newemp_003"};
+			
+			for (int i = 0; i < testCases.length; i++) {
+				TestDriver.tDriver(testCases[i],"EmployeeCreationConfig","NewEmp");
+			}
+		
+			
+			
 	}
 
 }
