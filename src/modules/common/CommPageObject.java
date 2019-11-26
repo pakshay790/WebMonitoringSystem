@@ -40,4 +40,11 @@ public class CommPageObject {
         return element;
     }
 
+	public static WebElement menuEmp(WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/section[1]/aside[1]/div[2]/div[1]/ul[1]/li[4]/a[1]")));
+		return element;
+	}
 }

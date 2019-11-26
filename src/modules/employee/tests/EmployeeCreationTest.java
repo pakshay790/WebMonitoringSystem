@@ -48,7 +48,7 @@ public class EmployeeCreationTest {
 //			test.pass("HR Department Menu clicked");
 			Thread.sleep(1000);
 			
-			WebElement menuEmp = EmployeeCreationPage.menuEmp(driver);
+			WebElement menuEmp = CommPageObject.menuEmp(driver);
 			menuEmp.click();
 			LoggerUtils.logInfo("Employee Menu clicked");
 			

@@ -6,14 +6,76 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class EmployeeCreationPage {
-
+public class EmployeeEditPage {
 	
-	public static WebElement menuAddEmp(WebDriver driver)
+	public static WebElement menuViewEmp(WebDriver driver)
 	{
 		WebElement element=null;
 		WebDriverWait wait=new WebDriverWait(driver, 50);
-		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[contains(text(),'Add Employee')]")));
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[contains(text(),'View Employees')]")));
+		return element;
+	}
+	
+	public static WebElement searchEmp(WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@class='form-control input-sm']")));
+		return element;
+	}
+	
+	public static WebElement resultRecord(WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//td[1]")));
+		return element;
+	}
+	
+	public static WebElement btnViewEmp(WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//i[contains(text(),'remove_red_eye')]")));
+		return element;
+	}
+	
+	public static WebElement btnEditEmp(WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//i[contains(text(),'edit')]")));
+		return element;
+	}
+	
+	public static WebElement menuEducationDet(WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/section[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/ul[1]/li[2]/a[1]")));
+		return element;
+	}
+	
+	public static WebElement menuEmploymentDet(WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/section[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/ul[1]/li[3]/a[1]")));
+		return element;
+	}
+	
+	public static WebElement menuSalaryDetails(WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/section[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/ul[1]/li[4]/a[1]")));
+		return element;
+	}
+	public static WebElement menuUploadDoc(WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/section[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/ul[1]/li[5]/a[1]")));
 		return element;
 	}
 	
