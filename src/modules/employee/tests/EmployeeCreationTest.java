@@ -364,7 +364,7 @@ public class EmployeeCreationTest {
 			
 			if (successMessage.equals(Globals.EMP_CREATED_SUCCESS)) 	
 			{
-				LoggerUtils.logInfo("Employee Created Successfully");
+				LoggerUtils.logInfo("Employee Updated Successfully");
 				WebElement btnOk = EmployeeCreationPage.btnDailogOK(driver);
 				btnOk.click();
 				LoggerUtils.logInfo("Ok Button Clicked");
@@ -372,7 +372,7 @@ public class EmployeeCreationTest {
 				hMapRetObj.put("depUpdateVal", "");
 			}
 			else {
-				LoggerUtils.logInfo("Unable to create employee");
+				LoggerUtils.logInfo("Unable to update employee");
 				WebElement btnOk = EmployeeCreationPage.btnDailogOK(driver);
 				btnOk.click();
 				LoggerUtils.logInfo("Ok Button Clicked");

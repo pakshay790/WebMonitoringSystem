@@ -2,9 +2,11 @@ package modules.employee.tests;
 
 import java.io.File;
 import java.util.HashMap;
+import java.util.Iterator;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.hdgf.chunks.Chunk.Command;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -13,6 +15,7 @@ import org.openqa.selenium.interactions.Actions;
 
 import com.aventstack.extentreports.ExtentTest;
 import com.gargoylesoftware.htmlunit.javascript.host.media.webkitMediaStream;
+import com.sun.xml.bind.v2.schemagen.xmlschema.List;
 
 import gtlib.Genlib;
 import modules.common.CommPageObject;
@@ -125,17 +128,117 @@ public class EmployeeEditTest {
 				WebElement emgConRelVal = EmployeeEditPage.emgContactRelVal(driver, datArr[20]);
 				emgConRelVal.click();
 				LoggerUtils.logInfo("Emergency Contact Relation Selected");
-				Thread.sleep(10000);
+				Thread.sleep(1000);
 				
+			} else if (datArr[3].equals("educationDetails")) {
 				
-			} else if (datArr[3].equals("personalDetails")) {
+				WebElement menuEducationDet = EmployeeEditPage.menuEducationDet(driver);
+				menuEducationDet.click();
+				LoggerUtils.logInfo("Education Details Menu Clicked");
+				Thread.sleep(1000);
 				
+				String arrQualification [] = datArr[23].split("\\,");
+				String arryear [] = datArr[24].split("\\,");
+				String arrUniversity [] = datArr[25].split("\\,");
+				String arrPercentage [] = datArr[26].split("\\,");
 				
-			} else if (datArr[3].equals("personalDetails")) {
+				int count = Integer.parseInt(datArr[22]);
+				
+				for(int i = 1 ; i <= count ; i++) {
+					String num = String.valueOf(i+1);
+					WebElement btnAddEduDet = EmployeeEditPage.btnAddMoreDetails(driver);
+					btnAddEduDet.click();
+					LoggerUtils.logInfo("Adding more education details");
+					Thread.sleep(1000);
+					
+					WebElement txtQualification = EmployeeEditPage.txtQualificationNum(driver, num);					
+					txtQualification.sendKeys(arrQualification[i]);
+					LoggerUtils.logInfo("Adding Qualifications Details..");
+					Thread.sleep(1000);
+					
+					WebElement txtYearPassing = EmployeeEditPage.passingYearNum(driver, num);
+					txtYearPassing.sendKeys(arryear[i]);
+					LoggerUtils.logInfo("Adding Year of Passing Details..");
+					Thread.sleep(1000);
+					
+					WebElement txtUniversity = EmployeeEditPage.univercityNameNum(driver,num);
+					txtUniversity.sendKeys(arrUniversity[i]);
+					LoggerUtils.logInfo("Adding University Details..");
+					Thread.sleep(1000);
+					
+					WebElement txtPercentage = EmployeeEditPage.percentageNum(driver, num);
+					txtPercentage.sendKeys(arrPercentage[i]);
+					LoggerUtils.logInfo("Adding Percentage Details..");
+					Thread.sleep(1000);
+				}
+				
+			} else if (datArr[3].equals("employmentDetails")) {
+				
+				WebElement menuEmploymentDet = EmployeeEditPage.menuEmploymentDet(driver);
+				menuEmploymentDet.click();
+				LoggerUtils.logInfo("Menu Employment Details Clicked ");
+				Thread.sleep(1000);
+				
+				WebElement designation = EmployeeEditPage.designation(driver);
+				Thread.sleep(1000);
+				designation.click();
+				Thread.sleep(1000);
+				WebElement designationVal = EmployeeEditPage.designationVal(driver,datArr[30]);
+				LoggerUtils.logInfo("Employee Designation Updated");
+				designationVal.click();
+				Thread.sleep(2000);                  
+				
+				WebElement assign = EmployeeCreationPage.assignProject(driver);
+				Thread.sleep(1000);
+				assign.click();
+				WebElement assignVal = EmployeeCreationPage.assignProjectVal(driver, datArr[31]);
+				assignVal.click();
+				LoggerUtils.logInfo("Employee Assign Project  Selected");
+				Thread.sleep(1000);
 				
 				
 			} 
 			
+			Actions actions = new Actions(driver);
+			actions.sendKeys(Keys.PAGE_UP).build().perform();
+			Thread.sleep(2000);
+			
+			WebElement menuUploadDoc = EmployeeEditPage.menuUploadDoc(driver);
+			menuUploadDoc.click();
+			LoggerUtils.logInfo("Upload Document Menu Clicked");
+			Thread.sleep(1000);
+			
+			WebElement btnFinish = EmployeeEditPage.btnFinish(driver);
+			btnFinish.click();
+			LoggerUtils.logInfo("Finish Button Clicked");
+			Thread.sleep(1000);
+			
+			WebElement btnProceedOK = EmployeeEditPage.btnProceedOK(driver);
+			btnProceedOK.click();
+			LoggerUtils.logInfo("Proceed Ok button Clicked");
+			Thread.sleep(2000);
+			
+			WebElement successMSG = EmployeeEditPage.dialogMSG(driver);
+			Thread.sleep(1000);
+			String successMessage = successMSG.getText();
+			
+			if (successMessage.equals(Globals.EMP_UPDATED_SUCCESS)) 	
+			{
+				LoggerUtils.logInfo("Employee Created Successfully");
+				WebElement btnOk = EmployeeEditPage.btnDailogOK(driver);
+				btnOk.click();
+				LoggerUtils.logInfo("Ok Button Clicked");
+				hMapRetObj.put("testRunStatus", Globals.PASS);
+				hMapRetObj.put("depUpdateVal", "");
+			}
+			else {
+				LoggerUtils.logInfo("Unable to create employee");
+				WebElement btnOk = EmployeeEditPage.btnDailogOK(driver);
+				btnOk.click();
+				LoggerUtils.logInfo("Ok Button Clicked");
+				hMapRetObj.put("testRunStatus", Globals.FAIL);
+				hMapRetObj.put("depUpdateVal", "");
+			}
 			
 			
 			

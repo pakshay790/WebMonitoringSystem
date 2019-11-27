@@ -32,6 +32,8 @@ public class Globals
 	
 	static Properties sysMsgProp = Genlib.readConfig("SystemMessages.properties");
 	public static final String EMP_CREATED_SUCCESS = sysMsgProp.getProperty("empCreatedSuccess");
+	public static final String EMP_UPDATED_SUCCESS = sysMsgProp.getProperty("empUpdatedSuccess");
+	
 	
 	
 }

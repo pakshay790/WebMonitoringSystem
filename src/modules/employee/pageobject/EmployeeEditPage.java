@@ -79,6 +79,8 @@ public class EmployeeEditPage {
 		return element;
 	}
 	
+	
+	
 	// Personal Details Page Object
 	public static WebElement firstName(WebDriver driver)
 	{
@@ -287,6 +289,38 @@ public class EmployeeEditPage {
 		WebElement element=null;
 		WebDriverWait wait=new WebDriverWait(driver, 50);
 		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[@id='add-new-edu-row']//i[@class='material-icons'][contains(text(),'add')]")));
+		return element;
+	}
+	
+	public static WebElement txtQualificationNum(WebDriver driver,String num)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='degree_"+num+"']")));
+		return element;
+	}
+	
+	public static WebElement passingYearNum(WebDriver driver, String num)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='year_"+num+"']")));
+		return element;
+	}
+	
+	public static WebElement univercityNameNum(WebDriver driver,String num)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='clg_name_"+num+"']")));
+		return element;
+	}
+	
+	public static WebElement percentageNum(WebDriver driver,String num)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='percent_"+num+"']")));
 		return element;
 	}
 	
@@ -580,7 +614,7 @@ public class EmployeeEditPage {
 	{
 		WebElement element=null;
 		WebDriverWait wait=new WebDriverWait(driver, 50);
-		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/div[6]/p[1]/b[1]")));
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/div[8]/p[1]/b[1]")));
 		return element;
 	}
 	
