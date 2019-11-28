@@ -400,11 +400,11 @@ public class EmployeeEditPage {
 		return element;
 	}
 	
-	public static WebElement assignProjectVal(WebDriver driver, String assignProjectVal)
+	public static WebElement assignProjectVal(WebDriver driver)
 	{
 		WebElement element=null;
 		WebDriverWait wait=new WebDriverWait(driver, 50);
-		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[contains(text(),'"+assignProjectVal+"')]")));
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='bs-container btn-group bootstrap-select show-tick open']//input[@class='form-control']")));
 		return element;
 	}
 	
@@ -428,7 +428,7 @@ public class EmployeeEditPage {
 	{
 		WebElement element=null;
 		WebDriverWait wait=new WebDriverWait(driver, 50);
-		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/section[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/section[3]/div[3]/div[6]/div[1]/div[1]/button[1]")));
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/section[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/section[3]/div[3]/div[9]/div[1]/div[1]/button[1]")));
 		return element;
 	}
 	

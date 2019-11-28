@@ -1,31 +1,57 @@
-2019-11-27 11:29:36,267 INFO  [LoggerUtils] ****************************************** 
-2019-11-27 11:29:36,268 INFO  [LoggerUtils] Test Case ID: editemp_001 
-2019-11-27 11:29:36,268 INFO  [LoggerUtils] ****************************************** 
-2019-11-27 11:29:40,867 INFO  [LoggerUtils] Driver Setup 
-2019-11-27 11:29:42,599 INFO  [LoggerUtils] User Name: admin 
-2019-11-27 11:29:42,686 INFO  [LoggerUtils] Password: password 
-2019-11-27 11:29:47,690 INFO  [LoggerUtils] HR Department Menu clicked 
-2019-11-27 11:29:48,782 INFO  [LoggerUtils] Employee Menu clicked 
-2019-11-27 11:29:50,894 INFO  [LoggerUtils] ViewEmployee Menu clicked 
-2019-11-27 11:29:52,044 INFO  [LoggerUtils] Employee Searching... 
-2019-11-27 11:29:54,130 INFO  [LoggerUtils] Employee Found 
-2019-11-27 11:29:55,743 INFO  [LoggerUtils] Edit  Employee Button Clicked 
-2019-11-27 11:29:59,187 INFO  [LoggerUtils] Permanant Address Entered 
-2019-11-27 11:30:00,301 INFO  [LoggerUtils] Copy above address button clicked 
-2019-11-27 11:30:00,301 INFO  [LoggerUtils] Communication Address  Entered 
-2019-11-27 11:30:02,507 INFO  [LoggerUtils] Contact Number  Entered 
-2019-11-27 11:30:04,695 INFO  [LoggerUtils] Emergency Contact Number Entered 
-2019-11-27 11:30:06,891 INFO  [LoggerUtils] Emergency Contact Relation Selected 
-2019-11-27 11:30:16,993 ERROR [LoggerUtils] Exception In Employee Creation :  
-org.openqa.selenium.WebDriverException: unknown error: Element <a id="create_emp_form-t-4" href="#create_emp_form-h-4" aria-controls="create_emp_form-p-4">...</a> is not clickable at point (1197, 24). Other element would receive the click: <div class="collapse navbar-collapse" id="navbar-collapse">...</div>
+2019-11-28 11:32:55,813 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 11:32:55,813 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-28 11:32:55,813 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 11:33:00,733 INFO  [LoggerUtils] Driver Setup 
+2019-11-28 11:33:02,451 INFO  [LoggerUtils] User Name: admin 
+2019-11-28 11:33:02,549 INFO  [LoggerUtils] Password: password 
+2019-11-28 11:33:07,853 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-11-28 11:33:08,975 INFO  [LoggerUtils] Employee Menu clicked 
+2019-11-28 11:33:10,947 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-11-28 11:33:12,130 INFO  [LoggerUtils] Employee Searching... 
+2019-11-28 11:33:14,234 INFO  [LoggerUtils] Employee Found 
+2019-11-28 11:33:16,645 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-11-28 11:33:18,781 INFO  [LoggerUtils] Education Details Menu Clicked 
+2019-11-28 11:33:19,925 INFO  [LoggerUtils] Adding more education details 
+2019-11-28 11:33:21,100 INFO  [LoggerUtils] Adding Qualifications Details.. 
+2019-11-28 11:33:22,242 INFO  [LoggerUtils] Adding Year of Passing Details.. 
+2019-11-28 11:33:23,368 INFO  [LoggerUtils] Adding University Details.. 
+2019-11-28 11:33:24,472 INFO  [LoggerUtils] Adding Percentage Details.. 
+2019-11-28 11:33:25,590 INFO  [LoggerUtils] Adding more education details 
+2019-11-28 11:33:26,730 INFO  [LoggerUtils] Adding Qualifications Details.. 
+2019-11-28 11:33:27,930 INFO  [LoggerUtils] Adding Year of Passing Details.. 
+2019-11-28 11:33:29,046 INFO  [LoggerUtils] Adding University Details.. 
+2019-11-28 11:33:30,154 INFO  [LoggerUtils] Adding Percentage Details.. 
+2019-11-28 11:33:33,385 INFO  [LoggerUtils] Upload Document Menu Clicked 
+2019-11-28 11:33:34,508 INFO  [LoggerUtils] Finish Button Clicked 
+2019-11-28 11:33:35,616 INFO  [LoggerUtils] Proceed Ok button Clicked 
+2019-11-28 11:33:38,698 INFO  [LoggerUtils] Employee Created Successfully 
+2019-11-28 11:33:39,384 INFO  [LoggerUtils] Ok Button Clicked 
+2019-11-28 11:33:40,083 INFO  [LoggerUtils] Driver tear down 
+2019-11-28 11:33:40,254 INFO  [LoggerUtils] Test Completed Successfully - editemp_001 
+2019-11-28 11:34:32,789 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 11:34:32,789 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-28 11:34:32,789 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 11:34:37,571 INFO  [LoggerUtils] Driver Setup 
+2019-11-28 11:34:39,390 INFO  [LoggerUtils] User Name: admin 
+2019-11-28 11:34:39,489 INFO  [LoggerUtils] Password: password 
+2019-11-28 11:34:45,052 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-11-28 11:34:46,150 INFO  [LoggerUtils] Employee Menu clicked 
+2019-11-28 11:34:48,504 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-11-28 11:34:49,664 INFO  [LoggerUtils] Employee Searching... 
+2019-11-28 11:34:51,760 INFO  [LoggerUtils] Employee Found 
+2019-11-28 11:34:53,968 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-11-28 11:34:56,120 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-11-28 11:34:59,373 INFO  [LoggerUtils] Employee Designation Updated 
+2019-11-28 11:34:59,396 ERROR [LoggerUtils] Exception In Employee Creation :  
+org.openqa.selenium.ElementNotVisibleException: element not visible
   (Session info: chrome=78.0.3904.108)
   (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60226}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
-Session ID: dc84870e5be7bcf7317ae9e00b897f4c
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52506}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
+Session ID: a9b1a5899e79bf8342919f930becff0b
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -40,23 +66,23 @@ Session ID: dc84870e5be7bcf7317ae9e00b897f4c
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:149)
+	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:188)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at testDrivers.TestDriver.tDriver(TestDriver.java:152)
 	at modules.execution.TestExecution.main(TestExecution.java:19)
-2019-11-27 11:30:17,407 ERROR [LoggerUtils] Failed in test case execution 
-org.openqa.selenium.WebDriverException: unknown error: Element <a id="create_emp_form-t-4" href="#create_emp_form-h-4" aria-controls="create_emp_form-p-4">...</a> is not clickable at point (1197, 24). Other element would receive the click: <div class="collapse navbar-collapse" id="navbar-collapse">...</div>
+2019-11-28 11:34:59,766 ERROR [LoggerUtils] Failed in test case execution 
+org.openqa.selenium.ElementNotVisibleException: element not visible
   (Session info: chrome=78.0.3904.108)
   (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60226}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
-Session ID: dc84870e5be7bcf7317ae9e00b897f4c
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52506}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
+Session ID: a9b1a5899e79bf8342919f930becff0b
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -71,43 +97,39 @@ Session ID: dc84870e5be7bcf7317ae9e00b897f4c
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:149)
+	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:188)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at testDrivers.TestDriver.tDriver(TestDriver.java:152)
 	at modules.execution.TestExecution.main(TestExecution.java:19)
-2019-11-27 11:30:18,083 INFO  [LoggerUtils] Driver tear down 
-2019-11-27 11:30:18,084 INFO  [LoggerUtils] Test Failed - editemp_001 
-2019-11-27 11:30:46,456 INFO  [LoggerUtils] ****************************************** 
-2019-11-27 11:30:46,457 INFO  [LoggerUtils] Test Case ID: editemp_001 
-2019-11-27 11:30:46,457 INFO  [LoggerUtils] ****************************************** 
-2019-11-27 11:30:51,176 INFO  [LoggerUtils] Driver Setup 
-2019-11-27 11:30:53,554 INFO  [LoggerUtils] User Name: admin 
-2019-11-27 11:30:53,634 INFO  [LoggerUtils] Password: password 
-2019-11-27 11:31:00,130 INFO  [LoggerUtils] HR Department Menu clicked 
-2019-11-27 11:31:01,212 INFO  [LoggerUtils] Employee Menu clicked 
-2019-11-27 11:31:03,382 INFO  [LoggerUtils] ViewEmployee Menu clicked 
-2019-11-27 11:31:04,542 INFO  [LoggerUtils] Employee Searching... 
-2019-11-27 11:31:06,627 INFO  [LoggerUtils] Employee Found 
-2019-11-27 11:31:08,717 INFO  [LoggerUtils] Edit  Employee Button Clicked 
-2019-11-27 11:31:12,136 INFO  [LoggerUtils] Permanant Address Entered 
-2019-11-27 11:31:13,280 INFO  [LoggerUtils] Copy above address button clicked 
-2019-11-27 11:31:13,280 INFO  [LoggerUtils] Communication Address  Entered 
-2019-11-27 11:31:15,491 INFO  [LoggerUtils] Contact Number  Entered 
-2019-11-27 11:31:17,693 INFO  [LoggerUtils] Emergency Contact Number Entered 
-2019-11-27 11:31:19,894 INFO  [LoggerUtils] Emergency Contact Relation Selected 
-2019-11-27 11:31:20,985 ERROR [LoggerUtils] Exception In Employee Creation :  
-org.openqa.selenium.WebDriverException: unknown error: Element <a id="create_emp_form-t-4" href="#create_emp_form-h-4" aria-controls="create_emp_form-p-4">...</a> is not clickable at point (1197, 24). Other element would receive the click: <div class="collapse navbar-collapse" id="navbar-collapse">...</div>
+2019-11-28 11:35:00,405 INFO  [LoggerUtils] Driver tear down 
+2019-11-28 11:35:00,405 INFO  [LoggerUtils] Test Failed - editemp_001 
+2019-11-28 11:35:44,792 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 11:35:44,792 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-28 11:35:44,792 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 11:35:49,590 INFO  [LoggerUtils] Driver Setup 
+2019-11-28 11:35:50,792 INFO  [LoggerUtils] User Name: admin 
+2019-11-28 11:35:50,869 INFO  [LoggerUtils] Password: password 
+2019-11-28 11:35:56,282 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-11-28 11:35:57,384 INFO  [LoggerUtils] Employee Menu clicked 
+2019-11-28 11:35:59,716 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-11-28 11:36:00,919 INFO  [LoggerUtils] Employee Searching... 
+2019-11-28 11:36:03,040 INFO  [LoggerUtils] Employee Found 
+2019-11-28 11:36:04,906 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-11-28 11:36:07,077 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-11-28 11:36:10,298 INFO  [LoggerUtils] Employee Designation Updated 
+2019-11-28 11:36:10,342 ERROR [LoggerUtils] Exception In Employee Creation :  
+org.openqa.selenium.ElementNotVisibleException: element not visible
   (Session info: chrome=78.0.3904.108)
   (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60403}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
-Session ID: b0fecb39cef90107fc65b139092c5ca3
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52705}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
+Session ID: d27a1c518b3202bb3483566ea9dd3df3
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -122,23 +144,23 @@ Session ID: b0fecb39cef90107fc65b139092c5ca3
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:149)
+	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:188)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at testDrivers.TestDriver.tDriver(TestDriver.java:152)
 	at modules.execution.TestExecution.main(TestExecution.java:19)
-2019-11-27 11:31:21,369 ERROR [LoggerUtils] Failed in test case execution 
-org.openqa.selenium.WebDriverException: unknown error: Element <a id="create_emp_form-t-4" href="#create_emp_form-h-4" aria-controls="create_emp_form-p-4">...</a> is not clickable at point (1197, 24). Other element would receive the click: <div class="collapse navbar-collapse" id="navbar-collapse">...</div>
+2019-11-28 11:36:10,726 ERROR [LoggerUtils] Failed in test case execution 
+org.openqa.selenium.ElementNotVisibleException: element not visible
   (Session info: chrome=78.0.3904.108)
   (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60403}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
-Session ID: b0fecb39cef90107fc65b139092c5ca3
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52705}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
+Session ID: d27a1c518b3202bb3483566ea9dd3df3
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -153,37 +175,278 @@ Session ID: b0fecb39cef90107fc65b139092c5ca3
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:149)
+	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:188)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at testDrivers.TestDriver.tDriver(TestDriver.java:152)
 	at modules.execution.TestExecution.main(TestExecution.java:19)
-2019-11-27 11:31:21,973 INFO  [LoggerUtils] Driver tear down 
-2019-11-27 11:31:21,973 INFO  [LoggerUtils] Test Failed - editemp_001 
-2019-11-27 11:34:49,808 INFO  [LoggerUtils] ****************************************** 
-2019-11-27 11:34:49,808 INFO  [LoggerUtils] Test Case ID: editemp_001 
-2019-11-27 11:34:49,808 INFO  [LoggerUtils] ****************************************** 
-2019-11-27 11:34:54,527 INFO  [LoggerUtils] Driver Setup 
-2019-11-27 11:34:57,519 INFO  [LoggerUtils] User Name: admin 
-2019-11-27 11:34:57,605 INFO  [LoggerUtils] Password: password 
-2019-11-27 11:35:03,938 INFO  [LoggerUtils] HR Department Menu clicked 
-2019-11-27 11:35:05,048 INFO  [LoggerUtils] Employee Menu clicked 
-2019-11-27 11:35:07,382 INFO  [LoggerUtils] ViewEmployee Menu clicked 
-2019-11-27 11:35:08,547 INFO  [LoggerUtils] Employee Searching... 
-2019-11-27 11:35:10,695 INFO  [LoggerUtils] Employee Found 
-2019-11-27 11:35:12,853 INFO  [LoggerUtils] Edit  Employee Button Clicked 
-2019-11-27 11:35:16,367 INFO  [LoggerUtils] Permanant Address Entered 
-2019-11-27 11:35:17,491 INFO  [LoggerUtils] Copy above address button clicked 
-2019-11-27 11:35:17,491 INFO  [LoggerUtils] Communication Address  Entered 
-2019-11-27 11:35:19,738 INFO  [LoggerUtils] Contact Number  Entered 
-2019-11-27 11:35:21,967 INFO  [LoggerUtils] Emergency Contact Number Entered 
-2019-11-27 11:35:24,180 INFO  [LoggerUtils] Emergency Contact Relation Selected 
-2019-11-27 11:35:27,415 INFO  [LoggerUtils] Upload Document Menu Clicked 
-2019-11-27 11:35:28,554 INFO  [LoggerUtils] Finish Button Clicked 
-2019-11-27 11:35:29,609 INFO  [LoggerUtils] Proceed Ok button Clicked 
-2019-11-27 11:35:53,479 ERROR [LoggerUtils] Exception In Employee Creation :  
+2019-11-28 11:36:11,506 INFO  [LoggerUtils] Driver tear down 
+2019-11-28 11:36:11,506 INFO  [LoggerUtils] Test Failed - editemp_001 
+2019-11-28 11:36:47,210 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 11:36:47,210 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-28 11:36:47,210 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 11:36:51,957 INFO  [LoggerUtils] Driver Setup 
+2019-11-28 11:36:53,343 INFO  [LoggerUtils] User Name: admin 
+2019-11-28 11:36:53,427 INFO  [LoggerUtils] Password: password 
+2019-11-28 11:36:59,142 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-11-28 11:37:00,254 INFO  [LoggerUtils] Employee Menu clicked 
+2019-11-28 11:37:02,153 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-11-28 11:37:03,341 INFO  [LoggerUtils] Employee Searching... 
+2019-11-28 11:37:05,439 INFO  [LoggerUtils] Employee Found 
+2019-11-28 11:37:07,620 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-11-28 11:37:09,784 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-11-28 11:37:13,035 INFO  [LoggerUtils] Employee Designation Updated 
+2019-11-28 11:37:13,083 ERROR [LoggerUtils] Exception In Employee Creation :  
+org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
+System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52907}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
+Session ID: 8fa6176bcb022741f024cd6e6145bc2a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:188)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at testDrivers.TestDriver.tDriver(TestDriver.java:152)
+	at modules.execution.TestExecution.main(TestExecution.java:19)
+2019-11-28 11:37:13,478 ERROR [LoggerUtils] Failed in test case execution 
+org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
+System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52907}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
+Session ID: 8fa6176bcb022741f024cd6e6145bc2a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:188)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at testDrivers.TestDriver.tDriver(TestDriver.java:152)
+	at modules.execution.TestExecution.main(TestExecution.java:19)
+2019-11-28 11:37:14,133 INFO  [LoggerUtils] Driver tear down 
+2019-11-28 11:37:14,133 INFO  [LoggerUtils] Test Failed - editemp_001 
+2019-11-28 12:05:02,323 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:05:02,323 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-28 12:05:02,323 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:05:07,025 INFO  [LoggerUtils] Driver Setup 
+2019-11-28 12:05:09,508 INFO  [LoggerUtils] User Name: admin 
+2019-11-28 12:05:09,585 INFO  [LoggerUtils] Password: password 
+2019-11-28 12:05:15,580 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-11-28 12:05:16,649 INFO  [LoggerUtils] Employee Menu clicked 
+2019-11-28 12:05:19,278 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-11-28 12:05:20,427 INFO  [LoggerUtils] Employee Searching... 
+2019-11-28 12:05:22,507 INFO  [LoggerUtils] Employee Found 
+2019-11-28 12:05:24,650 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-11-28 12:05:26,749 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-11-28 12:05:29,897 INFO  [LoggerUtils] Employee Designation Updated 
+2019-11-28 12:05:29,934 ERROR [LoggerUtils] Exception In Employee Creation :  
+org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
+System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58017}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
+Session ID: 1d56d6c557bd785459dcdcf2ac2055fe
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:188)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at testDrivers.TestDriver.tDriver(TestDriver.java:152)
+	at modules.execution.TestExecution.main(TestExecution.java:19)
+2019-11-28 12:05:30,293 ERROR [LoggerUtils] Failed in test case execution 
+org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
+System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58017}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
+Session ID: 1d56d6c557bd785459dcdcf2ac2055fe
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:188)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at testDrivers.TestDriver.tDriver(TestDriver.java:152)
+	at modules.execution.TestExecution.main(TestExecution.java:19)
+2019-11-28 12:05:30,908 INFO  [LoggerUtils] Driver tear down 
+2019-11-28 12:05:30,909 INFO  [LoggerUtils] Test Failed - editemp_001 
+2019-11-28 12:06:57,754 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:06:57,755 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-28 12:06:57,755 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:07:02,468 INFO  [LoggerUtils] Driver Setup 
+2019-11-28 12:07:04,103 INFO  [LoggerUtils] User Name: admin 
+2019-11-28 12:07:04,184 INFO  [LoggerUtils] Password: password 
+2019-11-28 12:07:09,720 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-11-28 12:07:10,793 INFO  [LoggerUtils] Employee Menu clicked 
+2019-11-28 12:07:13,395 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-11-28 12:07:14,504 INFO  [LoggerUtils] Employee Searching... 
+2019-11-28 12:07:16,583 INFO  [LoggerUtils] Employee Found 
+2019-11-28 12:07:19,072 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-11-28 12:07:21,198 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-11-28 12:07:23,434 INFO  [LoggerUtils] Employee Designation Updated 
+2019-11-28 12:07:26,627 ERROR [LoggerUtils] Exception In Employee Creation :  
+org.openqa.selenium.WebDriverException: unknown error: Element <span class="filter-option pull-left">...</span> is not clickable at point (546, 574). Other element would receive the click: <input type="text" class="form-control" autocomplete="off">
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
+System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
+Session ID: 027d9d4baf7f75925d8f1b8dfde42ce3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:194)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at testDrivers.TestDriver.tDriver(TestDriver.java:152)
+	at modules.execution.TestExecution.main(TestExecution.java:19)
+2019-11-28 12:07:27,006 ERROR [LoggerUtils] Failed in test case execution 
+org.openqa.selenium.WebDriverException: unknown error: Element <span class="filter-option pull-left">...</span> is not clickable at point (546, 574). Other element would receive the click: <input type="text" class="form-control" autocomplete="off">
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
+System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
+Session ID: 027d9d4baf7f75925d8f1b8dfde42ce3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:194)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at testDrivers.TestDriver.tDriver(TestDriver.java:152)
+	at modules.execution.TestExecution.main(TestExecution.java:19)
+2019-11-28 12:07:27,608 INFO  [LoggerUtils] Driver tear down 
+2019-11-28 12:07:27,608 INFO  [LoggerUtils] Test Failed - editemp_001 
+2019-11-28 12:13:08,866 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:13:08,866 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-28 12:13:08,866 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:13:13,614 INFO  [LoggerUtils] Driver Setup 
+2019-11-28 12:13:15,133 INFO  [LoggerUtils] User Name: admin 
+2019-11-28 12:13:15,267 INFO  [LoggerUtils] Password: password 
+2019-11-28 12:13:20,765 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-11-28 12:13:21,855 INFO  [LoggerUtils] Employee Menu clicked 
+2019-11-28 12:13:24,319 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-11-28 12:13:25,470 INFO  [LoggerUtils] Employee Searching... 
+2019-11-28 12:13:27,590 INFO  [LoggerUtils] Employee Found 
+2019-11-28 12:13:29,614 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-11-28 12:13:31,722 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-11-28 12:13:33,974 INFO  [LoggerUtils] Employee Designation Updated 
+2019-11-28 12:13:58,973 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:13:58,973 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-28 12:13:58,973 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:14:03,867 INFO  [LoggerUtils] Driver Setup 
+2019-11-28 12:14:06,580 INFO  [LoggerUtils] User Name: admin 
+2019-11-28 12:14:06,658 INFO  [LoggerUtils] Password: password 
+2019-11-28 12:14:12,208 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-11-28 12:14:13,305 INFO  [LoggerUtils] Employee Menu clicked 
+2019-11-28 12:14:17,239 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-11-28 12:14:18,400 INFO  [LoggerUtils] Employee Searching... 
+2019-11-28 12:14:20,485 INFO  [LoggerUtils] Employee Found 
+2019-11-28 12:14:22,716 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-11-28 12:14:24,846 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-11-28 12:14:27,028 INFO  [LoggerUtils] Employee Designation Updated 
+2019-11-28 12:14:39,896 ERROR [LoggerUtils] Exception In Employee Creation :  
 org.openqa.selenium.WebDriverException: chrome not reachable
   (Session info: chrome=78.0.3904.108)
   (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
@@ -191,9 +454,9 @@ Command duration or timeout: 0 milliseconds
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60972}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
-Session ID: c713ce884f30e2d4629eaaf381a1c65c
-*** Element info: {Using=xpath, value=/html[1]/body[1]/div[6]/p[1]/b[1]}
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59741}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
+Session ID: e76b55be9b17765a08814d02df1b349d
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[8]/div[1]/div[1]/input[1]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -215,65 +478,54 @@ Session ID: c713ce884f30e2d4629eaaf381a1c65c
 	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
 	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at modules.employee.pageobject.EmployeeEditPage.dialogMSG(EmployeeEditPage.java:585)
-	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:165)
+	at modules.employee.pageobject.EmployeeEditPage.assignProjectVal(EmployeeEditPage.java:407)
+	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:193)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at testDrivers.TestDriver.tDriver(TestDriver.java:152)
 	at modules.execution.TestExecution.main(TestExecution.java:19)
-2019-11-27 11:37:22,719 INFO  [LoggerUtils] ****************************************** 
-2019-11-27 11:37:22,720 INFO  [LoggerUtils] Test Case ID: editemp_001 
-2019-11-27 11:37:22,720 INFO  [LoggerUtils] ****************************************** 
-2019-11-27 11:37:27,448 INFO  [LoggerUtils] Driver Setup 
-2019-11-27 11:37:28,689 INFO  [LoggerUtils] User Name: admin 
-2019-11-27 11:37:28,768 INFO  [LoggerUtils] Password: password 
-2019-11-27 11:37:34,233 INFO  [LoggerUtils] HR Department Menu clicked 
-2019-11-27 11:37:35,347 INFO  [LoggerUtils] Employee Menu clicked 
-2019-11-27 11:37:37,625 INFO  [LoggerUtils] ViewEmployee Menu clicked 
-2019-11-27 11:37:38,777 INFO  [LoggerUtils] Employee Searching... 
-2019-11-27 11:37:40,862 INFO  [LoggerUtils] Employee Found 
-2019-11-27 11:37:42,778 INFO  [LoggerUtils] Edit  Employee Button Clicked 
-2019-11-27 11:37:46,254 INFO  [LoggerUtils] Permanant Address Entered 
-2019-11-27 11:37:47,381 INFO  [LoggerUtils] Copy above address button clicked 
-2019-11-27 11:37:47,381 INFO  [LoggerUtils] Communication Address  Entered 
-2019-11-27 11:37:49,576 INFO  [LoggerUtils] Contact Number  Entered 
-2019-11-27 11:37:51,767 INFO  [LoggerUtils] Emergency Contact Number Entered 
-2019-11-27 11:37:53,984 INFO  [LoggerUtils] Emergency Contact Relation Selected 
-2019-11-27 11:37:57,122 INFO  [LoggerUtils] Upload Document Menu Clicked 
-2019-11-27 11:37:58,242 INFO  [LoggerUtils] Finish Button Clicked 
-2019-11-27 11:37:59,332 INFO  [LoggerUtils] Proceed Ok button Clicked 
-2019-11-27 11:38:02,385 INFO  [LoggerUtils] Employee Created Successfully 
-2019-11-27 11:38:02,757 INFO  [LoggerUtils] Ok Button Clicked 
-2019-11-27 11:38:03,360 INFO  [LoggerUtils] Driver tear down 
-2019-11-27 11:38:03,546 INFO  [LoggerUtils] Test Completed Successfully - editemp_001 
-2019-11-27 12:13:08,740 INFO  [LoggerUtils] ****************************************** 
-2019-11-27 12:13:08,740 INFO  [LoggerUtils] Test Case ID: editemp_001 
-2019-11-27 12:13:08,740 INFO  [LoggerUtils] ****************************************** 
-2019-11-27 12:13:13,982 INFO  [LoggerUtils] Driver Setup 
-2019-11-27 12:13:15,726 INFO  [LoggerUtils] User Name: admin 
-2019-11-27 12:13:15,812 INFO  [LoggerUtils] Password: password 
-2019-11-27 12:13:21,752 INFO  [LoggerUtils] HR Department Menu clicked 
-2019-11-27 12:13:22,893 INFO  [LoggerUtils] Employee Menu clicked 
-2019-11-27 12:13:27,140 INFO  [LoggerUtils] ViewEmployee Menu clicked 
-2019-11-27 12:13:28,316 INFO  [LoggerUtils] Employee Searching... 
-2019-11-27 12:13:30,426 INFO  [LoggerUtils] Employee Found 
-2019-11-27 12:13:32,526 INFO  [LoggerUtils] Edit  Employee Button Clicked 
-2019-11-27 12:13:34,706 INFO  [LoggerUtils] Education Details Menu Clicked 
-2019-11-27 12:13:35,878 INFO  [LoggerUtils] Adding more education details 
-2019-11-27 12:13:35,941 INFO  [LoggerUtils] Adding more education details 
-2019-11-27 12:13:38,109 INFO  [LoggerUtils] Upload Document Menu Clicked 
-2019-11-27 12:13:39,216 ERROR [LoggerUtils] Exception In Employee Creation :  
-org.openqa.selenium.ElementNotVisibleException: element not visible
+2019-11-28 12:15:37,150 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:15:37,150 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-28 12:15:37,150 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:15:41,804 INFO  [LoggerUtils] Driver Setup 
+2019-11-28 12:15:43,121 INFO  [LoggerUtils] User Name: admin 
+2019-11-28 12:15:43,189 INFO  [LoggerUtils] Password: password 
+2019-11-28 12:15:48,933 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-11-28 12:15:50,025 INFO  [LoggerUtils] Employee Menu clicked 
+2019-11-28 12:15:53,034 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-11-28 12:15:54,177 INFO  [LoggerUtils] Employee Searching... 
+2019-11-28 12:15:56,291 INFO  [LoggerUtils] Employee Found 
+2019-11-28 12:16:01,453 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-11-28 12:16:03,579 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-11-28 12:16:05,799 INFO  [LoggerUtils] Employee Designation Updated 
+2019-11-28 12:16:10,184 INFO  [LoggerUtils] Employee Assign Project  Selected 
+2019-11-28 12:16:38,616 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:16:38,617 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-28 12:16:38,617 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:16:43,356 INFO  [LoggerUtils] Driver Setup 
+2019-11-28 12:16:45,139 INFO  [LoggerUtils] User Name: admin 
+2019-11-28 12:16:45,239 INFO  [LoggerUtils] Password: password 
+2019-11-28 12:16:50,762 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-11-28 12:16:51,854 INFO  [LoggerUtils] Employee Menu clicked 
+2019-11-28 12:16:54,478 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-11-28 12:16:55,632 INFO  [LoggerUtils] Employee Searching... 
+2019-11-28 12:16:57,716 INFO  [LoggerUtils] Employee Found 
+2019-11-28 12:17:00,080 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-11-28 12:17:02,231 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-11-28 12:17:04,416 INFO  [LoggerUtils] Employee Designation Updated 
+2019-11-28 12:17:08,814 ERROR [LoggerUtils] Exception In Employee Creation :  
+org.openqa.selenium.NoSuchElementException: no such element: Element was not in a form, so could not submit.
   (Session info: chrome=78.0.3904.108)
   (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53226}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
-Session ID: 10f80c23114c7775bf605524a785db51
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60352}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
+Session ID: ec41fca0005eaa700945b0bdf3714432
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -287,24 +539,25 @@ Session ID: 10f80c23114c7775bf605524a785db51
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:167)
+	at org.openqa.selenium.remote.RemoteWebElement.submit(RemoteWebElement.java:87)
+	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:196)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at testDrivers.TestDriver.tDriver(TestDriver.java:152)
 	at modules.execution.TestExecution.main(TestExecution.java:19)
-2019-11-27 12:13:39,606 ERROR [LoggerUtils] Failed in test case execution 
-org.openqa.selenium.ElementNotVisibleException: element not visible
+2019-11-28 12:17:09,199 ERROR [LoggerUtils] Failed in test case execution 
+org.openqa.selenium.NoSuchElementException: no such element: Element was not in a form, so could not submit.
   (Session info: chrome=78.0.3904.108)
   (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53226}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
-Session ID: 10f80c23114c7775bf605524a785db51
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60352}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
+Session ID: ec41fca0005eaa700945b0bdf3714432
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -318,58 +571,42 @@ Session ID: 10f80c23114c7775bf605524a785db51
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:167)
+	at org.openqa.selenium.remote.RemoteWebElement.submit(RemoteWebElement.java:87)
+	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:196)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at testDrivers.TestDriver.tDriver(TestDriver.java:152)
 	at modules.execution.TestExecution.main(TestExecution.java:19)
-2019-11-27 12:13:40,339 INFO  [LoggerUtils] Driver tear down 
-2019-11-27 12:13:40,339 INFO  [LoggerUtils] Test Failed - editemp_001 
-2019-11-27 12:38:26,907 INFO  [LoggerUtils] ****************************************** 
-2019-11-27 12:38:26,907 INFO  [LoggerUtils] Test Case ID: editemp_001 
-2019-11-27 12:38:26,907 INFO  [LoggerUtils] ****************************************** 
-2019-11-27 12:38:32,149 INFO  [LoggerUtils] Driver Setup 
-2019-11-27 12:38:35,477 INFO  [LoggerUtils] User Name: admin 
-2019-11-27 12:38:35,569 INFO  [LoggerUtils] Password: password 
-2019-11-27 12:38:42,271 INFO  [LoggerUtils] HR Department Menu clicked 
-2019-11-27 12:38:43,373 INFO  [LoggerUtils] Employee Menu clicked 
-2019-11-27 12:38:47,237 INFO  [LoggerUtils] ViewEmployee Menu clicked 
-2019-11-27 12:38:48,423 INFO  [LoggerUtils] Employee Searching... 
-2019-11-27 12:38:50,536 INFO  [LoggerUtils] Employee Found 
-2019-11-27 12:38:53,014 INFO  [LoggerUtils] Edit  Employee Button Clicked 
-2019-11-27 12:38:55,175 INFO  [LoggerUtils] Education Details Menu Clicked 
-2019-11-27 12:38:56,308 INFO  [LoggerUtils] Adding more education details 
-2019-11-27 12:38:56,449 INFO  [LoggerUtils] Adding more education details 
-2019-11-27 12:38:58,652 INFO  [LoggerUtils] Upload Document Menu Clicked 
-2019-11-27 12:45:42,289 INFO  [LoggerUtils] ****************************************** 
-2019-11-27 12:45:42,289 INFO  [LoggerUtils] Test Case ID: editemp_001 
-2019-11-27 12:45:42,290 INFO  [LoggerUtils] ****************************************** 
-2019-11-27 12:45:47,035 INFO  [LoggerUtils] Driver Setup 
-2019-11-27 12:45:50,126 INFO  [LoggerUtils] User Name: admin 
-2019-11-27 12:45:50,220 INFO  [LoggerUtils] Password: password 
-2019-11-27 12:45:56,432 INFO  [LoggerUtils] HR Department Menu clicked 
-2019-11-27 12:45:57,541 INFO  [LoggerUtils] Employee Menu clicked 
-2019-11-27 12:45:59,814 INFO  [LoggerUtils] ViewEmployee Menu clicked 
-2019-11-27 12:46:00,977 INFO  [LoggerUtils] Employee Searching... 
-2019-11-27 12:46:03,098 INFO  [LoggerUtils] Employee Found 
-2019-11-27 12:46:05,206 INFO  [LoggerUtils] Edit  Employee Button Clicked 
-2019-11-27 12:46:07,366 INFO  [LoggerUtils] Education Details Menu Clicked 
-2019-11-27 12:46:08,503 INFO  [LoggerUtils] Adding more education details 
-2019-11-27 12:46:08,692 INFO  [LoggerUtils] Adding more education details 
-2019-11-27 12:46:10,886 INFO  [LoggerUtils] Upload Document Menu Clicked 
-2019-11-27 12:46:11,986 ERROR [LoggerUtils] Exception In Employee Creation :  
-org.openqa.selenium.ElementNotVisibleException: element not visible
+2019-11-28 12:17:09,791 INFO  [LoggerUtils] Driver tear down 
+2019-11-28 12:17:09,792 INFO  [LoggerUtils] Test Failed - editemp_001 
+2019-11-28 12:19:02,896 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:19:02,897 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-28 12:19:02,897 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:19:07,566 INFO  [LoggerUtils] Driver Setup 
+2019-11-28 12:19:09,809 INFO  [LoggerUtils] User Name: admin 
+2019-11-28 12:19:09,879 INFO  [LoggerUtils] Password: password 
+2019-11-28 12:19:15,104 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-11-28 12:19:16,204 INFO  [LoggerUtils] Employee Menu clicked 
+2019-11-28 12:19:18,081 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-11-28 12:19:19,230 INFO  [LoggerUtils] Employee Searching... 
+2019-11-28 12:19:21,318 INFO  [LoggerUtils] Employee Found 
+2019-11-28 12:19:23,263 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-11-28 12:19:25,406 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-11-28 12:19:27,619 INFO  [LoggerUtils] Employee Designation Updated 
+2019-11-28 12:19:31,985 INFO  [LoggerUtils] Employee Assign Project  Selected 
+2019-11-28 12:19:47,020 ERROR [LoggerUtils] Exception In Employee Creation :  
+org.openqa.selenium.WebDriverException: chrome not reachable
   (Session info: chrome=78.0.3904.108)
   (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58934}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
-Session ID: 644e4bc11b8bcd3805096d4d00433493
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60841}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
+Session ID: 459873a1a03ab93c4bd95285cc00c12b
+*** Element info: {Using=xpath, value=/html[1]/body[1]/section[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/section[3]/div[3]/div[6]/div[1]/div[1]/button[1]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -382,118 +619,119 @@ Session ID: 644e4bc11b8bcd3805096d4d00433493
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:176)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:349)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:310)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	at modules.employee.pageobject.EmployeeEditPage.location(EmployeeEditPage.java:431)
+	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:200)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at testDrivers.TestDriver.tDriver(TestDriver.java:152)
 	at modules.execution.TestExecution.main(TestExecution.java:19)
-2019-11-27 12:46:12,371 ERROR [LoggerUtils] Failed in test case execution 
-org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: chrome=78.0.3904.108)
-  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
-System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58934}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
-Session ID: 644e4bc11b8bcd3805096d4d00433493
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:176)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at testDrivers.TestDriver.tDriver(TestDriver.java:152)
-	at modules.execution.TestExecution.main(TestExecution.java:19)
-2019-11-27 12:46:12,998 INFO  [LoggerUtils] Driver tear down 
-2019-11-27 12:46:12,999 INFO  [LoggerUtils] Test Failed - editemp_001 
-2019-11-27 14:48:31,967 INFO  [LoggerUtils] ****************************************** 
-2019-11-27 14:48:31,967 INFO  [LoggerUtils] Test Case ID: editemp_001 
-2019-11-27 14:48:31,967 INFO  [LoggerUtils] ****************************************** 
-2019-11-27 14:48:36,629 INFO  [LoggerUtils] Driver Setup 
-2019-11-27 14:48:38,316 INFO  [LoggerUtils] User Name: admin 
-2019-11-27 14:48:38,401 INFO  [LoggerUtils] Password: password 
-2019-11-27 14:48:44,759 INFO  [LoggerUtils] HR Department Menu clicked 
-2019-11-27 14:48:45,813 INFO  [LoggerUtils] Employee Menu clicked 
-2019-11-27 14:48:48,110 INFO  [LoggerUtils] ViewEmployee Menu clicked 
-2019-11-27 14:48:49,271 INFO  [LoggerUtils] Employee Searching... 
-2019-11-27 14:48:51,367 INFO  [LoggerUtils] Employee Found 
-2019-11-27 14:48:53,274 INFO  [LoggerUtils] Edit  Employee Button Clicked 
-2019-11-27 14:48:55,424 INFO  [LoggerUtils] Education Details Menu Clicked 
-2019-11-27 14:48:56,607 INFO  [LoggerUtils] Adding more education details 
-2019-11-27 14:48:57,786 INFO  [LoggerUtils] Adding Qualifications Details.. 
-2019-11-27 14:48:58,914 INFO  [LoggerUtils] Adding Year of Passing Details.. 
-2019-11-27 14:48:59,962 ERROR [LoggerUtils] Exception In Employee Creation :  
-java.lang.ArrayIndexOutOfBoundsException: 1
-	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:165)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at testDrivers.TestDriver.tDriver(TestDriver.java:152)
-	at modules.execution.TestExecution.main(TestExecution.java:19)
-2019-11-27 14:49:00,344 ERROR [LoggerUtils] Failed in test case execution 
-java.lang.ArrayIndexOutOfBoundsException: 1
-	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:165)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at testDrivers.TestDriver.tDriver(TestDriver.java:152)
-	at modules.execution.TestExecution.main(TestExecution.java:19)
-2019-11-27 14:49:01,030 INFO  [LoggerUtils] Driver tear down 
-2019-11-27 14:49:01,030 INFO  [LoggerUtils] Test Failed - editemp_001 
-2019-11-27 14:49:51,596 INFO  [LoggerUtils] ****************************************** 
-2019-11-27 14:49:51,596 INFO  [LoggerUtils] Test Case ID: editemp_001 
-2019-11-27 14:49:51,596 INFO  [LoggerUtils] ****************************************** 
-2019-11-27 14:49:56,221 INFO  [LoggerUtils] Driver Setup 
-2019-11-27 14:49:57,706 INFO  [LoggerUtils] User Name: admin 
-2019-11-27 14:49:57,800 INFO  [LoggerUtils] Password: password 
-2019-11-27 14:50:04,901 INFO  [LoggerUtils] HR Department Menu clicked 
-2019-11-27 14:50:06,027 INFO  [LoggerUtils] Employee Menu clicked 
-2019-11-27 14:50:09,225 INFO  [LoggerUtils] ViewEmployee Menu clicked 
-2019-11-27 14:50:10,392 INFO  [LoggerUtils] Employee Searching... 
-2019-11-27 14:50:12,490 INFO  [LoggerUtils] Employee Found 
-2019-11-27 14:50:13,648 INFO  [LoggerUtils] Edit  Employee Button Clicked 
-2019-11-27 14:50:48,828 INFO  [LoggerUtils] ****************************************** 
-2019-11-27 14:50:48,828 INFO  [LoggerUtils] Test Case ID: editemp_001 
-2019-11-27 14:50:48,828 INFO  [LoggerUtils] ****************************************** 
-2019-11-27 14:50:53,388 INFO  [LoggerUtils] Driver Setup 
-2019-11-27 14:50:55,056 INFO  [LoggerUtils] User Name: admin 
-2019-11-27 14:50:55,151 INFO  [LoggerUtils] Password: password 
-2019-11-27 14:51:00,656 INFO  [LoggerUtils] HR Department Menu clicked 
-2019-11-27 14:51:01,755 INFO  [LoggerUtils] Employee Menu clicked 
-2019-11-27 14:51:04,568 INFO  [LoggerUtils] ViewEmployee Menu clicked 
-2019-11-27 14:51:05,753 INFO  [LoggerUtils] Employee Searching... 
-2019-11-27 14:51:07,902 INFO  [LoggerUtils] Employee Found 
-2019-11-27 14:51:10,411 INFO  [LoggerUtils] Edit  Employee Button Clicked 
-2019-11-27 14:51:12,573 INFO  [LoggerUtils] Education Details Menu Clicked 
-2019-11-27 14:51:13,707 INFO  [LoggerUtils] Adding more education details 
-2019-11-27 14:51:14,907 INFO  [LoggerUtils] Adding Qualifications Details.. 
-2019-11-27 14:51:16,037 INFO  [LoggerUtils] Adding Year of Passing Details.. 
-2019-11-27 14:51:17,149 INFO  [LoggerUtils] Adding University Details.. 
-2019-11-27 14:51:18,265 INFO  [LoggerUtils] Adding Percentage Details.. 
-2019-11-27 14:51:19,409 INFO  [LoggerUtils] Adding more education details 
-2019-11-27 14:51:20,543 INFO  [LoggerUtils] Adding Qualifications Details.. 
-2019-11-27 14:51:21,678 INFO  [LoggerUtils] Adding Year of Passing Details.. 
-2019-11-27 14:51:22,831 INFO  [LoggerUtils] Adding University Details.. 
-2019-11-27 14:51:23,932 INFO  [LoggerUtils] Adding Percentage Details.. 
-2019-11-27 14:51:27,147 INFO  [LoggerUtils] Upload Document Menu Clicked 
-2019-11-27 14:51:28,310 INFO  [LoggerUtils] Finish Button Clicked 
+2019-11-28 12:21:26,020 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:21:26,020 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-28 12:21:26,020 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:21:30,649 INFO  [LoggerUtils] Driver Setup 
+2019-11-28 12:21:31,978 INFO  [LoggerUtils] User Name: admin 
+2019-11-28 12:21:32,070 INFO  [LoggerUtils] Password: password 
+2019-11-28 12:21:37,441 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-11-28 12:21:38,533 INFO  [LoggerUtils] Employee Menu clicked 
+2019-11-28 12:21:40,622 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-11-28 12:21:41,769 INFO  [LoggerUtils] Employee Searching... 
+2019-11-28 12:21:43,866 INFO  [LoggerUtils] Employee Found 
+2019-11-28 12:21:46,022 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-11-28 12:21:48,158 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-11-28 12:21:51,427 INFO  [LoggerUtils] Employee Designation Updated 
+2019-11-28 12:21:55,770 INFO  [LoggerUtils] Employee Assign Project  Selected 
+2019-11-28 12:22:34,476 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:22:34,476 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-28 12:22:34,477 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:22:39,173 INFO  [LoggerUtils] Driver Setup 
+2019-11-28 12:22:40,693 INFO  [LoggerUtils] User Name: admin 
+2019-11-28 12:22:40,762 INFO  [LoggerUtils] Password: password 
+2019-11-28 12:22:46,030 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-11-28 12:22:47,087 INFO  [LoggerUtils] Employee Menu clicked 
+2019-11-28 12:22:49,247 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-11-28 12:22:50,428 INFO  [LoggerUtils] Employee Searching... 
+2019-11-28 12:22:52,522 INFO  [LoggerUtils] Employee Found 
+2019-11-28 12:22:54,876 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-11-28 12:22:56,991 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-11-28 12:23:00,227 INFO  [LoggerUtils] Employee Designation Updated 
+2019-11-28 12:23:04,574 INFO  [LoggerUtils] Employee Assign Project  Selected 
+2019-11-28 12:23:43,283 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:23:43,284 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-28 12:23:43,284 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:23:47,946 INFO  [LoggerUtils] Driver Setup 
+2019-11-28 12:23:49,484 INFO  [LoggerUtils] User Name: admin 
+2019-11-28 12:23:49,560 INFO  [LoggerUtils] Password: password 
+2019-11-28 12:23:55,144 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-11-28 12:23:56,234 INFO  [LoggerUtils] Employee Menu clicked 
+2019-11-28 12:23:58,619 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-11-28 12:23:59,810 INFO  [LoggerUtils] Employee Searching... 
+2019-11-28 12:24:01,909 INFO  [LoggerUtils] Employee Found 
+2019-11-28 12:24:04,141 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-11-28 12:24:06,275 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-11-28 12:24:09,569 INFO  [LoggerUtils] Employee Designation Updated 
+2019-11-28 12:24:13,953 INFO  [LoggerUtils] Employee Assign Project  Selected 
+2019-11-28 12:24:17,168 INFO  [LoggerUtils] Employee Location  Selected 
+2019-11-28 12:24:20,407 INFO  [LoggerUtils] Upload Document Menu Clicked 
+2019-11-28 12:24:21,537 INFO  [LoggerUtils] Finish Button Clicked 
+2019-11-28 12:24:22,585 INFO  [LoggerUtils] Proceed Ok button Clicked 
+2019-11-28 12:24:29,859 INFO  [LoggerUtils] Employee Created Successfully 
+2019-11-28 12:24:30,308 INFO  [LoggerUtils] Ok Button Clicked 
+2019-11-28 12:24:30,949 INFO  [LoggerUtils] Driver tear down 
+2019-11-28 12:24:31,090 INFO  [LoggerUtils] Test Completed Successfully - editemp_001 
+2019-11-28 12:24:36,291 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:24:36,292 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-28 12:24:36,292 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:24:40,920 INFO  [LoggerUtils] Driver Setup 
+2019-11-28 12:24:44,978 INFO  [LoggerUtils] User Name: admin 
+2019-11-28 12:24:45,052 INFO  [LoggerUtils] Password: password 
+2019-11-28 12:24:50,282 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-11-28 12:24:51,372 INFO  [LoggerUtils] Employee Menu clicked 
+2019-11-28 12:24:54,796 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-11-28 12:24:55,957 INFO  [LoggerUtils] Employee Searching... 
+2019-11-28 12:24:58,073 INFO  [LoggerUtils] Employee Found 
+2019-11-28 12:25:07,733 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-11-28 12:25:09,850 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-11-28 12:25:13,076 INFO  [LoggerUtils] Employee Designation Updated 
+2019-11-28 12:25:17,453 INFO  [LoggerUtils] Employee Assign Project  Selected 
+2019-11-28 12:25:20,717 INFO  [LoggerUtils] Employee Location  Selected 
+2019-11-28 12:25:23,885 INFO  [LoggerUtils] Upload Document Menu Clicked 
+2019-11-28 12:25:25,019 INFO  [LoggerUtils] Finish Button Clicked 
+2019-11-28 12:25:26,091 INFO  [LoggerUtils] Proceed Ok button Clicked 
+2019-11-28 12:25:33,370 INFO  [LoggerUtils] Employee Created Successfully 
+2019-11-28 12:25:34,138 INFO  [LoggerUtils] Ok Button Clicked 
+2019-11-28 12:25:34,816 INFO  [LoggerUtils] Driver tear down 
+2019-11-28 12:25:34,957 INFO  [LoggerUtils] Test Completed Successfully - editemp_001 
+2019-11-28 12:27:03,374 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:27:03,375 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-28 12:27:03,375 INFO  [LoggerUtils] ****************************************** 
+2019-11-28 12:27:08,002 INFO  [LoggerUtils] Driver Setup 
+2019-11-28 12:27:10,560 INFO  [LoggerUtils] User Name: admin 
+2019-11-28 12:27:10,634 INFO  [LoggerUtils] Password: password 
+2019-11-28 12:27:16,799 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-11-28 12:27:17,853 INFO  [LoggerUtils] Employee Menu clicked 
+2019-11-28 12:27:20,285 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-11-28 12:27:21,461 INFO  [LoggerUtils] Employee Searching... 
+2019-11-28 12:27:23,569 INFO  [LoggerUtils] Employee Found 
+2019-11-28 12:27:26,339 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-11-28 12:27:28,472 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-11-28 12:27:31,744 INFO  [LoggerUtils] Employee Designation Updated 
+2019-11-28 12:27:36,124 INFO  [LoggerUtils] Employee Assign Project  Selected 
+2019-11-28 12:27:39,358 INFO  [LoggerUtils] Employee Location  Selected 
+2019-11-28 12:27:42,575 INFO  [LoggerUtils] Upload Document Menu Clicked 
+2019-11-28 12:27:43,695 INFO  [LoggerUtils] Finish Button Clicked 
+2019-11-28 12:27:44,792 INFO  [LoggerUtils] Proceed Ok button Clicked 
+2019-11-28 12:27:47,873 INFO  [LoggerUtils] Employee Created Successfully 
+2019-11-28 12:27:48,251 INFO  [LoggerUtils] Ok Button Clicked 
+2019-11-28 12:27:48,849 INFO  [LoggerUtils] Driver tear down 
+2019-11-28 12:27:49,008 INFO  [LoggerUtils] Test Completed Successfully - editemp_001 

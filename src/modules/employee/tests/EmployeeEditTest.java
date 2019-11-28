@@ -183,20 +183,32 @@ public class EmployeeEditTest {
 				Thread.sleep(1000);
 				designation.click();
 				Thread.sleep(1000);
-				WebElement designationVal = EmployeeEditPage.designationVal(driver,datArr[30]);
-				LoggerUtils.logInfo("Employee Designation Updated");
+				WebElement designationVal = EmployeeEditPage.designationVal(driver,datArr[31]);
 				designationVal.click();
+				LoggerUtils.logInfo("Employee Designation Updated");
 				Thread.sleep(2000);                  
 				
-				WebElement assign = EmployeeCreationPage.assignProject(driver);
+				WebElement assign = EmployeeEditPage.assignProject(driver);
 				Thread.sleep(1000);
 				assign.click();
-				WebElement assignVal = EmployeeCreationPage.assignProjectVal(driver, datArr[31]);
-				assignVal.click();
+				WebElement assignVal = EmployeeEditPage.assignProjectVal(driver);
+				assignVal.sendKeys(datArr[32]);
+				Thread.sleep(1000);
+				assignVal.sendKeys(Keys.ENTER);
 				LoggerUtils.logInfo("Employee Assign Project  Selected");
 				Thread.sleep(1000);
 				
+				Actions actions = new Actions(driver);
+				actions.sendKeys(Keys.PAGE_DOWN).build().perform();
+				Thread.sleep(1000);
 				
+				WebElement location = EmployeeEditPage.location(driver);
+				Thread.sleep(1000);
+				location.click();
+				WebElement locationVal = EmployeeEditPage.locationVal(driver,datArr[35]);
+				LoggerUtils.logInfo("Employee Location  Selected");
+				locationVal.click();
+				Thread.sleep(1000);
 			} 
 			
 			Actions actions = new Actions(driver);
