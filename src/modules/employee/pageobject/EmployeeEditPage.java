@@ -440,6 +440,55 @@ public class EmployeeEditPage {
 		return element;
 	}
 	
+	public static WebElement empStatusConfProb(WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/section[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/section[3]/div[3]/div[5]/div[1]/div[1]/button[1]")));
+		return element;
+	}
+	
+	public static WebElement empStatusConfProbVal(WebDriver driver, String empStatusVal)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[contains(text(),'"+empStatusVal+"')]")));
+		return element;
+	}
+	
+	public static WebElement selExitDate(WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='emp_exit_date']")));
+		return element;
+	}
+	
+	public static WebElement btnOkExitDate(WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/div[4]/div[1]/div[2]/button[4]")));
+		return element;
+	}
+	
+	public static WebElement empStatus(WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/section[2]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/section[3]/div[2]/div[8]/div[1]/div[1]/button[1]")));
+		return element;
+	}
+	
+	public static WebElement empStatusVal(WebDriver driver, String empStatusVal)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[contains(text(),'"+empStatusVal+"')]")));
+		return element;
+	}
+	
+	
 	public static WebElement bankAccNo(WebDriver driver)
 	{
 		WebElement element=null;

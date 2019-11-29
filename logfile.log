@@ -735,3 +735,276 @@ Session ID: 459873a1a03ab93c4bd95285cc00c12b
 2019-11-28 12:27:48,251 INFO  [LoggerUtils] Ok Button Clicked 
 2019-11-28 12:27:48,849 INFO  [LoggerUtils] Driver tear down 
 2019-11-28 12:27:49,008 INFO  [LoggerUtils] Test Completed Successfully - editemp_001 
+2019-11-29 10:59:52,259 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 10:59:52,275 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-29 10:59:52,275 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 10:59:56,869 INFO  [LoggerUtils] Driver Setup 
+2019-11-29 10:59:58,254 INFO  [LoggerUtils] User Name: admin 
+2019-11-29 10:59:58,338 INFO  [LoggerUtils] Password: password 
+2019-11-29 11:00:02,782 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-11-29 11:00:03,877 INFO  [LoggerUtils] Employee Menu clicked 
+2019-11-29 11:00:06,026 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-11-29 11:00:07,217 INFO  [LoggerUtils] Employee Searching... 
+2019-11-29 11:00:09,335 INFO  [LoggerUtils] Employee Found 
+2019-11-29 11:00:11,069 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-11-29 11:00:14,219 ERROR [LoggerUtils] Exception In Employee Creation :  
+org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
+System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53325}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
+Session ID: c2cc22198acff71aab49a44f7f8e16db
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at testDrivers.TestDriver.tDriver(TestDriver.java:152)
+	at modules.execution.TestExecution.main(TestExecution.java:19)
+2019-11-29 11:00:14,548 ERROR [LoggerUtils] Failed in test case execution 
+org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
+System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53325}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
+Session ID: c2cc22198acff71aab49a44f7f8e16db
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at testDrivers.TestDriver.tDriver(TestDriver.java:152)
+	at modules.execution.TestExecution.main(TestExecution.java:19)
+2019-11-29 11:00:15,250 INFO  [LoggerUtils] Driver tear down 
+2019-11-29 11:00:15,250 INFO  [LoggerUtils] Test Failed - editemp_001 
+2019-11-29 11:01:33,210 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 11:01:33,210 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-29 11:01:33,210 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 11:01:37,924 INFO  [LoggerUtils] Driver Setup 
+2019-11-29 11:01:39,529 INFO  [LoggerUtils] User Name: admin 
+2019-11-29 11:01:39,641 INFO  [LoggerUtils] Password: password 
+2019-11-29 11:01:44,571 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-11-29 11:01:45,697 INFO  [LoggerUtils] Employee Menu clicked 
+2019-11-29 11:01:48,358 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-11-29 11:01:49,539 INFO  [LoggerUtils] Employee Searching... 
+2019-11-29 11:01:51,656 INFO  [LoggerUtils] Employee Found 
+2019-11-29 11:01:53,895 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-11-29 11:01:56,084 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-11-29 11:01:59,375 INFO  [LoggerUtils] Employee Status Probation / Confirmed   Updated 
+2019-11-29 11:02:03,625 INFO  [LoggerUtils] Upload Document Menu Clicked 
+2019-11-29 11:02:04,796 INFO  [LoggerUtils] Finish Button Clicked 
+2019-11-29 11:57:55,427 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 11:57:55,427 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-29 11:57:55,427 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 11:58:00,171 INFO  [LoggerUtils] Driver Setup 
+2019-11-29 11:58:02,764 INFO  [LoggerUtils] User Name: admin 
+2019-11-29 11:58:02,875 INFO  [LoggerUtils] Password: password 
+2019-11-29 11:58:08,960 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-11-29 11:58:10,056 INFO  [LoggerUtils] Employee Menu clicked 
+2019-11-29 11:58:14,370 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-11-29 11:58:15,551 INFO  [LoggerUtils] Employee Searching... 
+2019-11-29 11:58:17,633 INFO  [LoggerUtils] Employee Found 
+2019-11-29 11:58:19,878 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-11-29 11:58:22,061 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-11-29 11:58:49,810 ERROR [LoggerUtils] Exception In Employee Creation :  
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
+System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49455}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
+Session ID: df912fb9d9c1570259a0f682f99fa060
+*** Element info: {Using=xpath, value=//div[@id='dtp_3vBla']//button[@class='dtp-btn-ok btn btn-flat btn-sm'][contains(text(),'OK')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:349)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:310)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	at modules.employee.pageobject.EmployeeEditPage.btnOkExitDate(EmployeeEditPage.java:471)
+	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at testDrivers.TestDriver.tDriver(TestDriver.java:152)
+	at modules.execution.TestExecution.main(TestExecution.java:19)
+2019-11-29 11:59:21,686 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 11:59:21,686 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-29 11:59:21,686 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 11:59:26,401 INFO  [LoggerUtils] Driver Setup 
+2019-11-29 11:59:27,966 INFO  [LoggerUtils] User Name: admin 
+2019-11-29 11:59:28,044 INFO  [LoggerUtils] Password: password 
+2019-11-29 11:59:33,552 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-11-29 11:59:34,678 INFO  [LoggerUtils] Employee Menu clicked 
+2019-11-29 11:59:37,264 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-11-29 11:59:38,430 INFO  [LoggerUtils] Employee Searching... 
+2019-11-29 11:59:40,537 INFO  [LoggerUtils] Employee Found 
+2019-11-29 11:59:42,580 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-11-29 11:59:44,738 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-11-29 11:59:47,013 INFO  [LoggerUtils] Employee Exit date entered 
+2019-11-29 11:59:49,252 INFO  [LoggerUtils] Employee Status Changed 
+2019-11-29 11:59:53,494 INFO  [LoggerUtils] Upload Document Menu Clicked 
+2019-11-29 12:24:00,495 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 12:24:00,495 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-29 12:24:00,495 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 12:24:05,267 INFO  [LoggerUtils] Driver Setup 
+2019-11-29 12:24:07,656 INFO  [LoggerUtils] User Name: admin 
+2019-11-29 12:24:07,743 INFO  [LoggerUtils] Password: password 
+2019-11-29 12:24:13,374 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-11-29 12:24:14,481 INFO  [LoggerUtils] Employee Menu clicked 
+2019-11-29 12:24:17,019 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-11-29 12:24:18,219 INFO  [LoggerUtils] Employee Searching... 
+2019-11-29 12:24:20,321 INFO  [LoggerUtils] Employee Found 
+2019-11-29 12:24:24,178 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-11-29 12:24:26,304 INFO  [LoggerUtils] Menu Employee Salary Details Clicked 
+2019-11-29 12:24:29,548 INFO  [LoggerUtils] Employee's CTC Updated 
+2019-11-29 12:24:31,781 INFO  [LoggerUtils] Employee's Baisc Salary Updated 
+2019-11-29 12:24:34,000 INFO  [LoggerUtils] Employee's HRA Amount Updated 
+2019-11-29 12:24:36,225 INFO  [LoggerUtils] Employee's Convyence Allowance Updated 
+2019-11-29 12:24:38,450 INFO  [LoggerUtils] Employee's Medical Allowance Updated 
+2019-11-29 12:24:40,681 INFO  [LoggerUtils] Employee's Mobile Allowance Updated 
+2019-11-29 12:24:42,884 INFO  [LoggerUtils] Employee's Executive Allowance Updated 
+2019-11-29 12:24:45,094 INFO  [LoggerUtils] Employee's Insurance Benefit Updated 
+2019-11-29 12:24:47,287 INFO  [LoggerUtils] Employee's Variable Pay Updated 
+2019-11-29 12:24:49,504 INFO  [LoggerUtils] Employee's EPF Amount Updated 
+2019-11-29 12:24:51,702 INFO  [LoggerUtils] Employee's Joining Bonus Updated 
+2019-11-29 12:24:54,893 INFO  [LoggerUtils] Upload Document Menu Clicked 
+2019-11-29 12:24:56,011 INFO  [LoggerUtils] Finish Button Clicked 
+2019-11-29 12:25:54,731 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 12:25:54,731 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-29 12:25:54,731 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 12:26:00,018 INFO  [LoggerUtils] Driver Setup 
+2019-11-29 12:26:01,505 INFO  [LoggerUtils] User Name: admin 
+2019-11-29 12:26:01,587 INFO  [LoggerUtils] Password: password 
+2019-11-29 12:26:07,136 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-11-29 12:26:08,213 INFO  [LoggerUtils] Employee Menu clicked 
+2019-11-29 12:26:10,454 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-11-29 12:26:11,702 INFO  [LoggerUtils] Employee Searching... 
+2019-11-29 12:26:13,821 INFO  [LoggerUtils] Employee Found 
+2019-11-29 12:26:15,933 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-11-29 12:26:18,060 INFO  [LoggerUtils] Menu Employee Salary Details Clicked 
+2019-11-29 12:26:21,265 INFO  [LoggerUtils] Employee's CTC Updated 
+2019-11-29 12:26:23,480 INFO  [LoggerUtils] Employee's Baisc Salary Updated 
+2019-11-29 12:26:25,733 INFO  [LoggerUtils] Employee's HRA Amount Updated 
+2019-11-29 12:26:27,986 INFO  [LoggerUtils] Employee's Convyence Allowance Updated 
+2019-11-29 12:26:30,226 INFO  [LoggerUtils] Employee's Medical Allowance Updated 
+2019-11-29 12:26:32,452 INFO  [LoggerUtils] Employee's Mobile Allowance Updated 
+2019-11-29 12:26:34,636 INFO  [LoggerUtils] Employee's Executive Allowance Updated 
+2019-11-29 12:26:36,849 INFO  [LoggerUtils] Employee's Insurance Benefit Updated 
+2019-11-29 12:26:39,048 INFO  [LoggerUtils] Employee's Variable Pay Updated 
+2019-11-29 12:26:41,259 INFO  [LoggerUtils] Employee's EPF Amount Updated 
+2019-11-29 12:26:43,474 INFO  [LoggerUtils] Employee's Joining Bonus Updated 
+2019-11-29 12:26:46,668 INFO  [LoggerUtils] Upload Document Menu Clicked 
+2019-11-29 12:26:47,815 INFO  [LoggerUtils] Finish Button Clicked 
+2019-11-29 12:26:48,919 INFO  [LoggerUtils] Proceed Ok button Clicked 
+2019-11-29 12:26:51,994 INFO  [LoggerUtils] Employee Created Successfully 
+2019-11-29 12:26:52,348 INFO  [LoggerUtils] Ok Button Clicked 
+2019-11-29 12:26:52,972 INFO  [LoggerUtils] Driver tear down 
+2019-11-29 12:26:53,081 INFO  [LoggerUtils] Test Completed Successfully - editemp_001 
+2019-11-29 16:31:49,898 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 16:31:49,914 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-29 16:31:49,914 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 16:31:50,353 ERROR [LoggerUtils] Error in TestDriver - editemp_001 
+java.lang.NullPointerException
+	at testDrivers.TestDriver.tDriver(TestDriver.java:94)
+	at modules.execution.TestExecution.main(TestExecution.java:19)
+2019-11-29 16:35:26,084 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 16:35:26,085 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-29 16:35:26,085 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 16:35:26,515 ERROR [LoggerUtils] Error in TestDriver - editemp_001 
+java.lang.NullPointerException
+	at testDrivers.TestDriver.tDriver(TestDriver.java:93)
+	at modules.execution.TestExecution.main(TestExecution.java:19)
+2019-11-29 16:35:51,640 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 16:35:51,640 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-29 16:35:51,640 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 16:35:52,093 ERROR [LoggerUtils] Error in TestDriver - editemp_001 
+java.lang.NullPointerException
+	at testDrivers.TestDriver.tDriver(TestDriver.java:94)
+	at modules.execution.TestExecution.main(TestExecution.java:19)
+2019-11-29 16:37:04,081 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 16:37:04,081 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-29 16:37:04,081 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 16:37:04,539 ERROR [LoggerUtils] Error in TestDriver - editemp_001 
+java.lang.NullPointerException
+	at testDrivers.TestDriver.tDriver(TestDriver.java:95)
+	at modules.execution.TestExecution.main(TestExecution.java:19)
+2019-11-29 16:37:21,203 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 16:37:21,204 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-29 16:37:21,204 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 16:37:25,914 INFO  [LoggerUtils] Driver Setup 
+2019-11-29 16:37:27,780 INFO  [LoggerUtils] User Name: admin 
+2019-11-29 16:37:27,861 INFO  [LoggerUtils] Password: password 
+2019-11-29 16:46:16,131 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 16:46:16,131 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-29 16:46:16,131 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 16:46:20,771 INFO  [LoggerUtils] Driver Setup 
+2019-11-29 16:47:18,487 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 16:47:18,488 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-29 16:47:18,488 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 16:47:18,932 ERROR [LoggerUtils] Error in TestDriver - editemp_001 
+java.lang.NullPointerException
+	at testDrivers.TestDriver.tDriver(TestDriver.java:93)
+	at modules.execution.TestExecution.main(TestExecution.java:19)
+2019-11-29 16:47:48,961 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 16:47:48,961 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-29 16:47:48,961 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 16:47:49,396 ERROR [LoggerUtils] Error in TestDriver - editemp_001 
+java.lang.NullPointerException
+	at testDrivers.TestDriver.tDriver(TestDriver.java:93)
+	at modules.execution.TestExecution.main(TestExecution.java:19)
+2019-11-29 16:48:24,131 INFO  [LoggerUtils] ****************************************** 
+2019-11-29 16:48:24,131 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-11-29 16:48:24,131 INFO  [LoggerUtils] ****************************************** 

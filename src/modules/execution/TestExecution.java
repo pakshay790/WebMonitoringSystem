@@ -12,11 +12,10 @@ public class TestExecution {
 //			for (int i = 0; i < testCases.length; i++) {
 //				TestDriver.tDriver(testCases[i],"EmployeeConfig","NewEmp");
 //			}
-		
 			String testCases [] = {"editemp_001"};
 			
 			for (int i = 0; i < testCases.length; i++) {
-				TestDriver.tDriver(testCases[i],"EmployeeConfig","EditEmp");
+				 TestDriver.tDriver(testCases[i],"EmployeeConfig","EditEmp");
 			}
 			
 			
