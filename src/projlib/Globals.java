@@ -34,6 +34,9 @@ public class Globals
 	public static final String EMP_CREATED_SUCCESS = sysMsgProp.getProperty("empCreatedSuccess");
 	public static final String EMP_UPDATED_SUCCESS = sysMsgProp.getProperty("empUpdatedSuccess");
 	
-	
+	static Properties constantProp = Genlib.readConfig("Constant.properties");
+	public static final String TRAINEE = constantProp.getProperty("trainee");
+	public static final String CONTRACTUAL = constantProp.getProperty("contractual");
+	public static final String PERMANENT = constantProp.getProperty("permanant");
 	
 }

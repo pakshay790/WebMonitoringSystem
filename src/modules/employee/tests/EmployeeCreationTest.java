@@ -369,7 +369,7 @@ public class EmployeeCreationTest {
 				btnOk.click();
 				LoggerUtils.logInfo("Ok Button Clicked");
 				hMapRetObj.put("testRunStatus", Globals.PASS);
-				hMapRetObj.put("depUpdateVal", "");
+				hMapRetObj.put("depUpdateVal", datArr[10]);
 			}
 			else {
 				LoggerUtils.logInfo("Unable to update employee");
@@ -377,7 +377,7 @@ public class EmployeeCreationTest {
 				btnOk.click();
 				LoggerUtils.logInfo("Ok Button Clicked");
 				hMapRetObj.put("testRunStatus", Globals.FAIL);
-				hMapRetObj.put("depUpdateVal", "");
+				hMapRetObj.put("depUpdateVal","");
 			}
 
 		} catch (Exception e) {

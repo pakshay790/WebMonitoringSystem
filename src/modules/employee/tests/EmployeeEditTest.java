@@ -41,6 +41,7 @@ public class EmployeeEditTest {
 
 		String[] datArr = strData.split("\\|");
 		String[] arrMetaData = datArr[3].split("\\,");
+		String[] arrDepVal = depVal.split("\\,"); 
 
 		try {
 			testSetUp(driver, datArr);
@@ -63,7 +64,7 @@ public class EmployeeEditTest {
 			Thread.sleep(1000);
 			
 			WebElement searchEmp = EmployeeEditPage.searchEmp(driver);
-			searchEmp.sendKeys("803418901109");
+			searchEmp.sendKeys(arrDepVal[0]);
 			LoggerUtils.logInfo("Employee Searching...");
 			Thread.sleep(2000);
 			
@@ -242,87 +243,118 @@ public class EmployeeEditTest {
 				}
 				
 			} else if (datArr[3].equals("salaryDetails")) {
+				
+				WebElement menuEmploymentDet = EmployeeEditPage.menuEmploymentDet(driver);
+				menuEmploymentDet.click();
+				LoggerUtils.logInfo("Menu Employment Details Clicked ");
+				Thread.sleep(1000);
+				
 				WebElement menuSalaryDet = EmployeeEditPage.menuSalaryDetails(driver);
 				menuSalaryDet.click();
 				LoggerUtils.logInfo("Menu Employee Salary Details Clicked");
 				Thread.sleep(2000);
 				
-				WebElement txtCTC = EmployeeEditPage.txtCTC(driver);
-				txtCTC.clear();
-				Thread.sleep(1000);
-				txtCTC.sendKeys(datArr[45]);
-				LoggerUtils.logInfo("Employee's CTC Updated");
-				Thread.sleep(1000);
-				
-				WebElement txtBasic = EmployeeEditPage.txtBasicSalary(driver);
-				txtBasic.clear();
-				Thread.sleep(1000);
-				txtBasic.sendKeys(datArr[46]);
-				LoggerUtils.logInfo("Employee's Baisc Salary Updated");
-				Thread.sleep(1000);
-				
-				WebElement txtHRA = EmployeeEditPage.txtHRA(driver);
-				txtHRA.clear();
-				Thread.sleep(1000);
-				txtHRA.sendKeys(datArr[47]);
-				LoggerUtils.logInfo("Employee's HRA Amount Updated");
-				Thread.sleep(1000);
-				
-				WebElement txtConveyence = EmployeeEditPage.txtConvyenceAllowance(driver);
-				txtConveyence.clear();
-				Thread.sleep(1000);
-				txtConveyence.sendKeys(datArr[48]);
-				LoggerUtils.logInfo("Employee's Convyence Allowance Updated");
-				Thread.sleep(1000);
-				
-				WebElement txtMedical = EmployeeEditPage.txtMedicalAllowance(driver);
-				txtMedical.clear();
-				Thread.sleep(1000);
-				txtMedical.sendKeys(datArr[49]);
-				LoggerUtils.logInfo("Employee's Medical Allowance Updated");
-				Thread.sleep(1000);
-				
-				WebElement txtMobile = EmployeeEditPage.txtMobileAllowance(driver);
-				txtMobile.clear();
-				Thread.sleep(1000);
-				txtMobile.sendKeys(datArr[50]);
-				LoggerUtils.logInfo("Employee's Mobile Allowance Updated");
-				Thread.sleep(1000);
-				
-				WebElement txtExecutive = EmployeeEditPage.txtExecutiveAllowance(driver);
-				txtExecutive.clear();
-				Thread.sleep(1000);
-				txtExecutive.sendKeys(datArr[51]);
-				LoggerUtils.logInfo("Employee's Executive Allowance Updated");
-				Thread.sleep(1000);
+				if (datArr[30].equals(Globals.TRAINEE)) {
+					
+					WebElement txtStipend = EmployeeEditPage.txtStipend(driver);
+					txtStipend.clear();
+					Thread.sleep(1000);
+					txtStipend.sendKeys(datArr[43]);
+					LoggerUtils.logInfo("Trainee's  Stipend Updated");
+					Thread.sleep(2000);
+					
+					
+				} else if (datArr[30].equals(Globals.CONTRACTUAL)) {
+					
+					WebElement txtConsulationFees = EmployeeEditPage.txtConsulatationFee(driver);
+					txtConsulationFees.clear();
+					Thread.sleep(1000);
+					txtConsulationFees.sendKeys(datArr[44]);
+					LoggerUtils.logInfo("Contractual's  Consulation Fees Updated");
+					Thread.sleep(2000);
+					
+				}else
+				{
+					WebElement txtCTC = EmployeeEditPage.txtCTC(driver);
+					txtCTC.clear();
+					Thread.sleep(1000);
+					txtCTC.sendKeys(datArr[45]);
+					LoggerUtils.logInfo("Employee's CTC Updated");
+					Thread.sleep(1000);
+					
+					WebElement txtBasic = EmployeeEditPage.txtBasicSalary(driver);
+					txtBasic.clear();
+					Thread.sleep(1000);
+					txtBasic.sendKeys(datArr[46]);
+					LoggerUtils.logInfo("Employee's Baisc Salary Updated");
+					Thread.sleep(1000);
+					
+					WebElement txtHRA = EmployeeEditPage.txtHRA(driver);
+					txtHRA.clear();
+					Thread.sleep(1000);
+					txtHRA.sendKeys(datArr[47]);
+					LoggerUtils.logInfo("Employee's HRA Amount Updated");
+					Thread.sleep(1000);
+					
+					WebElement txtConveyence = EmployeeEditPage.txtConvyenceAllowance(driver);
+					txtConveyence.clear();
+					Thread.sleep(1000);
+					txtConveyence.sendKeys(datArr[48]);
+					LoggerUtils.logInfo("Employee's Convyence Allowance Updated");
+					Thread.sleep(1000);
+					
+					WebElement txtMedical = EmployeeEditPage.txtMedicalAllowance(driver);
+					txtMedical.clear();
+					Thread.sleep(1000);
+					txtMedical.sendKeys(datArr[49]);
+					LoggerUtils.logInfo("Employee's Medical Allowance Updated");
+					Thread.sleep(1000);
+					
+					WebElement txtMobile = EmployeeEditPage.txtMobileAllowance(driver);
+					txtMobile.clear();
+					Thread.sleep(1000);
+					txtMobile.sendKeys(datArr[50]);
+					LoggerUtils.logInfo("Employee's Mobile Allowance Updated");
+					Thread.sleep(1000);
+					
+					WebElement txtExecutive = EmployeeEditPage.txtExecutiveAllowance(driver);
+					txtExecutive.clear();
+					Thread.sleep(1000);
+					txtExecutive.sendKeys(datArr[51]);
+					LoggerUtils.logInfo("Employee's Executive Allowance Updated");
+					Thread.sleep(1000);
 
-				WebElement txtEmployeeInsurance = EmployeeEditPage.txtEmployeeInsurance(driver);
-				txtEmployeeInsurance.clear();
-				Thread.sleep(1000);
-				txtEmployeeInsurance.sendKeys(datArr[52]);
-				LoggerUtils.logInfo("Employee's Insurance Benefit Updated");
-				Thread.sleep(1000);
+					WebElement txtEmployeeInsurance = EmployeeEditPage.txtEmployeeInsurance(driver);
+					txtEmployeeInsurance.clear();
+					Thread.sleep(1000);
+					txtEmployeeInsurance.sendKeys(datArr[52]);
+					LoggerUtils.logInfo("Employee's Insurance Benefit Updated");
+					Thread.sleep(1000);
+					
+					WebElement txtVariable = EmployeeEditPage.txtVariablePay(driver);
+					txtVariable.clear();
+					Thread.sleep(1000);
+					txtVariable.sendKeys(datArr[53]);
+					LoggerUtils.logInfo("Employee's Variable Pay Updated");
+					Thread.sleep(1000);
+					
+					WebElement txtEPF = EmployeeEditPage.txtEPF(driver);
+					txtEPF.clear();
+					Thread.sleep(1000);
+					txtEPF.sendKeys(datArr[54]);
+					LoggerUtils.logInfo("Employee's EPF Amount Updated");
+					Thread.sleep(1000);
+					
+					WebElement txtJoining = EmployeeEditPage.txtJoiningBonus(driver);
+					txtJoining.clear();
+					Thread.sleep(1000);
+					txtJoining.sendKeys(datArr[55]);
+					LoggerUtils.logInfo("Employee's Joining Bonus Updated");
+					Thread.sleep(1000);
+
+				}
 				
-				WebElement txtVariable = EmployeeEditPage.txtVariablePay(driver);
-				txtVariable.clear();
-				Thread.sleep(1000);
-				txtVariable.sendKeys(datArr[53]);
-				LoggerUtils.logInfo("Employee's Variable Pay Updated");
-				Thread.sleep(1000);
 				
-				WebElement txtEPF = EmployeeEditPage.txtEPF(driver);
-				txtEPF.clear();
-				Thread.sleep(1000);
-				txtEPF.sendKeys(datArr[54]);
-				LoggerUtils.logInfo("Employee's EPF Amount Updated");
-				Thread.sleep(1000);
-				
-				WebElement txtJoining = EmployeeEditPage.txtJoiningBonus(driver);
-				txtJoining.clear();
-				Thread.sleep(1000);
-				txtJoining.sendKeys(datArr[55]);
-				LoggerUtils.logInfo("Employee's Joining Bonus Updated");
-				Thread.sleep(1000);
 				
 			}
 			
