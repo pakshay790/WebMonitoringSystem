@@ -1624,3 +1624,349 @@ java.lang.NumberFormatException: For input string: " "
 2019-12-03 12:05:16,492 INFO  [LoggerUtils] Ok Button Clicked 
 2019-12-03 12:05:17,119 INFO  [LoggerUtils] Driver tear down 
 2019-12-03 12:05:17,291 INFO  [LoggerUtils] Test Completed Successfully - editemp_001 
+2019-12-04 15:46:57,574 INFO  [LoggerUtils] ****************************************** 
+2019-12-04 15:46:57,596 INFO  [LoggerUtils] Test Case ID: newemp_001 
+2019-12-04 15:46:57,596 INFO  [LoggerUtils] ****************************************** 
+2019-12-04 15:47:03,788 INFO  [LoggerUtils] Driver Setup 
+2019-12-04 15:47:05,117 INFO  [LoggerUtils] User Name: admin 
+2019-12-04 15:47:05,199 INFO  [LoggerUtils] Password: password 
+2019-12-04 15:47:09,739 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-12-04 15:47:10,796 INFO  [LoggerUtils] Employee Menu clicked 
+2019-12-04 15:47:11,575 INFO  [LoggerUtils] Add Employee Menu clicked 
+2019-12-04 15:47:12,693 INFO  [LoggerUtils] First Name Entered 
+2019-12-04 15:47:13,785 INFO  [LoggerUtils] Middle Name Entered 
+2019-12-04 15:47:14,906 INFO  [LoggerUtils] Last Name Entered 
+2019-12-04 15:47:16,105 INFO  [LoggerUtils] Email-id Entered 
+2019-12-04 15:47:17,276 INFO  [LoggerUtils] Aadhaar No entered 
+2019-12-04 15:47:18,435 INFO  [LoggerUtils] Pan No entered 
+2019-12-04 15:47:20,810 INFO  [LoggerUtils] Permanant Address Entered 
+2019-12-04 15:47:22,006 INFO  [LoggerUtils] Blood Group Selected 
+2019-12-04 15:47:23,116 INFO  [LoggerUtils] Copy above address button clicked 
+2019-12-04 15:47:23,116 INFO  [LoggerUtils] Communication Address  Entered 
+2019-12-04 15:47:24,242 INFO  [LoggerUtils] Contact Number  Entered 
+2019-12-04 15:47:25,429 INFO  [LoggerUtils] Emergency Contact Number Entered 
+2019-12-04 15:47:26,551 INFO  [LoggerUtils] Identity Mark  Entered 
+2019-12-04 15:47:27,719 INFO  [LoggerUtils] Emergency Contact Relation Selected 
+2019-12-04 15:47:28,866 INFO  [LoggerUtils] Personal Details Filed, Next Button Clicked 
+2019-12-04 15:47:32,034 INFO  [LoggerUtils] Qualification Details Entered 
+2019-12-04 15:47:33,156 INFO  [LoggerUtils] Passing Year Entered 
+2019-12-04 15:47:34,266 INFO  [LoggerUtils] University Name Entered 
+2019-12-04 15:47:35,362 INFO  [LoggerUtils] Percentage Entered 
+2019-12-04 15:47:36,479 INFO  [LoggerUtils] Personal Details Enterd, Next Button Clicked 
+2019-12-04 15:47:39,669 INFO  [LoggerUtils] Total Experience  Entered 
+2019-12-04 15:47:40,873 INFO  [LoggerUtils] Galentic Email-ID  Entered 
+2019-12-04 15:47:44,229 INFO  [LoggerUtils] Employee Type  Selected 
+2019-12-04 15:47:47,382 INFO  [LoggerUtils] Employee Designation  Selected 
+2019-12-04 15:47:49,630 INFO  [LoggerUtils] Employee Assign Project  Selected 
+2019-12-04 15:47:50,717 INFO  [LoggerUtils] Remarks  Entered 
+2019-12-04 15:47:51,853 INFO  [LoggerUtils] Bank Name  Entered 
+2019-12-04 15:47:52,969 INFO  [LoggerUtils] Employee Location  Selected 
+2019-12-04 15:47:54,172 INFO  [LoggerUtils] Bank Account Number  Entered 
+2019-12-04 15:47:55,283 INFO  [LoggerUtils] UAN Number  Entered 
+2019-12-04 15:47:56,415 INFO  [LoggerUtils] PF Number  Entered 
+2019-12-04 15:47:57,547 INFO  [LoggerUtils] Employement Details Feild, Next Button Clicked 
+2019-12-04 15:47:59,680 INFO  [LoggerUtils] Employee's Stipend Entered 
+2019-12-04 15:48:01,784 INFO  [LoggerUtils] Employee's Salary Details Entered, Next Button Clikced 
+2019-12-04 15:48:02,899 INFO  [LoggerUtils] Finish Button Clicked 
+2019-12-04 15:48:03,977 INFO  [LoggerUtils] Proceed Ok button Clicked 
+2019-12-04 15:48:07,555 INFO  [LoggerUtils] Employee Updated Successfully 
+2019-12-04 15:48:08,077 INFO  [LoggerUtils] Ok Button Clicked 
+2019-12-04 15:48:08,693 INFO  [LoggerUtils] Driver tear down 
+2019-12-04 15:48:08,906 INFO  [LoggerUtils] Test Completed Successfully - newemp_001 
+2019-12-04 15:48:08,946 INFO  [LoggerUtils] ****************************************** 
+2019-12-04 15:48:08,946 INFO  [LoggerUtils] Test Case ID: newemp_002 
+2019-12-04 15:48:08,946 INFO  [LoggerUtils] ****************************************** 
+2019-12-04 15:48:12,479 INFO  [LoggerUtils] Driver Setup 
+2019-12-04 15:48:13,235 INFO  [LoggerUtils] User Name: admin 
+2019-12-04 15:48:13,318 INFO  [LoggerUtils] Password: password 
+2019-12-04 15:48:18,122 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-12-04 15:48:19,222 INFO  [LoggerUtils] Employee Menu clicked 
+2019-12-04 15:48:20,780 INFO  [LoggerUtils] Add Employee Menu clicked 
+2019-12-04 15:48:21,874 INFO  [LoggerUtils] First Name Entered 
+2019-12-04 15:48:22,927 INFO  [LoggerUtils] Middle Name Entered 
+2019-12-04 15:48:24,047 INFO  [LoggerUtils] Last Name Entered 
+2019-12-04 15:48:25,233 INFO  [LoggerUtils] Email-id Entered 
+2019-12-04 15:48:26,392 INFO  [LoggerUtils] Aadhaar No entered 
+2019-12-04 15:48:27,560 INFO  [LoggerUtils] Pan No entered 
+2019-12-04 15:48:29,861 INFO  [LoggerUtils] Permanant Address Entered 
+2019-12-04 15:48:31,041 INFO  [LoggerUtils] Blood Group Selected 
+2019-12-04 15:48:32,385 INFO  [LoggerUtils] Communication Address  Entered 
+2019-12-04 15:48:33,537 INFO  [LoggerUtils] Contact Number  Entered 
+2019-12-04 15:48:34,695 INFO  [LoggerUtils] Emergency Contact Number Entered 
+2019-12-04 15:48:35,829 INFO  [LoggerUtils] Identity Mark  Entered 
+2019-12-04 15:48:36,992 INFO  [LoggerUtils] Emergency Contact Relation Selected 
+2019-12-04 15:48:38,126 INFO  [LoggerUtils] Personal Details Filed, Next Button Clicked 
+2019-12-04 15:48:41,261 INFO  [LoggerUtils] Qualification Details Entered 
+2019-12-04 15:48:42,394 INFO  [LoggerUtils] Passing Year Entered 
+2019-12-04 15:48:43,493 INFO  [LoggerUtils] University Name Entered 
+2019-12-04 15:48:44,601 INFO  [LoggerUtils] Percentage Entered 
+2019-12-04 15:48:45,721 INFO  [LoggerUtils] Personal Details Enterd, Next Button Clicked 
+2019-12-04 15:48:48,810 INFO  [LoggerUtils] Total Experience  Entered 
+2019-12-04 15:48:49,969 INFO  [LoggerUtils] Galentic Email-ID  Entered 
+2019-12-04 15:48:53,384 INFO  [LoggerUtils] Employee Type  Selected 
+2019-12-04 15:48:56,557 INFO  [LoggerUtils] Employee Designation  Selected 
+2019-12-04 15:48:58,836 INFO  [LoggerUtils] Employee Assign Project  Selected 
+2019-12-04 15:48:59,926 INFO  [LoggerUtils] Remarks  Entered 
+2019-12-04 15:49:01,065 INFO  [LoggerUtils] Bank Name  Entered 
+2019-12-04 15:49:02,195 INFO  [LoggerUtils] Employee Location  Selected 
+2019-12-04 15:49:03,364 INFO  [LoggerUtils] Bank Account Number  Entered 
+2019-12-04 15:49:04,475 INFO  [LoggerUtils] UAN Number  Entered 
+2019-12-04 15:49:05,584 INFO  [LoggerUtils] PF Number  Entered 
+2019-12-04 15:49:06,707 INFO  [LoggerUtils] Employement Details Feild, Next Button Clicked 
+2019-12-04 15:49:08,839 INFO  [LoggerUtils] Employee's Salary Details Entered, Next Button Clicked 
+2019-12-04 15:49:10,950 INFO  [LoggerUtils] Employee's Salary Details Entered, Next Button Clikced 
+2019-12-04 15:49:12,051 INFO  [LoggerUtils] Finish Button Clicked 
+2019-12-04 15:49:13,170 INFO  [LoggerUtils] Proceed Ok button Clicked 
+2019-12-04 15:49:16,768 INFO  [LoggerUtils] Employee Updated Successfully 
+2019-12-04 15:49:17,242 INFO  [LoggerUtils] Ok Button Clicked 
+2019-12-04 15:49:17,851 INFO  [LoggerUtils] Driver tear down 
+2019-12-04 15:49:17,954 INFO  [LoggerUtils] Test Completed Successfully - newemp_002 
+2019-12-04 15:49:18,030 INFO  [LoggerUtils] ****************************************** 
+2019-12-04 15:49:18,030 INFO  [LoggerUtils] Test Case ID: newemp_003 
+2019-12-04 15:49:18,030 INFO  [LoggerUtils] ****************************************** 
+2019-12-04 15:49:21,534 INFO  [LoggerUtils] Driver Setup 
+2019-12-04 15:49:22,546 INFO  [LoggerUtils] User Name: admin 
+2019-12-04 15:49:22,624 INFO  [LoggerUtils] Password: password 
+2019-12-04 15:49:27,521 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-12-04 15:49:28,618 INFO  [LoggerUtils] Employee Menu clicked 
+2019-12-04 15:49:29,422 INFO  [LoggerUtils] Add Employee Menu clicked 
+2019-12-04 15:49:30,548 INFO  [LoggerUtils] First Name Entered 
+2019-12-04 15:49:31,642 INFO  [LoggerUtils] Middle Name Entered 
+2019-12-04 15:49:32,783 INFO  [LoggerUtils] Last Name Entered 
+2019-12-04 15:49:34,039 INFO  [LoggerUtils] Email-id Entered 
+2019-12-04 15:49:35,222 INFO  [LoggerUtils] Aadhaar No entered 
+2019-12-04 15:49:36,392 INFO  [LoggerUtils] Pan No entered 
+2019-12-04 15:49:38,719 INFO  [LoggerUtils] Permanant Address Entered 
+2019-12-04 15:49:39,903 INFO  [LoggerUtils] Blood Group Selected 
+2019-12-04 15:49:41,082 INFO  [LoggerUtils] Copy above address button clicked 
+2019-12-04 15:49:41,082 INFO  [LoggerUtils] Communication Address  Entered 
+2019-12-04 15:49:42,204 INFO  [LoggerUtils] Contact Number  Entered 
+2019-12-04 15:49:43,366 INFO  [LoggerUtils] Emergency Contact Number Entered 
+2019-12-04 15:49:44,494 INFO  [LoggerUtils] Identity Mark  Entered 
+2019-12-04 15:49:45,760 INFO  [LoggerUtils] Emergency Contact Relation Selected 
+2019-12-04 15:49:46,904 INFO  [LoggerUtils] Personal Details Filed, Next Button Clicked 
+2019-12-04 15:49:50,003 INFO  [LoggerUtils] Qualification Details Entered 
+2019-12-04 15:49:51,122 INFO  [LoggerUtils] Passing Year Entered 
+2019-12-04 15:49:52,232 INFO  [LoggerUtils] University Name Entered 
+2019-12-04 15:49:53,337 INFO  [LoggerUtils] Percentage Entered 
+2019-12-04 15:49:54,454 INFO  [LoggerUtils] Personal Details Enterd, Next Button Clicked 
+2019-12-04 15:49:57,573 INFO  [LoggerUtils] Total Experience  Entered 
+2019-12-04 15:49:58,811 INFO  [LoggerUtils] Galentic Email-ID  Entered 
+2019-12-04 15:50:02,175 INFO  [LoggerUtils] Employee Type  Selected 
+2019-12-04 15:50:05,337 INFO  [LoggerUtils] Employee Designation  Selected 
+2019-12-04 15:50:07,593 INFO  [LoggerUtils] Employee Assign Project  Selected 
+2019-12-04 15:50:08,691 INFO  [LoggerUtils] Remarks  Entered 
+2019-12-04 15:50:09,835 INFO  [LoggerUtils] Bank Name  Entered 
+2019-12-04 15:50:10,970 INFO  [LoggerUtils] Employee Location  Selected 
+2019-12-04 15:50:12,137 INFO  [LoggerUtils] Bank Account Number  Entered 
+2019-12-04 15:50:13,260 INFO  [LoggerUtils] UAN Number  Entered 
+2019-12-04 15:50:14,398 INFO  [LoggerUtils] PF Number  Entered 
+2019-12-04 15:50:15,518 INFO  [LoggerUtils] Employement Details Feild, Next Button Clicked 
+2019-12-04 15:50:17,638 INFO  [LoggerUtils] Employee's CTC Entered 
+2019-12-04 15:50:18,760 INFO  [LoggerUtils] Employee's Baisc Salary Entered 
+2019-12-04 15:50:19,885 INFO  [LoggerUtils] Employee's HRA Amount Entered 
+2019-12-04 15:50:21,016 INFO  [LoggerUtils] Employee's Convyence Allowance Entered 
+2019-12-04 15:50:22,156 INFO  [LoggerUtils] Employee's Medical Allowance Entered 
+2019-12-04 15:50:23,283 INFO  [LoggerUtils] Employee's Mobile Allowance Entered 
+2019-12-04 15:50:24,394 INFO  [LoggerUtils] Employee's Executive Allowance Entered 
+2019-12-04 15:50:25,508 INFO  [LoggerUtils] Employee's Insurance Benefit Entered 
+2019-12-04 15:50:26,596 INFO  [LoggerUtils] Employee's Variable Pay Entered 
+2019-12-04 15:50:27,723 INFO  [LoggerUtils] Employee's EPF Amount Entered 
+2019-12-04 15:50:28,812 INFO  [LoggerUtils] Employee's Joining Bonus Enterd 
+2019-12-04 15:50:29,906 INFO  [LoggerUtils] Employee's Salary Details Entered 
+2019-12-04 15:50:32,052 INFO  [LoggerUtils] Finish Button Clicked 
+2019-12-04 15:50:33,145 INFO  [LoggerUtils] Proceed Ok button Clicked 
+2019-12-04 15:50:36,214 INFO  [LoggerUtils] Employee Updated Successfully 
+2019-12-04 15:50:37,087 INFO  [LoggerUtils] Ok Button Clicked 
+2019-12-04 15:50:37,686 INFO  [LoggerUtils] Driver tear down 
+2019-12-04 15:50:37,762 INFO  [LoggerUtils] Test Completed Successfully - newemp_003 
+2019-12-04 15:50:37,838 INFO  [LoggerUtils] ****************************************** 
+2019-12-04 15:50:37,838 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2019-12-04 15:50:37,838 INFO  [LoggerUtils] ****************************************** 
+2019-12-04 15:50:41,410 INFO  [LoggerUtils] Driver Setup 
+2019-12-04 15:50:43,068 INFO  [LoggerUtils] User Name: admin 
+2019-12-04 15:50:43,156 INFO  [LoggerUtils] Password: password 
+2019-12-04 15:50:47,650 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-12-04 15:50:48,738 INFO  [LoggerUtils] Employee Menu clicked 
+2019-12-04 15:50:50,461 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-12-04 15:50:51,612 INFO  [LoggerUtils] Employee Searching... 
+2019-12-04 15:50:53,713 INFO  [LoggerUtils] Employee Found 
+2019-12-04 15:50:55,843 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-12-04 15:50:59,273 INFO  [LoggerUtils] Permanant Address Entered 
+2019-12-04 15:51:01,608 INFO  [LoggerUtils] Communication Address  Entered 
+2019-12-04 15:51:03,815 INFO  [LoggerUtils] Contact Number  Entered 
+2019-12-04 15:51:06,019 INFO  [LoggerUtils] Emergency Contact Number Entered 
+2019-12-04 15:51:08,220 INFO  [LoggerUtils] Emergency Contact Relation Selected 
+2019-12-04 15:51:11,447 INFO  [LoggerUtils] Upload Document Menu Clicked 
+2019-12-04 15:51:12,574 INFO  [LoggerUtils] Finish Button Clicked 
+2019-12-04 15:51:13,669 INFO  [LoggerUtils] Proceed Ok button Clicked 
+2019-12-04 15:51:16,735 INFO  [LoggerUtils] Employee Created Successfully 
+2019-12-04 15:51:17,116 INFO  [LoggerUtils] Ok Button Clicked 
+2019-12-04 15:51:17,703 INFO  [LoggerUtils] Driver tear down 
+2019-12-04 15:51:17,787 INFO  [LoggerUtils] Test Completed Successfully - editemp_001 
+2019-12-04 15:51:17,871 INFO  [LoggerUtils] ****************************************** 
+2019-12-04 15:51:17,871 INFO  [LoggerUtils] Test Case ID: editemp_002 
+2019-12-04 15:51:17,871 INFO  [LoggerUtils] ****************************************** 
+2019-12-04 15:51:21,247 INFO  [LoggerUtils] Driver Setup 
+2019-12-04 15:51:22,177 INFO  [LoggerUtils] User Name: admin 
+2019-12-04 15:51:22,259 INFO  [LoggerUtils] Password: password 
+2019-12-04 15:51:26,992 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-12-04 15:51:28,098 INFO  [LoggerUtils] Employee Menu clicked 
+2019-12-04 15:51:29,907 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-12-04 15:51:31,064 INFO  [LoggerUtils] Employee Searching... 
+2019-12-04 15:51:33,168 INFO  [LoggerUtils] Employee Found 
+2019-12-04 15:51:35,001 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-12-04 15:51:37,123 INFO  [LoggerUtils] Education Details Menu Clicked 
+2019-12-04 15:51:38,237 INFO  [LoggerUtils] Adding more education details 
+2019-12-04 15:51:39,356 INFO  [LoggerUtils] Adding Qualifications Details.. 
+2019-12-04 15:51:40,465 INFO  [LoggerUtils] Adding Year of Passing Details.. 
+2019-12-04 15:51:41,564 INFO  [LoggerUtils] Adding University Details.. 
+2019-12-04 15:51:42,656 INFO  [LoggerUtils] Adding Percentage Details.. 
+2019-12-04 15:51:43,775 INFO  [LoggerUtils] Adding more education details 
+2019-12-04 15:51:44,886 INFO  [LoggerUtils] Adding Qualifications Details.. 
+2019-12-04 15:51:45,996 INFO  [LoggerUtils] Adding Year of Passing Details.. 
+2019-12-04 15:51:47,121 INFO  [LoggerUtils] Adding University Details.. 
+2019-12-04 15:51:48,234 INFO  [LoggerUtils] Adding Percentage Details.. 
+2019-12-04 15:51:51,359 INFO  [LoggerUtils] Upload Document Menu Clicked 
+2019-12-04 15:51:52,489 INFO  [LoggerUtils] Finish Button Clicked 
+2019-12-04 15:51:53,599 INFO  [LoggerUtils] Proceed Ok button Clicked 
+2019-12-04 15:52:00,850 INFO  [LoggerUtils] Employee Created Successfully 
+2019-12-04 15:52:01,465 INFO  [LoggerUtils] Ok Button Clicked 
+2019-12-04 15:52:02,062 INFO  [LoggerUtils] Driver tear down 
+2019-12-04 15:52:02,114 INFO  [LoggerUtils] Test Completed Successfully - editemp_002 
+2019-12-04 15:52:02,183 INFO  [LoggerUtils] ****************************************** 
+2019-12-04 15:52:02,183 INFO  [LoggerUtils] Test Case ID: editemp_003 
+2019-12-04 15:52:02,183 INFO  [LoggerUtils] ****************************************** 
+2019-12-04 15:52:05,575 INFO  [LoggerUtils] Driver Setup 
+2019-12-04 15:52:06,837 INFO  [LoggerUtils] User Name: admin 
+2019-12-04 15:52:06,925 INFO  [LoggerUtils] Password: password 
+2019-12-04 15:52:12,963 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-12-04 15:52:14,055 INFO  [LoggerUtils] Employee Menu clicked 
+2019-12-04 15:52:15,941 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-12-04 15:52:17,076 INFO  [LoggerUtils] Employee Searching... 
+2019-12-04 15:52:19,174 INFO  [LoggerUtils] Employee Found 
+2019-12-04 15:52:20,966 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-12-04 15:52:23,087 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-12-04 15:52:26,359 INFO  [LoggerUtils] Employee Status Probation / Confirmed   Updated 
+2019-12-04 15:52:30,532 INFO  [LoggerUtils] Upload Document Menu Clicked 
+2019-12-04 15:52:31,641 INFO  [LoggerUtils] Finish Button Clicked 
+2019-12-04 15:52:32,730 INFO  [LoggerUtils] Proceed Ok button Clicked 
+2019-12-04 15:54:12,042 INFO  [LoggerUtils] ****************************************** 
+2019-12-04 15:54:12,043 INFO  [LoggerUtils] Test Case ID: editemp_003 
+2019-12-04 15:54:12,043 INFO  [LoggerUtils] ****************************************** 
+2019-12-04 15:54:16,784 INFO  [LoggerUtils] Driver Setup 
+2019-12-04 15:54:17,861 INFO  [LoggerUtils] User Name: admin 
+2019-12-04 15:54:17,958 INFO  [LoggerUtils] Password: password 
+2019-12-04 15:54:22,425 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-12-04 15:54:23,516 INFO  [LoggerUtils] Employee Menu clicked 
+2019-12-04 15:54:25,611 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-12-04 15:54:26,771 INFO  [LoggerUtils] Employee Searching... 
+2019-12-04 15:54:28,873 INFO  [LoggerUtils] Employee Found 
+2019-12-04 15:54:30,568 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-12-04 15:54:32,691 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-12-04 15:54:35,952 INFO  [LoggerUtils] Employee Status Probation / Confirmed   Updated 
+2019-12-04 15:54:40,129 INFO  [LoggerUtils] Upload Document Menu Clicked 
+2019-12-04 15:54:41,254 INFO  [LoggerUtils] Finish Button Clicked 
+2019-12-04 15:54:42,345 INFO  [LoggerUtils] Proceed Ok button Clicked 
+2019-12-04 15:54:49,611 INFO  [LoggerUtils] Employee Created Successfully 
+2019-12-04 15:54:50,136 INFO  [LoggerUtils] Ok Button Clicked 
+2019-12-04 15:54:50,766 INFO  [LoggerUtils] Driver tear down 
+2019-12-04 15:54:50,945 INFO  [LoggerUtils] Test Completed Successfully - editemp_003 
+2019-12-04 15:54:50,992 INFO  [LoggerUtils] ****************************************** 
+2019-12-04 15:54:50,992 INFO  [LoggerUtils] Test Case ID: editemp_004 
+2019-12-04 15:54:50,992 INFO  [LoggerUtils] ****************************************** 
+2019-12-04 15:54:54,432 INFO  [LoggerUtils] Driver Setup 
+2019-12-04 15:54:55,447 INFO  [LoggerUtils] User Name: admin 
+2019-12-04 15:54:55,543 INFO  [LoggerUtils] Password: password 
+2019-12-04 15:54:59,978 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-12-04 15:55:01,063 INFO  [LoggerUtils] Employee Menu clicked 
+2019-12-04 15:55:03,168 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-12-04 15:55:04,286 INFO  [LoggerUtils] Employee Searching... 
+2019-12-04 15:55:06,377 INFO  [LoggerUtils] Employee Found 
+2019-12-04 15:55:08,238 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-12-04 15:55:10,388 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-12-04 15:55:11,518 INFO  [LoggerUtils] Menu Employee Salary Details Clicked 
+2019-12-04 15:55:14,696 INFO  [LoggerUtils] Trainee's  Stipend Updated 
+2019-12-04 15:55:18,804 INFO  [LoggerUtils] Upload Document Menu Clicked 
+2019-12-04 15:55:19,919 INFO  [LoggerUtils] Finish Button Clicked 
+2019-12-04 15:55:21,017 INFO  [LoggerUtils] Proceed Ok button Clicked 
+2019-12-04 15:55:24,103 INFO  [LoggerUtils] Employee Created Successfully 
+2019-12-04 15:55:24,497 INFO  [LoggerUtils] Ok Button Clicked 
+2019-12-04 15:55:25,106 INFO  [LoggerUtils] Driver tear down 
+2019-12-04 15:55:25,162 INFO  [LoggerUtils] Test Completed Successfully - editemp_004 
+2019-12-04 15:55:25,197 INFO  [LoggerUtils] ****************************************** 
+2019-12-04 15:55:25,197 INFO  [LoggerUtils] Test Case ID: editemp_005 
+2019-12-04 15:55:25,197 INFO  [LoggerUtils] ****************************************** 
+2019-12-04 15:55:28,779 INFO  [LoggerUtils] Driver Setup 
+2019-12-04 15:55:29,738 INFO  [LoggerUtils] User Name: admin 
+2019-12-04 15:55:29,818 INFO  [LoggerUtils] Password: password 
+2019-12-04 15:55:34,382 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-12-04 15:55:35,440 INFO  [LoggerUtils] Employee Menu clicked 
+2019-12-04 15:55:37,102 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-12-04 15:55:38,251 INFO  [LoggerUtils] Employee Searching... 
+2019-12-04 15:55:40,345 INFO  [LoggerUtils] Employee Found 
+2019-12-04 15:55:42,259 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-12-04 15:55:44,410 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-12-04 15:55:45,520 INFO  [LoggerUtils] Menu Employee Salary Details Clicked 
+2019-12-04 15:55:48,716 INFO  [LoggerUtils] Contractual's  Consulation Fees Updated 
+2019-12-04 15:55:52,819 INFO  [LoggerUtils] Upload Document Menu Clicked 
+2019-12-04 15:55:53,941 INFO  [LoggerUtils] Finish Button Clicked 
+2019-12-04 15:55:55,032 INFO  [LoggerUtils] Proceed Ok button Clicked 
+2019-12-04 15:55:58,119 INFO  [LoggerUtils] Employee Created Successfully 
+2019-12-04 15:55:58,519 INFO  [LoggerUtils] Ok Button Clicked 
+2019-12-04 15:55:59,119 INFO  [LoggerUtils] Driver tear down 
+2019-12-04 15:55:59,195 INFO  [LoggerUtils] Test Completed Successfully - editemp_005 
+2019-12-04 15:55:59,256 INFO  [LoggerUtils] ****************************************** 
+2019-12-04 15:55:59,256 INFO  [LoggerUtils] Test Case ID: editemp_006 
+2019-12-04 15:55:59,256 INFO  [LoggerUtils] ****************************************** 
+2019-12-04 15:56:02,814 INFO  [LoggerUtils] Driver Setup 
+2019-12-04 15:56:03,878 INFO  [LoggerUtils] User Name: admin 
+2019-12-04 15:56:03,963 INFO  [LoggerUtils] Password: password 
+2019-12-04 15:56:08,466 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-12-04 15:56:09,556 INFO  [LoggerUtils] Employee Menu clicked 
+2019-12-04 15:56:11,539 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-12-04 15:56:12,703 INFO  [LoggerUtils] Employee Searching... 
+2019-12-04 15:56:14,794 INFO  [LoggerUtils] Employee Found 
+2019-12-04 15:56:16,525 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-12-04 15:56:18,650 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-12-04 15:56:19,800 INFO  [LoggerUtils] Menu Employee Salary Details Clicked 
+2019-12-04 15:56:23,002 INFO  [LoggerUtils] Employee's CTC Updated 
+2019-12-04 15:56:25,200 INFO  [LoggerUtils] Employee's Baisc Salary Updated 
+2019-12-04 15:56:27,397 INFO  [LoggerUtils] Employee's HRA Amount Updated 
+2019-12-04 15:56:29,591 INFO  [LoggerUtils] Employee's Convyence Allowance Updated 
+2019-12-04 15:56:31,764 INFO  [LoggerUtils] Employee's Medical Allowance Updated 
+2019-12-04 15:56:33,939 INFO  [LoggerUtils] Employee's Mobile Allowance Updated 
+2019-12-04 15:56:36,091 INFO  [LoggerUtils] Employee's Executive Allowance Updated 
+2019-12-04 15:56:38,268 INFO  [LoggerUtils] Employee's Insurance Benefit Updated 
+2019-12-04 15:56:40,430 INFO  [LoggerUtils] Employee's Variable Pay Updated 
+2019-12-04 15:56:42,605 INFO  [LoggerUtils] Employee's EPF Amount Updated 
+2019-12-04 15:56:44,756 INFO  [LoggerUtils] Employee's Joining Bonus Updated 
+2019-12-04 15:56:47,864 INFO  [LoggerUtils] Upload Document Menu Clicked 
+2019-12-04 15:56:48,983 INFO  [LoggerUtils] Finish Button Clicked 
+2019-12-04 15:56:50,093 INFO  [LoggerUtils] Proceed Ok button Clicked 
+2019-12-04 15:56:53,158 INFO  [LoggerUtils] Employee Created Successfully 
+2019-12-04 15:56:53,588 INFO  [LoggerUtils] Ok Button Clicked 
+2019-12-04 15:56:54,393 INFO  [LoggerUtils] Driver tear down 
+2019-12-04 15:56:54,457 INFO  [LoggerUtils] Test Completed Successfully - editemp_006 
+2019-12-04 16:10:52,131 INFO  [LoggerUtils] ****************************************** 
+2019-12-04 16:10:52,131 INFO  [LoggerUtils] Test Case ID: editemp_007 
+2019-12-04 16:10:52,131 INFO  [LoggerUtils] ****************************************** 
+2019-12-04 16:10:56,803 INFO  [LoggerUtils] Driver Setup 
+2019-12-04 16:10:58,325 INFO  [LoggerUtils] User Name: admin 
+2019-12-04 16:10:58,421 INFO  [LoggerUtils] Password: password 
+2019-12-04 16:11:03,329 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-12-04 16:11:04,418 INFO  [LoggerUtils] Employee Menu clicked 
+2019-12-04 16:11:06,540 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-12-04 16:11:07,679 INFO  [LoggerUtils] Employee Searching... 
+2019-12-04 16:11:09,773 INFO  [LoggerUtils] Employee Found 
+2019-12-04 16:11:11,495 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2019-12-04 16:11:13,642 INFO  [LoggerUtils] Menu Employment Details Clicked  
+2019-12-04 16:11:15,845 INFO  [LoggerUtils] Employee Exit date entered 
+2019-12-04 16:11:18,059 INFO  [LoggerUtils] Employee Status Changed 
+2019-12-04 16:11:22,221 INFO  [LoggerUtils] Upload Document Menu Clicked 
+2019-12-04 16:11:23,357 INFO  [LoggerUtils] Finish Button Clicked 
+2019-12-04 16:11:24,473 INFO  [LoggerUtils] Proceed Ok button Clicked 
+2019-12-04 16:11:31,754 INFO  [LoggerUtils] Employee Created Successfully 
+2019-12-04 16:11:32,405 INFO  [LoggerUtils] Ok Button Clicked 
+2019-12-04 16:11:33,019 INFO  [LoggerUtils] Driver tear down 
+2019-12-04 16:11:33,215 INFO  [LoggerUtils] Test Completed Successfully - editemp_007 
