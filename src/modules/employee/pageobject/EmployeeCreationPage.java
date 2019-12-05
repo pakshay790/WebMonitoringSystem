@@ -530,7 +530,21 @@ public class EmployeeCreationPage {
 		return element;
 	}
 	
+	public static WebElement txtSearchEmp (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@class='form-control input-sm']")));
+		return element;
+	}
 	
+	public static WebElement txtEmpID (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/section[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[2]/table[1]/tbody[1]/tr[1]/td[1]")));
+		return element;
+	}
 	
 
 	

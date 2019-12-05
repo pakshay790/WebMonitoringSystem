@@ -368,8 +368,22 @@ public class EmployeeCreationTest {
 				WebElement btnOk = EmployeeCreationPage.btnDailogOK(driver);
 				btnOk.click();
 				LoggerUtils.logInfo("Ok Button Clicked");
+				Thread.sleep(2000);
+				
+				WebElement txtSearch = EmployeeCreationPage.txtSearchEmp(driver);
+				txtSearch.sendKeys(datArr[10]);
+				LoggerUtils.logInfo("Employee Searching Using Aadhaar Card No.");
+				Thread.sleep(1000);
+				
+				WebElement txtEmpID = EmployeeCreationPage.txtEmpID(driver);
+				String empID = txtEmpID.getText();
+				System.out.println("Employee ID: "+empID);
+				LoggerUtils.logInfo("Employee ID is : "+empID);
+				Thread.sleep(2000);
+				
+				
 				hMapRetObj.put("testRunStatus", Globals.PASS);
-				hMapRetObj.put("depUpdateVal", datArr[10]);
+				hMapRetObj.put("depUpdateVal", empID);
 			}
 			else {
 				LoggerUtils.logInfo("Unable to update employee");
