@@ -13,7 +13,7 @@ public class TestExecution {
 //				TestDriver.tDriver(testCases[i],"EmployeeConfig","NewEmp");
 //			}
 			
-		String testCasesNew [] = {"editemp_004"};
+		String testCasesNew [] = {"editemp_001"};
 //		String testCasesNew [] = {"editemp_001","editemp_002","editemp_003","editemp_004","editemp_005","editemp_006"};
 //	
 			for (int i = 0; i < testCasesNew.length; i++) {
@@ -22,6 +22,17 @@ public class TestExecution {
 			
 			
 	}
+	
+//	public String getMessage(){
+//		System.out.println("This is HRMS Automation Project");
+//		String testCasesNew [] = {"editemp_001"};
+////		String testCasesNew [] = {"editemp_001","editemp_002","editemp_003","editemp_004","editemp_005","editemp_006"};
+////	
+//			for (int i = 0; i < testCasesNew.length; i++) {
+//				 TestDriver.tDriver(testCasesNew[i],"EmployeeConfig","EditEmp");
+//			}
+//        return "Hello World, This is HRMS Automation Project";
+//    }
 
 }
 

@@ -6,24 +6,14 @@ import java.util.concurrent.TimeUnit;
 
 import utility.ExcelUtils;
 import utility.LoggerUtils;
-import utility.TLHelper;
-
-
 import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.markuputils.ExtentColor;
-import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-import gtlib.Genlib;
 import projlib.Globals;
 
-import org.apache.commons.lang3.ObjectUtils.Null;
 import org.apache.commons.lang3.time.StopWatch;
-import org.openqa.selenium.WebDriver;
 
 public class TestDriver 
 {
@@ -45,7 +35,7 @@ public class TestDriver
 		// report title
 		htmlReporter.config().setDocumentTitle("Future Generali - Regression Run");
 
-		// encoding, default = UTF-8
+		// encoding, default = UTF-8 
 		htmlReporter.config().setEncoding("UTF-8");
 
 		// protocol (http, https)
@@ -71,15 +61,14 @@ public class TestDriver
 		
 	}
 	
-	
-    public static void tDriver(String testId, String testConfig, String testConfigSheet)
+	public static void tDriver(String testId, String testConfig, String testConfigSheet)
     {
     	//String testRunStatus = "F";
     	int colCount = 0;
     	int rowNum = 0;
         String sheetName = "";
         String datFile = "";
-    	LoggerUtils.loggerSetup();
+//    	LoggerUtils.loggerSetup();
         String strData = "";
         HashMap<String, String> hMapConfig = new HashMap<String, String>();
         HashMap<String, String> hMapRetObj = new HashMap<String, String>();
@@ -167,7 +156,7 @@ public class TestDriver
             	}
             	System.out.println("Test Completed Successfully - " + testId);
 //            	test.pass("Test Completed Successfully - " + testId);
-            	LoggerUtils.logInfo("Test Completed Successfully - " + testId);            	
+           	LoggerUtils.logInfo("Test Completed Successfully - " + testId);            	
             }
             else
             {

@@ -4,16 +4,10 @@ import java.io.File;
 import java.util.HashMap;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.poi.hdgf.chunks.Chunk.Command;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-
-import com.aventstack.extentreports.ExtentTest;
-import com.gargoylesoftware.htmlunit.javascript.host.media.webkitMediaStream;
-
 import gtlib.Genlib;
 import modules.common.CommPageObject;
 import modules.employee.pageobject.EmployeeCreationPage;
@@ -27,7 +21,7 @@ public class EmployeeCreationTest {
 
 	public static HashMap<String, String> NewEmp(String strData,  String depVal) throws Exception {
 		/*
-		 * Farmer Registration with voter id
+		 * Employee Creation
 		 */
 		HashMap<String, String> hMapRetObj = new HashMap<String, String>();
 		hMapRetObj.put("testRunStatus", Globals.FAIL);

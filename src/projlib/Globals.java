@@ -8,7 +8,7 @@ public class Globals
 {
 	
 	static Properties prop = Genlib.readConfig("config.properties");
-	
+//	static Properties prop = Genlib.readConfig("E:/Project/HRMSAutomation/config.properties");
 	public static final String LOGIN_URL = prop.getProperty("loginUrl");
 	public static final String TESTS_ROOT = prop.getProperty("testsRoot");
 	public static final String CONFIG_FILE_DIR = prop.getProperty("configFileDir");
@@ -31,10 +31,12 @@ public class Globals
 	public static final String EXTENT_REPORT = prop.getProperty("extentReport");
 	
 	static Properties sysMsgProp = Genlib.readConfig("SystemMessages.properties");
+//	static Properties sysMsgProp = Genlib.readConfig("E:/Project/HRMSAutomation/SystemMessages.properties");
 	public static final String EMP_CREATED_SUCCESS = sysMsgProp.getProperty("empCreatedSuccess");
 	public static final String EMP_UPDATED_SUCCESS = sysMsgProp.getProperty("empUpdatedSuccess");
 	
 	static Properties constantProp = Genlib.readConfig("Constant.properties");
+//	static Properties constantProp = Genlib.readConfig("E:/Project/HRMSAutomation/Constant.properties");
 	public static final String TRAINEE = constantProp.getProperty("trainee");
 	public static final String CONTRACTUAL = constantProp.getProperty("contractual");
 	public static final String PERMANENT = constantProp.getProperty("permanant");

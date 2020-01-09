@@ -2043,3 +2043,99 @@ java.lang.NumberFormatException: For input string: " "
 2019-12-05 11:24:49,452 INFO  [LoggerUtils] Ok Button Clicked 
 2019-12-05 11:24:50,071 INFO  [LoggerUtils] Driver tear down 
 2019-12-05 11:24:50,227 INFO  [LoggerUtils] Test Completed Successfully - editemp_004 
+2019-12-24 14:08:27,368 INFO  [LoggerUtils] ****************************************** 
+2019-12-24 14:08:27,369 INFO  [LoggerUtils] Test Case ID: editemp_004 
+2019-12-24 14:08:27,369 INFO  [LoggerUtils] ****************************************** 
+2019-12-24 14:08:32,381 INFO  [LoggerUtils] Driver Setup 
+2019-12-24 14:08:37,513 INFO  [LoggerUtils] User Name: admin 
+2019-12-24 14:08:37,602 INFO  [LoggerUtils] Password: password 
+2019-12-24 14:08:42,437 INFO  [LoggerUtils] HR Department Menu clicked 
+2019-12-24 14:08:43,533 INFO  [LoggerUtils] Employee Menu clicked 
+2019-12-24 14:08:45,505 INFO  [LoggerUtils] ViewEmployee Menu clicked 
+2019-12-24 14:08:46,674 INFO  [LoggerUtils] Employee Searching... 
+2019-12-24 14:08:48,760 INFO  [LoggerUtils] Employee Found 
+2019-12-24 14:08:50,490 INFO  [LoggerUtils] Edit  Employee Button Clicked 
+2020-01-03 12:41:06,903 INFO  [LoggerUtils] ****************************************** 
+2020-01-03 12:41:06,903 INFO  [LoggerUtils] Test Case ID: editemp_004 
+2020-01-03 12:41:06,903 INFO  [LoggerUtils] ****************************************** 
+2020-01-03 12:41:11,953 INFO  [LoggerUtils] Driver Setup 
+2020-01-03 12:41:14,147 INFO  [LoggerUtils] User Name: admin 
+2020-01-03 12:41:14,229 INFO  [LoggerUtils] Password: password 
+2020-01-07 15:19:03,792 INFO  [LoggerUtils] ****************************************** 
+2020-01-07 15:19:03,793 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2020-01-07 15:19:03,793 INFO  [LoggerUtils] ****************************************** 
+2020-01-07 15:19:11,425 INFO  [LoggerUtils] Driver Setup 
+2020-01-07 15:22:21,958 INFO  [LoggerUtils] ****************************************** 
+2020-01-07 15:22:21,959 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2020-01-07 15:22:21,959 INFO  [LoggerUtils] ****************************************** 
+2020-01-07 15:22:26,327 ERROR [LoggerUtils] Error in TestDriver - editemp_001 
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at testDrivers.TestDriver.tDriver(TestDriver.java:142)
+	at modules.execution.TestExecution.main(TestExecution.java:20)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created exception
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=79.0.3945.88)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.38 seconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
+System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: driver.version: TestDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at gtlib.Genlib.webDriverSetUp(Genlib.java:51)
+	at modules.employee.tests.EmployeeEditTest.setUp(EmployeeEditTest.java:428)
+	at modules.employee.tests.EmployeeEditTest.EditEmp(EmployeeEditTest.java:40)
+	... 6 more
+2020-01-08 10:46:41,317 INFO  [LoggerUtils] ****************************************** 
+2020-01-08 10:46:41,318 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2020-01-08 10:46:41,318 INFO  [LoggerUtils] ****************************************** 
+2020-01-08 10:46:46,968 INFO  [LoggerUtils] Driver Setup 
+2020-01-08 10:46:50,181 INFO  [LoggerUtils] User Name: admin 
+2020-01-08 10:46:50,269 INFO  [LoggerUtils] Password: password 
+2020-01-08 11:12:08,291 INFO  [LoggerUtils] ****************************************** 
+2020-01-08 11:12:08,291 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2020-01-08 11:12:08,291 INFO  [LoggerUtils] ****************************************** 
+2020-01-08 11:12:13,101 INFO  [LoggerUtils] Driver Setup 
+2020-01-08 11:12:14,374 INFO  [LoggerUtils] User Name: admin 
+2020-01-08 11:12:14,468 INFO  [LoggerUtils] Password: password 
+2020-01-08 11:12:19,261 INFO  [LoggerUtils] HR Department Menu clicked 
+2020-01-08 11:14:34,863 INFO  [LoggerUtils] ****************************************** 
+2020-01-08 11:14:34,863 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2020-01-08 11:14:34,863 INFO  [LoggerUtils] ****************************************** 
+2020-01-08 11:14:34,894 ERROR [LoggerUtils] Error in TestDriver - editemp_001 
+java.lang.NullPointerException
+	at testDrivers.TestDriver.tDriver(TestDriver.java:93)
+	at modules.execution.TestExecution.main(TestExecution.java:20)
+2020-01-08 16:00:04,342 INFO  [LoggerUtils] ****************************************** 
+2020-01-08 16:00:04,358 INFO  [LoggerUtils] Test Case ID: editemp_001 
+2020-01-08 16:00:04,358 INFO  [LoggerUtils] ****************************************** 
