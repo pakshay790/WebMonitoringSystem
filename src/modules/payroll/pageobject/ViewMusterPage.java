@@ -56,4 +56,11 @@ public class ViewMusterPage {
         return element;
     }
 	
+	public static WebElement btnOK(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='confirm']")));
+        return element;
+    }
 }

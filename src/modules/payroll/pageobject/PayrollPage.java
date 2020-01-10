@@ -24,4 +24,6 @@ public class PayrollPage {
         element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[contains(text(),'Salary Slip Generator')]")));
         return element;
     }
+	
+	
 }

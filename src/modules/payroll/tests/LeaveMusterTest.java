@@ -3,6 +3,8 @@ package modules.payroll.tests;
 import java.io.File;
 import java.util.HashMap;
 
+import javax.swing.text.View;
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -52,6 +54,45 @@ public class LeaveMusterTest {
 			LoggerUtils.logInfo("View Leave Muster Clicked");
 			Thread.sleep(1000);
 			
+			if (arrMetaData[0].equals("SyncLeaveMuster")) {
+				
+				WebElement btnSycn = ViewMusterPage.btnSync(driver);
+				btnSycn.click();
+				LoggerUtils.logInfo("Sync Button Clicked");
+				Thread.sleep(1000);
+				
+			}
+			
+			//Searching employe employee
+			WebElement txtSearch = ViewMusterPage.txtSearch(driver);
+			txtSearch.sendKeys("");
+			LoggerUtils.logInfo("Employee ID Entered");
+			Thread.sleep(1000);
+			
+			WebElement selectSearchEmp = ViewMusterPage.selectSearchRecord(driver);
+			selectSearchEmp.click();
+			LoggerUtils.logInfo("Employee Selected");
+			Thread.sleep(1000);
+			
+			
+			
+			if (arrMetaData[1].equals("AddLeaves")) {
+				
+				WebElement btnAdd = ViewMusterPage.btnAddLeaves(driver);
+				btnAdd.click();
+				LoggerUtils.logInfo("Add Leaves Clicked");
+				Thread.sleep(1000);
+				
+			} 
+			
+			 if (arrMetaData[2].equals("ViewLeaves")) {
+				 
+				 WebElement btnViewLeaves = ViewMusterPage.btnViewLeaves(driver);
+				 btnViewLeaves.click();
+				 LoggerUtils.logInfo("View Button Clicked");
+				 Thread.sleep(1000);
+
+			}
 			
 			
 			
