@@ -23,7 +23,7 @@ public class CalendarPage {
         element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(text(),'Manage Calendars')]")));
         return element;
     }
-
+	
 	public static WebElement selectDate(WebDriver driver, String date)
     {
         WebElement element=null;
@@ -32,6 +32,37 @@ public class CalendarPage {
         return element;
     }
 	
+	public static WebElement btnUpdate(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='submit-calendar']")));
+        return element;
+    }
+	
+	public static WebElement btnAlertOk(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='confirm']")));
+        return element;
+    }
+	
+	public static WebElement txtAlertMsg(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[4]/p[1]")));
+        return element;
+    }
+	
+	public static WebElement btnAlertSubmit(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='confirm']")));
+        return element;
+    }
 	
 	
 }

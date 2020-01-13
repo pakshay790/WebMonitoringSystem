@@ -34,6 +34,8 @@ public class Globals
 //	static Properties sysMsgProp = Genlib.readConfig("E:/Project/HRMSAutomation/SystemMessages.properties");
 	public static final String EMP_CREATED_SUCCESS = sysMsgProp.getProperty("empCreatedSuccess");
 	public static final String EMP_UPDATED_SUCCESS = sysMsgProp.getProperty("empUpdatedSuccess");
+	public static final String CAL_UPDATED_SUCCESS = sysMsgProp.getProperty("calendarUpdatedSuccess");
+
 	
 	static Properties constantProp = Genlib.readConfig("Constant.properties");
 //	static Properties constantProp = Genlib.readConfig("E:/Project/HRMSAutomation/Constant.properties");

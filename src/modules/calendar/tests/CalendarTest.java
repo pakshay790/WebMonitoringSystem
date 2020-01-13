@@ -4,10 +4,13 @@ import java.io.File;
 import java.util.HashMap;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 import gtlib.Genlib;
 import modules.calendar.pageobject.CalendarPage;
@@ -47,10 +50,67 @@ public class CalendarTest {
 			LoggerUtils.logInfo("Calendar Menu Clicked");
 			Thread.sleep(1000);
 			
+			WebElement manageCalendar = CalendarPage.menuManageCalendar(driver);
+			manageCalendar.click();
+			LoggerUtils.logInfo("Managed calendar menu clicked");
+			Thread.sleep(2000);
 			
 			
+			WebElement selectDate = CalendarPage.selectDate(driver,datArr[6]);
+			selectDate.click();
+			LoggerUtils.logInfo("Date Selectted from calendar");
+			Thread.sleep(1500);
 			
+			// Alert Actions for browser alerts
+			Alert alert = driver.switchTo().alert();
+			Thread.sleep(1000);
 			
+			alert.sendKeys(datArr[7]);
+			Thread.sleep(1000);
+			
+			alert.accept();
+			Thread.sleep(1500);
+			
+			Actions action = new Actions(driver);
+			action.sendKeys(Keys.PAGE_DOWN).build().perform();
+			Thread.sleep(1500);
+			
+			WebElement btnUpdate = CalendarPage.btnUpdate(driver);
+			btnUpdate.click();
+			LoggerUtils.logInfo("Update Button Clicked");
+			Thread.sleep(1000);
+			
+			WebElement btnAlertOk = CalendarPage.btnAlertOk(driver);
+			btnAlertOk.click();
+			LoggerUtils.logInfo(" AlertOk Button Clicked");
+			
+			Thread.sleep(2000);
+			
+			WebElement txtMSG = CalendarPage.txtAlertMsg(driver);
+			String alertMSG = txtMSG.getText();
+			Thread.sleep(1000);
+			
+			if (alertMSG.equals(Globals.CAL_UPDATED_SUCCESS)) {
+				
+				WebElement btnSubmit = CalendarPage.btnAlertSubmit(driver);
+				btnSubmit.click();
+				LoggerUtils.logInfo("Calendar Updated Successfully");
+				Thread.sleep(1000);
+				
+				hMapRetObj.put("testRunStatus", Globals.PASS);
+				hMapRetObj.put("depUpdateVal", "");
+				
+			} else {
+				
+				WebElement btnSubmit = CalendarPage.btnAlertSubmit(driver);
+				btnSubmit.click();
+				LoggerUtils.logInfo("Unable to Update Calendar");
+				Thread.sleep(1000);
+				
+
+				hMapRetObj.put("testRunStatus", Globals.FAIL);
+				hMapRetObj.put("depUpdateVal", "");
+			}
 			
 		} catch (Exception e) {
 			LoggerUtils.logError("Exception In Employee Creation : ", e);
