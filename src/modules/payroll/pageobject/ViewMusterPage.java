@@ -63,4 +63,5 @@ public class ViewMusterPage {
         element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='confirm']")));
         return element;
     }
+	//button[@class='confirm']
 }

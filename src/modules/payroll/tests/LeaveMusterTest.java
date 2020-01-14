@@ -3,8 +3,6 @@ package modules.payroll.tests;
 import java.io.File;
 import java.util.HashMap;
 
-import javax.swing.text.View;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -34,7 +32,7 @@ public class LeaveMusterTest {
 
 		String[] datArr = strData.split("\\|");
 		String[] arrMetaData = datArr[3].split("\\,");
-
+		String[] arrDepVal = depVal.split("\\|");
 		try {
 			testSetUp(driver, datArr);
 			Genlib.sleep(2000);
@@ -61,11 +59,17 @@ public class LeaveMusterTest {
 				LoggerUtils.logInfo("Sync Button Clicked");
 				Thread.sleep(1000);
 				
+				WebElement btnAlertOK = ViewMusterPage.btnOK(driver);
+				btnAlertOK.click();
+				Thread.sleep(1000);
+				btnAlertOK.click();
+				LoggerUtils.logInfo("Alert Ok Button Clicked");
+				
 			}
-			
+			Thread.sleep(1000);
 			//Searching employe employee
 			WebElement txtSearch = ViewMusterPage.txtSearch(driver);
-			txtSearch.sendKeys("");
+			txtSearch.sendKeys(arrDepVal[0]);
 			LoggerUtils.logInfo("Employee ID Entered");
 			Thread.sleep(1000);
 			

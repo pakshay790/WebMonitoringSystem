@@ -1,9 +1,7 @@
 package utility;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -16,11 +14,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Row.MissingCellPolicy;
 import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.CellType;
-
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
-import projlib.Globals;
 
 public class ExcelUtils {
 	public static List readExcelData(String file, String sheetName, int colCount) throws Exception {
