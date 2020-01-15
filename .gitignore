@@ -1,0 +1,8 @@
+*.classpath
+*.project
+screenshots/
+test-output/
+.settings/org.eclipse.jdt.core.prefs
+bin/
+driver/
+

@@ -216,3 +216,37 @@ java.lang.ArrayIndexOutOfBoundsException: 2
 	at modules.execution.TestExecution.main(TestExecution.java:22)
 2020-01-14 12:52:18,986 INFO  [LoggerUtils] Driver tear down 
 2020-01-14 12:52:18,987 INFO  [LoggerUtils] Test Failed - leavemuster_001 
+2020-01-15 22:26:59,886 INFO  [LoggerUtils] ****************************************** 
+2020-01-15 22:26:59,902 INFO  [LoggerUtils] Test Case ID: leavemuster_001 
+2020-01-15 22:26:59,902 INFO  [LoggerUtils] ****************************************** 
+2020-01-15 22:27:13,302 INFO  [LoggerUtils] Driver Setup 
+2020-01-15 22:27:15,873 INFO  [LoggerUtils] User Name: admin 
+2020-01-15 22:27:15,939 INFO  [LoggerUtils] Password: password 
+2020-01-15 22:27:22,729 INFO  [LoggerUtils] Payroll Department Menu clicked 
+2020-01-15 22:27:23,816 INFO  [LoggerUtils] Leave Muster Menu Clicked 
+2020-01-15 22:27:27,499 INFO  [LoggerUtils] View Leave Muster Clicked 
+2020-01-15 22:27:28,596 INFO  [LoggerUtils] Sync Button Clicked 
+2020-01-15 22:27:30,723 INFO  [LoggerUtils] Alert Ok Button Clicked 
+2020-01-15 22:27:31,792 INFO  [LoggerUtils] Employee ID Entered 
+2020-01-15 22:27:33,137 INFO  [LoggerUtils] Employee Selected 
+2020-01-15 22:27:34,223 INFO  [LoggerUtils] Add Leaves Clicked 
+2020-01-15 22:27:35,224 ERROR [LoggerUtils] Exception In Employee Creation :  
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at modules.payroll.tests.LeaveMusterTest.ViewMuster(LeaveMusterTest.java:92)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at testDrivers.TestDriver.tDriver(TestDriver.java:141)
+	at modules.execution.TestExecution.main(TestExecution.java:22)
+2020-01-15 22:27:35,681 ERROR [LoggerUtils] Failed in test case execution 
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at modules.payroll.tests.LeaveMusterTest.ViewMuster(LeaveMusterTest.java:92)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at testDrivers.TestDriver.tDriver(TestDriver.java:141)
+	at modules.execution.TestExecution.main(TestExecution.java:22)
+2020-01-15 22:27:36,285 INFO  [LoggerUtils] Driver tear down 
+2020-01-15 22:27:36,286 INFO  [LoggerUtils] Test Failed - leavemuster_001 
