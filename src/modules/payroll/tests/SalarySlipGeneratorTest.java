@@ -48,7 +48,7 @@ public class SalarySlipGeneratorTest {
 			Thread.sleep(1000);
 			
 			
-			// Sync all records+
+			// Sync all records
 			 
 			if (arrMetaData[0].equals("SyncRecords")) {
 				
@@ -73,6 +73,8 @@ public class SalarySlipGeneratorTest {
 			txtSearch.sendKeys(datArr[6]);
 			LoggerUtils.logInfo("Text Entered in search box");
 			Thread.sleep(1000);
+			
+			
 			
 			
 			

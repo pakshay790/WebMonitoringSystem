@@ -498,6 +498,22 @@ public class EmployeeCreationPage {
 	
 	// Employee's Document Page Object
 	
+	public static WebElement btnChooseFile (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@name='emp_doc_1']")));
+		return element;
+	}
+	
+	public static WebElement txtDocType (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='emp_doc_type_1']")));
+		return element;
+	}
+	
 	public static WebElement btnFinish (WebDriver driver)
 	{
 		WebElement element=null;

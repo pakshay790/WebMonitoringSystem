@@ -142,6 +142,16 @@ public class EmployeeCreationTest {
 			LoggerUtils.logInfo("Emergency Contact Relation Selected");
 			Thread.sleep(1000);
 			
+			if (datArr[21].equals("YES")) {
+				WebElement btnUpload = EmployeeCreationPage.btnChoosePhoto(driver);
+				btnUpload.click();
+				Thread.sleep(1000);
+				
+				Runtime.getRuntime().exec(Globals.PROG_EMP_PHOTO);
+				Thread.sleep(3000);
+			}
+			
+			
 			WebElement btnNext = EmployeeCreationPage.btnPerDetNext(driver);
 			btnNext.click();
 			LoggerUtils.logInfo("Personal Details Filed, Next Button Clicked");
@@ -341,6 +351,25 @@ public class EmployeeCreationTest {
 				LoggerUtils.logInfo("Employee's Salary Details Entered");
 				Thread.sleep(2000);
 			}	
+			
+			// Employee Documents upload
+			if (datArr[51].equals("YES")) 
+			{
+				WebElement btnChooseFile = EmployeeCreationPage.btnChooseFile(driver);
+				btnChooseFile.click();
+				LoggerUtils.logInfo("Choose File Button Clicked");
+				Thread.sleep(2000);
+				
+				Runtime.getRuntime().exec(Globals.PROG_EMP_DOC);
+				Thread.sleep(3000);
+				
+				WebElement txtDocName = EmployeeCreationPage.txtDocType(driver);
+				txtDocName.sendKeys(datArr[52]);
+				LoggerUtils.logInfo("Document Type Entered");
+				Thread.sleep(1000);
+				
+			}
+			
 			
 			WebElement btnFinish = EmployeeCreationPage.btnFinish(driver);
 			btnFinish.click();

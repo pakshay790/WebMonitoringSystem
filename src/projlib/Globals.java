@@ -27,7 +27,8 @@ public class Globals
 	public static final String FAIL = "F";
 	public static final String PASS = "P";
 	public static final String EXCEPTION = "E";
-	public static final String PROG_FILEUPLOAD = prop.getProperty("fileUpload");
+	public static final String PROG_EMP_PHOTO = prop.getProperty("empPhoto");
+	public static final String PROG_EMP_DOC = prop.getProperty("empDocument");
 	public static final String EXTENT_REPORT = prop.getProperty("extentReport");
 	
 	static Properties sysMsgProp = Genlib.readConfig("SystemMessages.properties");

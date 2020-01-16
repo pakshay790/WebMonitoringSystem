@@ -63,4 +63,12 @@ public class SalarySlipGeneratorPage {
         return element;
     }
 	
+	public static WebElement selectSearchRecords(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@class='form-control input-sm']")));
+        return element;
+    }
+	
 }
