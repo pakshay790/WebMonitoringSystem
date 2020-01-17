@@ -63,12 +63,46 @@ public class SalarySlipGeneratorPage {
         return element;
     }
 	
-	public static WebElement selectSearchRecords(WebDriver driver)
+	public static WebElement selectSearchRecord(WebDriver driver)
     {
         WebElement element=null;
         WebDriverWait wait=new WebDriverWait(driver, 50);
-        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@class='form-control input-sm']")));
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//tr[1]//td[1]")));
         return element;
     }
+	
+	public static WebElement iconProcessSal(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//i[contains(text(),'add')]")));
+        return element;
+    }
+	
+	public static WebElement btnProcessSalary(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='process-salary']")));
+        return element;
+    }
+	
+	public static WebElement btnAlertOk(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='confirm']")));
+        return element;
+    }
+	
+	public static WebElement txtMessage(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[6]/p[1]")));
+        return element;
+    }
+	
+	
 	
 }

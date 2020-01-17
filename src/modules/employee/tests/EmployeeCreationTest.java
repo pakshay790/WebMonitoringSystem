@@ -406,7 +406,7 @@ public class EmployeeCreationTest {
 				
 				
 				hMapRetObj.put("testRunStatus", Globals.PASS);
-				hMapRetObj.put("depUpdateVal", empID);
+				hMapRetObj.put("depUpdateVal", datArr[10]+","+ empID);
 			}
 			else {
 				LoggerUtils.logInfo("Unable to update employee");

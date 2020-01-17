@@ -74,10 +74,54 @@ public class SalarySlipGeneratorTest {
 			LoggerUtils.logInfo("Text Entered in search box");
 			Thread.sleep(1000);
 			
+			WebElement selectRec = SalarySlipGeneratorPage.selectSearchRecord(driver);
+			selectRec.click();
+			LoggerUtils.logInfo("Search Record Selected");
+			Thread.sleep(1000);
 			
+			WebElement iconProcessSal = SalarySlipGeneratorPage.iconProcessSal(driver);
+			iconProcessSal.click();
+			LoggerUtils.logInfo("Process Salary Icon Clicked");
+			Thread.sleep(1000);
 			
+			// Processing Salary 
 			
+			WebElement btnProcessSal = SalarySlipGeneratorPage.btnProcessSalary(driver);
+			btnProcessSal.click();
+			LoggerUtils.logInfo("Process Salary Button Clicked");
+			Thread.sleep(2000);
 			
+			WebElement btnCon = SalarySlipGeneratorPage.btnAlertOk(driver);
+			btnCon.click();
+			LoggerUtils.logInfo("Confirmation Ok Button Clicked");
+			Thread.sleep(1000);
+			
+			WebElement txtMessage = SalarySlipGeneratorPage.txtMessage(driver);
+			Thread.sleep(1000);
+			
+			String successMSG = txtMessage.getText();
+			
+			if (successMSG.equals(Globals.SAL_PROCESSED_SUCCESS)) {
+				
+				WebElement btnOK = SalarySlipGeneratorPage.btnAlertOk(driver);
+				btnOK.click();
+				LoggerUtils.logInfo("Salary Processed Successfully");
+				Thread.sleep(2000);
+				
+				hMapRetObj.put("testRunStatus", Globals.PASS);
+				hMapRetObj.put("depUpdateVal","");
+				
+			} 
+			 else {
+				
+				WebElement btnOK = SalarySlipGeneratorPage.btnAlertOk(driver);
+				btnOK.click();
+				LoggerUtils.logInfo("Unable to Process Salary");
+				Thread.sleep(2000);
+				hMapRetObj.put("testRunStatus", Globals.FAIL);
+				hMapRetObj.put("depUpdateVal","");
+
+			}
 			
 
 		} catch (Exception e) {
