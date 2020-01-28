@@ -17,9 +17,9 @@ public class TestExecution {
 //		TestDriver.tDriver(testCasesNew[i],"CalendarConfig","Calendar");
 //		 TestDriver.tDriver(testCasesNew[i],"LeaveMusterConfig","ViewMuster");
 			
-		String testCasesNew [] = {"newemp_001"};
+		String testCasesNew [] = {"newsalary_001"};
 		for (int i = 0; i < testCasesNew.length; i++) {
-			TestDriver.tDriver(testCasesNew[i],"EmployeeConfig","NewEmp");
+			TestDriver.tDriver(testCasesNew[i],"SalarySlipConfig","NewSalary");
 			
 			
 		}	

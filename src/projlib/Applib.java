@@ -20,4 +20,10 @@ public class Applib
 		}
 		
 	}
+	
+
+	public static void selectDate(String date,WebDriver driver)
+	{
+		
+	}
 }

@@ -829,3 +829,62 @@ Driver info: driver.version: TestDriver
 	... 8 more
 2020-01-16 17:25:31,691 INFO  [LoggerUtils] Driver tear down 
 2020-01-16 17:25:31,691 INFO  [LoggerUtils] Test Failed - newemp_001 
+2020-01-24 14:29:32,917 INFO  [LoggerUtils] ****************************************** 
+2020-01-24 14:29:32,918 INFO  [LoggerUtils] Test Case ID: newsalary_001 
+2020-01-24 14:29:32,918 INFO  [LoggerUtils] ****************************************** 
+2020-01-24 14:29:33,493 ERROR [LoggerUtils] Error in TestDriver - newsalary_001 
+java.lang.ArrayIndexOutOfBoundsException: 3
+	at testDrivers.TestDriver.tDriver(TestDriver.java:108)
+	at modules.execution.TestExecution.main(TestExecution.java:22)
+2020-01-24 14:30:28,981 INFO  [LoggerUtils] ****************************************** 
+2020-01-24 14:30:28,981 INFO  [LoggerUtils] Test Case ID: newsalary_001 
+2020-01-24 14:30:28,981 INFO  [LoggerUtils] ****************************************** 
+2020-01-24 14:30:33,827 INFO  [LoggerUtils] Driver Setup 
+2020-01-24 14:30:36,455 INFO  [LoggerUtils] User Name: admin 
+2020-01-24 14:30:36,541 INFO  [LoggerUtils] Password: password 
+2020-01-24 14:30:41,270 INFO  [LoggerUtils] Payroll Department Menu clicked 
+2020-01-24 14:30:43,471 INFO  [LoggerUtils] Menu Salary Slip Generator Clicked 
+2020-01-24 14:30:44,567 INFO  [LoggerUtils] Text Entered in search box 
+2020-01-24 14:30:45,681 INFO  [LoggerUtils] Search Record Selected 
+2020-01-24 14:30:46,803 INFO  [LoggerUtils] Process Salary Icon Clicked 
+2020-01-24 14:30:47,904 INFO  [LoggerUtils] Process Salary Button Clicked 
+2020-01-24 14:30:50,012 INFO  [LoggerUtils] Confirmation Ok Button Clicked 
+2020-01-24 14:30:53,272 INFO  [LoggerUtils] Unable to Process Salary 
+2020-01-24 14:30:55,915 INFO  [LoggerUtils] Driver tear down 
+2020-01-24 14:30:55,916 INFO  [LoggerUtils] Test Failed - newsalary_001 
+2020-01-24 14:32:13,826 INFO  [LoggerUtils] ****************************************** 
+2020-01-24 14:32:13,826 INFO  [LoggerUtils] Test Case ID: newsalary_001 
+2020-01-24 14:32:13,826 INFO  [LoggerUtils] ****************************************** 
+2020-01-24 14:32:18,382 INFO  [LoggerUtils] Driver Setup 
+2020-01-24 14:32:19,484 INFO  [LoggerUtils] User Name: admin 
+2020-01-24 14:32:19,577 INFO  [LoggerUtils] Password: password 
+2020-01-24 14:32:24,496 INFO  [LoggerUtils] Payroll Department Menu clicked 
+2020-01-24 14:32:26,249 INFO  [LoggerUtils] Menu Salary Slip Generator Clicked 
+2020-01-24 14:32:27,310 INFO  [LoggerUtils] Text Entered in search box 
+2020-01-24 14:32:28,422 INFO  [LoggerUtils] Search Record Selected 
+2020-01-24 14:32:29,529 INFO  [LoggerUtils] Process Salary Icon Clicked 
+2020-01-24 14:32:30,651 INFO  [LoggerUtils] Process Salary Button Clicked 
+2020-01-24 14:32:32,756 INFO  [LoggerUtils] Confirmation Ok Button Clicked 
+2020-01-24 14:32:34,929 INFO  [LoggerUtils] Salary Processed Successfully 
+2020-01-24 14:32:37,570 INFO  [LoggerUtils] Driver tear down 
+2020-01-24 14:32:37,704 INFO  [LoggerUtils] Test Completed Successfully - newsalary_001 
+2020-01-24 14:33:25,602 INFO  [LoggerUtils] ****************************************** 
+2020-01-24 14:33:25,602 INFO  [LoggerUtils] Test Case ID: newsalary_001 
+2020-01-24 14:33:25,602 INFO  [LoggerUtils] ****************************************** 
+2020-01-24 14:33:30,112 INFO  [LoggerUtils] Driver Setup 
+2020-01-24 14:33:34,024 INFO  [LoggerUtils] User Name: admin 
+2020-01-24 14:33:34,123 INFO  [LoggerUtils] Password: password 
+2020-01-24 14:33:38,980 INFO  [LoggerUtils] Payroll Department Menu clicked 
+2020-01-24 14:33:40,764 INFO  [LoggerUtils] Menu Salary Slip Generator Clicked 
+2020-01-24 14:33:41,865 INFO  [LoggerUtils] Text Entered in search box 
+2020-01-24 14:33:42,966 INFO  [LoggerUtils] Search Record Selected 
+2020-01-24 14:33:44,084 INFO  [LoggerUtils] Process Salary Icon Clicked 
+2020-01-24 14:33:45,205 INFO  [LoggerUtils] Process Salary Button Clicked 
+2020-01-24 14:33:47,314 INFO  [LoggerUtils] Confirmation Ok Button Clicked 
+2020-01-24 14:33:49,488 INFO  [LoggerUtils] Salary Processed Successfully 
+2020-01-24 14:33:52,130 INFO  [LoggerUtils] Driver tear down 
+2020-01-24 14:33:52,277 INFO  [LoggerUtils] Test Completed Successfully - newsalary_001 
+2020-01-27 16:47:01,278 INFO  [LoggerUtils] ****************************************** 
+2020-01-27 16:47:01,278 INFO  [LoggerUtils] Test Case ID: newsalary_001 
+2020-01-27 16:47:01,278 INFO  [LoggerUtils] ****************************************** 
+2020-01-27 16:47:09,012 INFO  [LoggerUtils] Driver Setup 
