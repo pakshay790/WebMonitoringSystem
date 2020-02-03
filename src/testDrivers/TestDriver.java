@@ -11,9 +11,11 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
+import projlib.Applib;
 import projlib.Globals;
 
 import org.apache.commons.lang3.time.StopWatch;
+import org.json.JSONException;
 
 public class TestDriver 
 {
@@ -22,7 +24,7 @@ public class TestDriver
 //	ExtentTest test;
 
 
-	public void beforeSuite(){
+	/*public void beforeSuite(){
 		//htmlReporter = new ExtentHtmlReporter("c:/tech/seleniumwork/eSamridhi/extentreports/eSamridhi_TestRun.html");
 		htmlReporter = new ExtentHtmlReporter(Globals.EXTENT_REPORT);
 		//htmlReporter.setAppendExisting(true);
@@ -59,9 +61,9 @@ public class TestDriver
 		// add custom javascript
 		//htmlReporter.config().setJS("js-string");
 		
-	}
+	}*/
 	
-	public static void tDriver(String testId, String testConfig, String testConfigSheet)
+	public static void main(String args[])
     {
     	//String testRunStatus = "F";
     	int colCount = 0;
@@ -72,11 +74,24 @@ public class TestDriver
         String strData = "";
         HashMap<String, String> hMapConfig = new HashMap<String, String>();
         HashMap<String, String> hMapRetObj = new HashMap<String, String>();
+        HashMap<String, String> consoleData = new HashMap<String, String>();
         hMapRetObj.put("testRunStatus", Globals.FAIL);
         hMapRetObj.put("depUpdateVal", "");
         String depVal = "";
         String depData = "";
-        try {
+        
+        String testId = args[0];
+    	String testConfig = args[1];
+    	String testConfigSheet   = args[2];
+    	String filePath = args[3];
+        
+//        String testId = "newemp_001";
+//    	String testConfig = "EmployeeConfig";
+//    	String testConfigSheet  = "NewEmp";
+//    	String filePath = "E:\\Project\\HRMSAutomation\\";
+    	
+    	Globals gbl = new Globals(filePath);
+    	try {
         	
         	LoggerUtils.logInfo("******************************************");
         	LoggerUtils.logInfo("Test Case ID: " + testId);
@@ -153,20 +168,35 @@ public class TestDriver
         					, Integer.parseInt(hMapConfig.get("DepUpdKeyCol"))
         					, Integer.parseInt(hMapConfig.get("DepUpdUpdateCol"))
         					, hMapRetObj.get("depUpdateVal"));
-            	}
-            	System.out.println("Test Completed Successfully - " + testId);
+            	}           	
+            	consoleData.put("status",Globals.RES_PASS);
+            	consoleData.put("execution_time","0.0");
+            	Applib.consoleOutput(consoleData);
+            	
+              	
 //            	test.pass("Test Completed Successfully - " + testId);
            	LoggerUtils.logInfo("Test Completed Successfully - " + testId);            	
             }
             else
             {
-            	System.out.println("Test Failed - " + testId);
+
+            	consoleData.put("status",Globals.RES_FAILED);
+            	consoleData.put("execution_time","0.0");
+            	Applib.consoleOutput(consoleData);
 //            	test.fail("Test Failed - " + testId);
             	LoggerUtils.logInfo("Test Failed - " + testId);            	
             }
 
         } catch (Exception e) {
         	e.printStackTrace();
+        	consoleData.put("status",Globals.RES_FAILED);
+        	consoleData.put("execution_time","0.0");
+        	try {
+				Applib.consoleOutput(consoleData);
+			} catch (JSONException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
         	hMapRetObj.put("testRunStatus", Globals.EXCEPTION);
         	LoggerUtils.logError("Error in TestDriver - " + testId, e);
         }

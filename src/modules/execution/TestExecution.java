@@ -1,7 +1,5 @@
 package modules.execution;
 
-
-
 import testDrivers.TestDriver;
 
 public class TestExecution {
@@ -16,13 +14,12 @@ public class TestExecution {
 //		TestDriver.tDriver(testCasesNew[i],"EmployeeConfig","NewEmp");
 //		TestDriver.tDriver(testCasesNew[i],"CalendarConfig","Calendar");
 //		 TestDriver.tDriver(testCasesNew[i],"LeaveMusterConfig","ViewMuster");
-			
-		String testCasesNew [] = {"newsalary_001"};
-		for (int i = 0; i < testCasesNew.length; i++) {
-			TestDriver.tDriver(testCasesNew[i],"SalarySlipConfig","NewSalary");
-			
-			
-		}	
+//		String testCasesNew [] = {"newsalary_001"};
+//		for (int i = 0; i < testCasesNew.length; i++) {
+//			TestDriver.tDriver(testCasesNew[i],"SalarySlipConfig","NewSalary");
+//		}	
+		
+//		TestDriver.tDriver(args[0], args[1], args[2]);
 	}
 }
 

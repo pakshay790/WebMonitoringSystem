@@ -92,7 +92,6 @@ public class Genlib
 		
 		try 
 		{
-			
 			fis = new FileInputStream(file);
 		} 
 		catch (FileNotFoundException e) 
@@ -149,3 +148,4 @@ public class Genlib
 	}
 	
 }
+

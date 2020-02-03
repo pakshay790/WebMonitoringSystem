@@ -400,7 +400,7 @@ public class EmployeeCreationTest {
 				
 				WebElement txtEmpID = EmployeeCreationPage.txtEmpID(driver);
 				String empID = txtEmpID.getText();
-				System.out.println("Employee ID: "+empID);
+//				System.out.println("Employee ID: "+empID);
 				LoggerUtils.logInfo("Employee ID is : "+empID);
 				Thread.sleep(2000);
 				

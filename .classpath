@@ -38,7 +38,6 @@
 	<classpathentry kind="lib" path="E:/drivers/jcommander-1.48.jar"/>
 	<classpathentry kind="lib" path="E:/drivers/jsoup-1.9.2.jar"/>
 	<classpathentry kind="lib" path="E:/drivers/junit-4.12.jar"/>
-	<classpathentry kind="lib" path="E:/drivers/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="E:/drivers/mongodb-driver-3.3.0.jar"/>
 	<classpathentry kind="lib" path="E:/drivers/mongodb-driver-core-3.3.0.jar"/>
 	<classpathentry kind="lib" path="E:/drivers/mysql-5.1.8.jar"/>
@@ -55,5 +54,7 @@
 	<classpathentry kind="lib" path="E:/drivers/selenium-server-standalone-3.14.0.jar"/>
 	<classpathentry kind="lib" path="E:/drivers/testng-6.0.jar"/>
 	<classpathentry kind="lib" path="E:/drivers/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="E:/Project/HRMSAutomation/drivers/log4j.jar"/>
+	<classpathentry kind="lib" path="E:/Project/HRMSAutomation/drivers/json-simple-1.1.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,5 +1,10 @@
 package projlib;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.openqa.selenium.WebDriver;
 
 
@@ -21,9 +26,15 @@ public class Applib
 		
 	}
 	
-
+	
 	public static void selectDate(String date,WebDriver driver)
 	{
 		
+		
+	} 
+	
+	public static void consoleOutput(HashMap<String, String> consoleData) throws JSONException {
+			 
+	        System.out.println(new JSONObject(consoleData));    			
 	}
 }

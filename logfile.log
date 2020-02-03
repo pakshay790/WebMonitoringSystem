@@ -1,890 +1,328 @@
-2020-01-14 12:27:32,263 INFO  [LoggerUtils] ****************************************** 
-2020-01-14 12:27:32,263 INFO  [LoggerUtils] Test Case ID: leavemuster_001 
-2020-01-14 12:27:32,263 INFO  [LoggerUtils] ****************************************** 
-2020-01-14 12:27:37,439 INFO  [LoggerUtils] Driver Setup 
-2020-01-14 12:27:38,492 INFO  [LoggerUtils] User Name: admin 
-2020-01-14 12:27:38,617 INFO  [LoggerUtils] Password: password 
-2020-01-14 12:27:43,264 INFO  [LoggerUtils] Payroll Department Menu clicked 
-2020-01-14 12:27:44,377 INFO  [LoggerUtils] Leave Muster Menu Clicked 
-2020-01-14 12:27:46,466 INFO  [LoggerUtils] View Leave Muster Clicked 
-2020-01-14 12:27:47,649 INFO  [LoggerUtils] Sync Button Clicked 
-2020-01-14 12:27:49,775 ERROR [LoggerUtils] Exception In Employee Creation :  
-org.openqa.selenium.WebDriverException: unknown error: Element <button class="confirm" tabindex="1" style="display: inline-block; background-color: rgb(134, 204, 235); box-shadow: rgba(140, 212, 245, 0.8) 0px 0px 2px, rgba(0, 0, 0, 0.05) 0px 0px 0px 1px inset;" disabled="">...</button> is not clickable at point (716, 406). Other element would receive the click: <div></div>
-  (Session info: chrome=79.0.3945.117)
-  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
-System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57131}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.117, webStorageEnabled: true}
-Session ID: a1c45fd106453a6d95da280d02664ab2
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at modules.payroll.tests.LeaveMusterTest.ViewMuster(LeaveMusterTest.java:66)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at testDrivers.TestDriver.tDriver(TestDriver.java:141)
-	at modules.execution.TestExecution.main(TestExecution.java:22)
-2020-01-14 12:27:50,169 ERROR [LoggerUtils] Failed in test case execution 
-org.openqa.selenium.WebDriverException: unknown error: Element <button class="confirm" tabindex="1" style="display: inline-block; background-color: rgb(134, 204, 235); box-shadow: rgba(140, 212, 245, 0.8) 0px 0px 2px, rgba(0, 0, 0, 0.05) 0px 0px 0px 1px inset;" disabled="">...</button> is not clickable at point (716, 406). Other element would receive the click: <div></div>
-  (Session info: chrome=79.0.3945.117)
-  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
-System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57131}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.117, webStorageEnabled: true}
-Session ID: a1c45fd106453a6d95da280d02664ab2
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at modules.payroll.tests.LeaveMusterTest.ViewMuster(LeaveMusterTest.java:66)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at testDrivers.TestDriver.tDriver(TestDriver.java:141)
-	at modules.execution.TestExecution.main(TestExecution.java:22)
-2020-01-14 12:27:50,807 INFO  [LoggerUtils] Driver tear down 
-2020-01-14 12:27:50,807 INFO  [LoggerUtils] Test Failed - leavemuster_001 
-2020-01-14 12:28:25,109 INFO  [LoggerUtils] ****************************************** 
-2020-01-14 12:28:25,109 INFO  [LoggerUtils] Test Case ID: leavemuster_001 
-2020-01-14 12:28:25,109 INFO  [LoggerUtils] ****************************************** 
-2020-01-14 12:28:29,788 INFO  [LoggerUtils] Driver Setup 
-2020-01-14 12:28:30,934 INFO  [LoggerUtils] User Name: admin 
-2020-01-14 12:28:31,024 INFO  [LoggerUtils] Password: password 
-2020-01-14 12:28:35,791 INFO  [LoggerUtils] Payroll Department Menu clicked 
-2020-01-14 12:28:36,895 INFO  [LoggerUtils] Leave Muster Menu Clicked 
-2020-01-14 12:28:38,917 INFO  [LoggerUtils] View Leave Muster Clicked 
-2020-01-14 12:28:40,049 INFO  [LoggerUtils] Sync Button Clicked 
-2020-01-14 12:28:45,192 INFO  [LoggerUtils] Alert Ok Button Clicked 
-2020-01-14 12:28:48,336 INFO  [LoggerUtils] Employee ID Entered 
-2020-01-14 12:28:49,438 ERROR [LoggerUtils] Exception In Employee Creation :  
-org.openqa.selenium.WebDriverException: unknown error: Element <tr role="row" class="odd">...</tr> is not clickable at point (800, 291). Other element would receive the click: <div class="sweet-alert showSweetAlert visible" data-custom-class="" data-has-cancel-button="false" data-has-confirm-button="true" data-allow-outside-click="false" data-has-done-function="true" data-animation="pop" data-timer="null" style="display: block; margin-top: -150px;">...</div>
-  (Session info: chrome=79.0.3945.117)
-  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
-System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57330}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.117, webStorageEnabled: true}
-Session ID: 4fb43fe4e367c0ce11868ff4e23b5bd7
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at modules.payroll.tests.LeaveMusterTest.ViewMuster(LeaveMusterTest.java:78)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at testDrivers.TestDriver.tDriver(TestDriver.java:141)
-	at modules.execution.TestExecution.main(TestExecution.java:22)
-2020-01-14 12:28:49,800 ERROR [LoggerUtils] Failed in test case execution 
-org.openqa.selenium.WebDriverException: unknown error: Element <tr role="row" class="odd">...</tr> is not clickable at point (800, 291). Other element would receive the click: <div class="sweet-alert showSweetAlert visible" data-custom-class="" data-has-cancel-button="false" data-has-confirm-button="true" data-allow-outside-click="false" data-has-done-function="true" data-animation="pop" data-timer="null" style="display: block; margin-top: -150px;">...</div>
-  (Session info: chrome=79.0.3945.117)
-  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
-System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57330}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.117, webStorageEnabled: true}
-Session ID: 4fb43fe4e367c0ce11868ff4e23b5bd7
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at modules.payroll.tests.LeaveMusterTest.ViewMuster(LeaveMusterTest.java:78)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at testDrivers.TestDriver.tDriver(TestDriver.java:141)
-	at modules.execution.TestExecution.main(TestExecution.java:22)
-2020-01-14 12:28:50,460 INFO  [LoggerUtils] Driver tear down 
-2020-01-14 12:28:50,460 INFO  [LoggerUtils] Test Failed - leavemuster_001 
-2020-01-14 12:30:36,701 INFO  [LoggerUtils] ****************************************** 
-2020-01-14 12:30:36,701 INFO  [LoggerUtils] Test Case ID: leavemuster_001 
-2020-01-14 12:30:36,702 INFO  [LoggerUtils] ****************************************** 
-2020-01-14 12:30:41,498 INFO  [LoggerUtils] Driver Setup 
-2020-01-14 12:30:42,680 INFO  [LoggerUtils] User Name: admin 
-2020-01-14 12:30:42,773 INFO  [LoggerUtils] Password: password 
-2020-01-14 12:30:47,608 INFO  [LoggerUtils] Payroll Department Menu clicked 
-2020-01-14 12:30:48,719 INFO  [LoggerUtils] Leave Muster Menu Clicked 
-2020-01-14 12:30:50,955 INFO  [LoggerUtils] View Leave Muster Clicked 
-2020-01-14 12:30:52,081 INFO  [LoggerUtils] Sync Button Clicked 
-2020-01-14 12:30:56,246 INFO  [LoggerUtils] Alert Ok Button Clicked 
-2020-01-14 12:30:59,405 INFO  [LoggerUtils] Employee ID Entered 
-2020-01-14 12:31:00,517 INFO  [LoggerUtils] Employee Selected 
-2020-01-14 12:31:01,636 INFO  [LoggerUtils] Add Leaves Clicked 
-2020-01-14 12:31:02,638 ERROR [LoggerUtils] Exception In Employee Creation :  
-java.lang.ArrayIndexOutOfBoundsException: 2
-	at modules.payroll.tests.LeaveMusterTest.ViewMuster(LeaveMusterTest.java:94)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at testDrivers.TestDriver.tDriver(TestDriver.java:141)
-	at modules.execution.TestExecution.main(TestExecution.java:22)
-2020-01-14 12:31:03,022 ERROR [LoggerUtils] Failed in test case execution 
-java.lang.ArrayIndexOutOfBoundsException: 2
-	at modules.payroll.tests.LeaveMusterTest.ViewMuster(LeaveMusterTest.java:94)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at testDrivers.TestDriver.tDriver(TestDriver.java:141)
-	at modules.execution.TestExecution.main(TestExecution.java:22)
-2020-01-14 12:31:03,637 INFO  [LoggerUtils] Driver tear down 
-2020-01-14 12:31:03,637 INFO  [LoggerUtils] Test Failed - leavemuster_001 
-2020-01-14 12:51:52,858 INFO  [LoggerUtils] ****************************************** 
-2020-01-14 12:51:52,859 INFO  [LoggerUtils] Test Case ID: leavemuster_001 
-2020-01-14 12:51:52,859 INFO  [LoggerUtils] ****************************************** 
-2020-01-14 12:51:57,571 INFO  [LoggerUtils] Driver Setup 
-2020-01-14 12:51:58,489 INFO  [LoggerUtils] User Name: admin 
-2020-01-14 12:51:58,564 INFO  [LoggerUtils] Password: password 
-2020-01-14 12:52:03,098 INFO  [LoggerUtils] Payroll Department Menu clicked 
-2020-01-14 12:52:04,193 INFO  [LoggerUtils] Leave Muster Menu Clicked 
-2020-01-14 12:52:06,243 INFO  [LoggerUtils] View Leave Muster Clicked 
-2020-01-14 12:52:07,393 INFO  [LoggerUtils] Sync Button Clicked 
-2020-01-14 12:52:11,575 INFO  [LoggerUtils] Alert Ok Button Clicked 
-2020-01-14 12:52:14,722 INFO  [LoggerUtils] Employee ID Entered 
-2020-01-14 12:52:15,841 INFO  [LoggerUtils] Employee Selected 
-2020-01-14 12:52:16,973 INFO  [LoggerUtils] Add Leaves Clicked 
-2020-01-14 12:52:17,974 ERROR [LoggerUtils] Exception In Employee Creation :  
-java.lang.ArrayIndexOutOfBoundsException: 2
-	at modules.payroll.tests.LeaveMusterTest.ViewMuster(LeaveMusterTest.java:94)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at testDrivers.TestDriver.tDriver(TestDriver.java:141)
-	at modules.execution.TestExecution.main(TestExecution.java:22)
-2020-01-14 12:52:18,349 ERROR [LoggerUtils] Failed in test case execution 
-java.lang.ArrayIndexOutOfBoundsException: 2
-	at modules.payroll.tests.LeaveMusterTest.ViewMuster(LeaveMusterTest.java:94)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at testDrivers.TestDriver.tDriver(TestDriver.java:141)
-	at modules.execution.TestExecution.main(TestExecution.java:22)
-2020-01-14 12:52:18,986 INFO  [LoggerUtils] Driver tear down 
-2020-01-14 12:52:18,987 INFO  [LoggerUtils] Test Failed - leavemuster_001 
-2020-01-15 22:26:59,886 INFO  [LoggerUtils] ****************************************** 
-2020-01-15 22:26:59,902 INFO  [LoggerUtils] Test Case ID: leavemuster_001 
-2020-01-15 22:26:59,902 INFO  [LoggerUtils] ****************************************** 
-2020-01-15 22:27:13,302 INFO  [LoggerUtils] Driver Setup 
-2020-01-15 22:27:15,873 INFO  [LoggerUtils] User Name: admin 
-2020-01-15 22:27:15,939 INFO  [LoggerUtils] Password: password 
-2020-01-15 22:27:22,729 INFO  [LoggerUtils] Payroll Department Menu clicked 
-2020-01-15 22:27:23,816 INFO  [LoggerUtils] Leave Muster Menu Clicked 
-2020-01-15 22:27:27,499 INFO  [LoggerUtils] View Leave Muster Clicked 
-2020-01-15 22:27:28,596 INFO  [LoggerUtils] Sync Button Clicked 
-2020-01-15 22:27:30,723 INFO  [LoggerUtils] Alert Ok Button Clicked 
-2020-01-15 22:27:31,792 INFO  [LoggerUtils] Employee ID Entered 
-2020-01-15 22:27:33,137 INFO  [LoggerUtils] Employee Selected 
-2020-01-15 22:27:34,223 INFO  [LoggerUtils] Add Leaves Clicked 
-2020-01-15 22:27:35,224 ERROR [LoggerUtils] Exception In Employee Creation :  
-java.lang.ArrayIndexOutOfBoundsException: 2
-	at modules.payroll.tests.LeaveMusterTest.ViewMuster(LeaveMusterTest.java:92)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at testDrivers.TestDriver.tDriver(TestDriver.java:141)
-	at modules.execution.TestExecution.main(TestExecution.java:22)
-2020-01-15 22:27:35,681 ERROR [LoggerUtils] Failed in test case execution 
-java.lang.ArrayIndexOutOfBoundsException: 2
-	at modules.payroll.tests.LeaveMusterTest.ViewMuster(LeaveMusterTest.java:92)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at testDrivers.TestDriver.tDriver(TestDriver.java:141)
-	at modules.execution.TestExecution.main(TestExecution.java:22)
-2020-01-15 22:27:36,285 INFO  [LoggerUtils] Driver tear down 
-2020-01-15 22:27:36,286 INFO  [LoggerUtils] Test Failed - leavemuster_001 
-2020-01-16 14:40:55,521 INFO  [LoggerUtils] ****************************************** 
-2020-01-16 14:40:55,544 INFO  [LoggerUtils] Test Case ID: newemp_001 
-2020-01-16 14:40:55,544 INFO  [LoggerUtils] ****************************************** 
-2020-01-16 14:41:00,505 INFO  [LoggerUtils] Driver Setup 
-2020-01-16 14:41:01,705 INFO  [LoggerUtils] User Name: admin 
-2020-01-16 14:41:01,795 INFO  [LoggerUtils] Password: password 
-2020-01-16 14:41:06,851 INFO  [LoggerUtils] HR Department Menu clicked 
-2020-01-16 14:41:07,913 INFO  [LoggerUtils] Employee Menu clicked 
-2020-01-16 14:41:08,838 INFO  [LoggerUtils] Add Employee Menu clicked 
-2020-01-16 14:41:09,934 INFO  [LoggerUtils] First Name Entered 
-2020-01-16 14:41:11,027 INFO  [LoggerUtils] Middle Name Entered 
-2020-01-16 14:41:12,143 INFO  [LoggerUtils] Last Name Entered 
-2020-01-16 14:41:13,336 INFO  [LoggerUtils] Email-id Entered 
-2020-01-16 14:41:14,484 INFO  [LoggerUtils] Aadhaar No entered 
-2020-01-16 14:41:15,646 INFO  [LoggerUtils] Pan No entered 
-2020-01-16 14:41:18,041 INFO  [LoggerUtils] Permanant Address Entered 
-2020-01-16 14:41:19,224 INFO  [LoggerUtils] Blood Group Selected 
-2020-01-16 14:41:20,335 INFO  [LoggerUtils] Copy above address button clicked 
-2020-01-16 14:41:20,335 INFO  [LoggerUtils] Communication Address  Entered 
-2020-01-16 14:41:21,488 INFO  [LoggerUtils] Contact Number  Entered 
-2020-01-16 14:41:22,622 INFO  [LoggerUtils] Emergency Contact Number Entered 
-2020-01-16 14:41:23,758 INFO  [LoggerUtils] Identity Mark  Entered 
-2020-01-16 14:41:24,918 INFO  [LoggerUtils] Emergency Contact Relation Selected 
-2020-01-16 14:41:30,174 INFO  [LoggerUtils] Personal Details Filed, Next Button Clicked 
-2020-01-16 16:25:09,383 INFO  [LoggerUtils] ****************************************** 
-2020-01-16 16:25:09,383 INFO  [LoggerUtils] Test Case ID: newemp_001 
-2020-01-16 16:25:09,384 INFO  [LoggerUtils] ****************************************** 
-2020-01-16 16:25:14,186 INFO  [LoggerUtils] Driver Setup 
-2020-01-16 16:25:15,167 INFO  [LoggerUtils] User Name: admin 
-2020-01-16 16:25:15,270 INFO  [LoggerUtils] Password: password 
-2020-01-16 16:25:20,290 INFO  [LoggerUtils] HR Department Menu clicked 
-2020-01-16 16:25:21,354 INFO  [LoggerUtils] Employee Menu clicked 
-2020-01-16 16:25:22,193 INFO  [LoggerUtils] Add Employee Menu clicked 
-2020-01-16 16:25:23,298 INFO  [LoggerUtils] First Name Entered 
-2020-01-16 16:25:24,401 INFO  [LoggerUtils] Middle Name Entered 
-2020-01-16 16:25:25,498 INFO  [LoggerUtils] Last Name Entered 
-2020-01-16 16:25:26,704 INFO  [LoggerUtils] Email-id Entered 
-2020-01-16 16:25:27,854 INFO  [LoggerUtils] Aadhaar No entered 
-2020-01-16 16:25:29,000 INFO  [LoggerUtils] Pan No entered 
-2020-01-16 16:25:31,360 INFO  [LoggerUtils] Permanant Address Entered 
-2020-01-16 16:25:32,552 INFO  [LoggerUtils] Blood Group Selected 
-2020-01-16 16:25:33,661 INFO  [LoggerUtils] Copy above address button clicked 
-2020-01-16 16:25:33,661 INFO  [LoggerUtils] Communication Address  Entered 
-2020-01-16 16:25:34,820 INFO  [LoggerUtils] Contact Number  Entered 
-2020-01-16 16:25:35,979 INFO  [LoggerUtils] Emergency Contact Number Entered 
-2020-01-16 16:25:37,095 INFO  [LoggerUtils] Identity Mark  Entered 
-2020-01-16 16:25:38,267 INFO  [LoggerUtils] Emergency Contact Relation Selected 
-2020-01-16 16:57:28,661 INFO  [LoggerUtils] ****************************************** 
-2020-01-16 16:57:28,662 INFO  [LoggerUtils] Test Case ID: newemp_001 
-2020-01-16 16:57:28,662 INFO  [LoggerUtils] ****************************************** 
-2020-01-16 16:57:33,693 INFO  [LoggerUtils] Driver Setup 
-2020-01-16 16:57:34,754 INFO  [LoggerUtils] User Name: admin 
-2020-01-16 16:57:34,834 INFO  [LoggerUtils] Password: password 
-2020-01-16 16:57:39,871 INFO  [LoggerUtils] HR Department Menu clicked 
-2020-01-16 16:57:40,961 INFO  [LoggerUtils] Employee Menu clicked 
-2020-01-16 16:57:41,843 INFO  [LoggerUtils] Add Employee Menu clicked 
-2020-01-16 16:57:43,118 INFO  [LoggerUtils] First Name Entered 
-2020-01-16 16:57:44,189 INFO  [LoggerUtils] Middle Name Entered 
-2020-01-16 16:57:45,283 INFO  [LoggerUtils] Last Name Entered 
-2020-01-16 16:57:46,452 INFO  [LoggerUtils] Email-id Entered 
-2020-01-16 16:57:47,580 INFO  [LoggerUtils] Aadhaar No entered 
-2020-01-16 16:57:48,743 INFO  [LoggerUtils] Pan No entered 
-2020-01-16 16:57:51,099 INFO  [LoggerUtils] Permanant Address Entered 
-2020-01-16 16:57:52,292 INFO  [LoggerUtils] Blood Group Selected 
-2020-01-16 16:57:53,416 INFO  [LoggerUtils] Copy above address button clicked 
-2020-01-16 16:57:53,416 INFO  [LoggerUtils] Communication Address  Entered 
-2020-01-16 16:57:54,560 INFO  [LoggerUtils] Contact Number  Entered 
-2020-01-16 16:57:55,677 INFO  [LoggerUtils] Emergency Contact Number Entered 
-2020-01-16 16:57:56,795 INFO  [LoggerUtils] Identity Mark  Entered 
-2020-01-16 16:57:58,004 INFO  [LoggerUtils] Emergency Contact Relation Selected 
-2020-01-16 16:58:03,268 INFO  [LoggerUtils] Personal Details Filed, Next Button Clicked 
-2020-01-16 16:58:06,427 INFO  [LoggerUtils] Qualification Details Entered 
-2020-01-16 16:58:07,536 INFO  [LoggerUtils] Passing Year Entered 
-2020-01-16 16:58:08,650 INFO  [LoggerUtils] University Name Entered 
-2020-01-16 16:58:09,744 INFO  [LoggerUtils] Percentage Entered 
-2020-01-16 16:58:10,863 INFO  [LoggerUtils] Personal Details Enterd, Next Button Clicked 
-2020-01-16 16:58:13,989 INFO  [LoggerUtils] Total Experience  Entered 
-2020-01-16 16:58:15,169 INFO  [LoggerUtils] Galentic Email-ID  Entered 
-2020-01-16 16:58:18,593 INFO  [LoggerUtils] Employee Type  Selected 
-2020-01-16 16:58:21,736 INFO  [LoggerUtils] Employee Designation  Selected 
-2020-01-16 16:58:23,994 INFO  [LoggerUtils] Employee Assign Project  Selected 
-2020-01-16 16:58:25,094 INFO  [LoggerUtils] Remarks  Entered 
-2020-01-16 16:58:26,212 INFO  [LoggerUtils] Bank Name  Entered 
-2020-01-16 16:58:27,338 INFO  [LoggerUtils] Employee Location  Selected 
-2020-01-16 16:58:28,503 INFO  [LoggerUtils] Bank Account Number  Entered 
-2020-01-16 16:58:29,605 INFO  [LoggerUtils] UAN Number  Entered 
-2020-01-16 16:58:30,717 INFO  [LoggerUtils] PF Number  Entered 
-2020-01-16 16:58:31,857 INFO  [LoggerUtils] Employement Details Feild, Next Button Clicked 
-2020-01-16 16:58:33,993 INFO  [LoggerUtils] Employee's Stipend Entered 
-2020-01-16 16:58:36,085 INFO  [LoggerUtils] Employee's Salary Details Entered, Next Button Clikced 
-2020-01-16 16:58:37,175 INFO  [LoggerUtils] Choose File Button Clicked 
-2020-01-16 16:58:42,282 INFO  [LoggerUtils] Finish Button Clicked 
-2020-01-16 17:06:25,934 INFO  [LoggerUtils] ****************************************** 
-2020-01-16 17:06:25,934 INFO  [LoggerUtils] Test Case ID: newemp_001 
-2020-01-16 17:06:25,934 INFO  [LoggerUtils] ****************************************** 
-2020-01-16 17:06:30,838 INFO  [LoggerUtils] Driver Setup 
-2020-01-16 17:06:32,059 INFO  [LoggerUtils] User Name: admin 
-2020-01-16 17:06:32,140 INFO  [LoggerUtils] Password: password 
-2020-01-16 17:06:36,645 INFO  [LoggerUtils] HR Department Menu clicked 
-2020-01-16 17:06:37,729 INFO  [LoggerUtils] Employee Menu clicked 
-2020-01-16 17:06:38,627 INFO  [LoggerUtils] Add Employee Menu clicked 
-2020-01-16 17:06:39,759 INFO  [LoggerUtils] First Name Entered 
-2020-01-16 17:06:40,867 INFO  [LoggerUtils] Middle Name Entered 
-2020-01-16 17:06:41,995 INFO  [LoggerUtils] Last Name Entered 
-2020-01-16 17:06:43,208 INFO  [LoggerUtils] Email-id Entered 
-2020-01-16 17:06:44,371 INFO  [LoggerUtils] Aadhaar No entered 
-2020-01-16 17:06:45,531 INFO  [LoggerUtils] Pan No entered 
-2020-01-16 17:06:47,945 INFO  [LoggerUtils] Permanant Address Entered 
-2020-01-16 17:06:49,148 INFO  [LoggerUtils] Blood Group Selected 
-2020-01-16 17:06:50,259 INFO  [LoggerUtils] Copy above address button clicked 
-2020-01-16 17:06:50,259 INFO  [LoggerUtils] Communication Address  Entered 
-2020-01-16 17:06:51,418 INFO  [LoggerUtils] Contact Number  Entered 
-2020-01-16 17:06:52,550 INFO  [LoggerUtils] Emergency Contact Number Entered 
-2020-01-16 17:06:53,676 INFO  [LoggerUtils] Identity Mark  Entered 
-2020-01-16 17:06:54,857 INFO  [LoggerUtils] Emergency Contact Relation Selected 
-2020-01-16 17:07:00,149 INFO  [LoggerUtils] Personal Details Filed, Next Button Clicked 
-2020-01-16 17:07:03,292 INFO  [LoggerUtils] Qualification Details Entered 
-2020-01-16 17:07:04,404 INFO  [LoggerUtils] Passing Year Entered 
-2020-01-16 17:07:05,518 INFO  [LoggerUtils] University Name Entered 
-2020-01-16 17:07:06,620 INFO  [LoggerUtils] Percentage Entered 
-2020-01-16 17:07:07,733 INFO  [LoggerUtils] Personal Details Enterd, Next Button Clicked 
-2020-01-16 17:07:10,873 INFO  [LoggerUtils] Total Experience  Entered 
-2020-01-16 17:07:12,074 INFO  [LoggerUtils] Galentic Email-ID  Entered 
-2020-01-16 17:07:15,421 INFO  [LoggerUtils] Employee Type  Selected 
-2020-01-16 17:07:18,561 INFO  [LoggerUtils] Employee Designation  Selected 
-2020-01-16 17:07:20,814 INFO  [LoggerUtils] Employee Assign Project  Selected 
-2020-01-16 17:07:21,902 INFO  [LoggerUtils] Remarks  Entered 
-2020-01-16 17:07:23,036 INFO  [LoggerUtils] Bank Name  Entered 
-2020-01-16 17:07:24,164 INFO  [LoggerUtils] Employee Location  Selected 
-2020-01-16 17:07:25,330 INFO  [LoggerUtils] Bank Account Number  Entered 
-2020-01-16 17:07:26,444 INFO  [LoggerUtils] UAN Number  Entered 
-2020-01-16 17:07:27,550 INFO  [LoggerUtils] PF Number  Entered 
-2020-01-16 17:07:28,662 INFO  [LoggerUtils] Employement Details Feild, Next Button Clicked 
-2020-01-16 17:07:30,796 INFO  [LoggerUtils] Employee's Stipend Entered 
-2020-01-16 17:07:32,898 INFO  [LoggerUtils] Employee's Salary Details Entered, Next Button Clikced 
-2020-01-16 17:07:33,994 INFO  [LoggerUtils] Choose File Button Clicked 
-2020-01-16 17:07:39,180 INFO  [LoggerUtils] Document Type Entered 
-2020-01-16 17:07:40,283 INFO  [LoggerUtils] Finish Button Clicked 
-2020-01-16 17:07:54,179 ERROR [LoggerUtils] Exception In Employee Creation :  
-org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=79.0.3945.117)
-  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
-System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64664}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.117, webStorageEnabled: true}
-Session ID: beb337770f6cf1d57ffda99a7f7e14a9
-*** Element info: {Using=xpath, value=//button[@class='confirm']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:349)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:310)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at modules.employee.pageobject.EmployeeCreationPage.btnProceedOK(EmployeeCreationPage.java:529)
-	at modules.employee.tests.EmployeeCreationTest.NewEmp(EmployeeCreationTest.java:379)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at testDrivers.TestDriver.tDriver(TestDriver.java:141)
-	at modules.execution.TestExecution.main(TestExecution.java:22)
-2020-01-16 17:14:08,779 INFO  [LoggerUtils] ****************************************** 
-2020-01-16 17:14:08,779 INFO  [LoggerUtils] Test Case ID: newemp_001 
-2020-01-16 17:14:08,779 INFO  [LoggerUtils] ****************************************** 
-2020-01-16 17:14:13,785 INFO  [LoggerUtils] Driver Setup 
-2020-01-16 17:14:14,830 INFO  [LoggerUtils] User Name: admin 
-2020-01-16 17:14:14,951 INFO  [LoggerUtils] Password: password 
-2020-01-16 17:14:19,847 INFO  [LoggerUtils] HR Department Menu clicked 
-2020-01-16 17:14:20,935 INFO  [LoggerUtils] Employee Menu clicked 
-2020-01-16 17:14:21,866 INFO  [LoggerUtils] Add Employee Menu clicked 
-2020-01-16 17:14:22,964 INFO  [LoggerUtils] First Name Entered 
-2020-01-16 17:14:24,062 INFO  [LoggerUtils] Middle Name Entered 
-2020-01-16 17:14:25,188 INFO  [LoggerUtils] Last Name Entered 
-2020-01-16 17:14:26,392 INFO  [LoggerUtils] Email-id Entered 
-2020-01-16 17:14:27,567 INFO  [LoggerUtils] Aadhaar No entered 
-2020-01-16 17:14:28,736 INFO  [LoggerUtils] Pan No entered 
-2020-01-16 17:14:31,111 INFO  [LoggerUtils] Permanant Address Entered 
-2020-01-16 17:14:32,271 INFO  [LoggerUtils] Blood Group Selected 
-2020-01-16 17:14:33,399 INFO  [LoggerUtils] Copy above address button clicked 
-2020-01-16 17:14:33,399 INFO  [LoggerUtils] Communication Address  Entered 
-2020-01-16 17:14:34,546 INFO  [LoggerUtils] Contact Number  Entered 
-2020-01-16 17:14:35,691 INFO  [LoggerUtils] Emergency Contact Number Entered 
-2020-01-16 17:14:36,811 INFO  [LoggerUtils] Identity Mark  Entered 
-2020-01-16 17:14:38,005 INFO  [LoggerUtils] Emergency Contact Relation Selected 
-2020-01-16 17:14:43,302 INFO  [LoggerUtils] Personal Details Filed, Next Button Clicked 
-2020-01-16 17:14:46,441 INFO  [LoggerUtils] Qualification Details Entered 
-2020-01-16 17:14:47,551 INFO  [LoggerUtils] Passing Year Entered 
-2020-01-16 17:14:48,659 INFO  [LoggerUtils] University Name Entered 
-2020-01-16 17:14:49,744 INFO  [LoggerUtils] Percentage Entered 
-2020-01-16 17:14:50,860 INFO  [LoggerUtils] Personal Details Enterd, Next Button Clicked 
-2020-01-16 17:14:53,961 INFO  [LoggerUtils] Total Experience  Entered 
-2020-01-16 17:14:55,152 INFO  [LoggerUtils] Galentic Email-ID  Entered 
-2020-01-16 17:14:58,525 INFO  [LoggerUtils] Employee Type  Selected 
-2020-01-16 17:15:01,676 INFO  [LoggerUtils] Employee Designation  Selected 
-2020-01-16 17:15:03,927 INFO  [LoggerUtils] Employee Assign Project  Selected 
-2020-01-16 17:15:05,041 INFO  [LoggerUtils] Remarks  Entered 
-2020-01-16 17:15:06,182 INFO  [LoggerUtils] Bank Name  Entered 
-2020-01-16 17:15:07,310 INFO  [LoggerUtils] Employee Location  Selected 
-2020-01-16 17:15:08,472 INFO  [LoggerUtils] Bank Account Number  Entered 
-2020-01-16 17:15:09,573 INFO  [LoggerUtils] UAN Number  Entered 
-2020-01-16 17:15:10,689 INFO  [LoggerUtils] PF Number  Entered 
-2020-01-16 17:15:11,820 INFO  [LoggerUtils] Employement Details Feild, Next Button Clicked 
-2020-01-16 17:15:13,936 INFO  [LoggerUtils] Employee's Stipend Entered 
-2020-01-16 17:15:16,031 INFO  [LoggerUtils] Employee's Salary Details Entered, Next Button Clikced 
-2020-01-16 17:15:17,126 INFO  [LoggerUtils] Choose File Button Clicked 
-2020-01-16 17:15:22,298 INFO  [LoggerUtils] Document Type Entered 
-2020-01-16 17:15:23,411 INFO  [LoggerUtils] Finish Button Clicked 
-2020-01-16 17:15:24,513 INFO  [LoggerUtils] Proceed Ok button Clicked 
-2020-01-16 17:16:16,881 ERROR [LoggerUtils] Exception In Employee Creation :  
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: /html[1]/body[1]/div[6]/p[1]/b[1] (tried for 50 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-	at modules.employee.pageobject.EmployeeCreationPage.dialogMSG(EmployeeCreationPage.java:537)
-	at modules.employee.tests.EmployeeCreationTest.NewEmp(EmployeeCreationTest.java:384)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at testDrivers.TestDriver.tDriver(TestDriver.java:141)
-	at modules.execution.TestExecution.main(TestExecution.java:22)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: /html[1]/body[1]/div[6]/p[1]/b[1]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
-System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
-Driver info: driver.version: TestDriver
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-	at java.util.Optional.orElseThrow(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	... 8 more
-2020-01-16 17:16:17,357 ERROR [LoggerUtils] Failed in test case execution 
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: /html[1]/body[1]/div[6]/p[1]/b[1] (tried for 50 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-	at modules.employee.pageobject.EmployeeCreationPage.dialogMSG(EmployeeCreationPage.java:537)
-	at modules.employee.tests.EmployeeCreationTest.NewEmp(EmployeeCreationTest.java:384)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at testDrivers.TestDriver.tDriver(TestDriver.java:141)
-	at modules.execution.TestExecution.main(TestExecution.java:22)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: /html[1]/body[1]/div[6]/p[1]/b[1]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
-System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
-Driver info: driver.version: TestDriver
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-	at java.util.Optional.orElseThrow(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	... 8 more
-2020-01-16 17:16:17,967 INFO  [LoggerUtils] Driver tear down 
-2020-01-16 17:16:17,967 INFO  [LoggerUtils] Test Failed - newemp_001 
-2020-01-16 17:16:18,188 INFO  [LoggerUtils] ****************************************** 
-2020-01-16 17:16:18,188 INFO  [LoggerUtils] Test Case ID: newemp_002 
-2020-01-16 17:16:18,188 INFO  [LoggerUtils] ****************************************** 
-2020-01-16 17:16:21,525 INFO  [LoggerUtils] Driver Setup 
-2020-01-16 17:16:23,079 INFO  [LoggerUtils] User Name: admin 
-2020-01-16 17:16:23,174 INFO  [LoggerUtils] Password: password 
-2020-01-16 17:16:28,097 INFO  [LoggerUtils] HR Department Menu clicked 
-2020-01-16 17:16:29,172 INFO  [LoggerUtils] Employee Menu clicked 
-2020-01-16 17:16:29,970 INFO  [LoggerUtils] Add Employee Menu clicked 
-2020-01-16 17:16:31,047 INFO  [LoggerUtils] First Name Entered 
-2020-01-16 17:16:32,129 INFO  [LoggerUtils] Middle Name Entered 
-2020-01-16 17:16:33,248 INFO  [LoggerUtils] Last Name Entered 
-2020-01-16 17:16:34,422 INFO  [LoggerUtils] Email-id Entered 
-2020-01-16 17:16:35,575 INFO  [LoggerUtils] Aadhaar No entered 
-2020-01-16 17:16:36,734 INFO  [LoggerUtils] Pan No entered 
-2020-01-16 17:16:39,059 INFO  [LoggerUtils] Permanant Address Entered 
-2020-01-16 17:16:40,252 INFO  [LoggerUtils] Blood Group Selected 
-2020-01-16 17:16:41,649 INFO  [LoggerUtils] Communication Address  Entered 
-2020-01-16 17:16:42,793 INFO  [LoggerUtils] Contact Number  Entered 
-2020-01-16 17:16:43,958 INFO  [LoggerUtils] Emergency Contact Number Entered 
-2020-01-16 17:16:45,076 INFO  [LoggerUtils] Identity Mark  Entered 
-2020-01-16 17:16:46,235 INFO  [LoggerUtils] Emergency Contact Relation Selected 
-2020-01-16 17:16:47,377 INFO  [LoggerUtils] Personal Details Filed, Next Button Clicked 
-2020-01-16 17:16:50,477 INFO  [LoggerUtils] Qualification Details Entered 
-2020-01-16 17:16:51,586 INFO  [LoggerUtils] Passing Year Entered 
-2020-01-16 17:16:52,677 INFO  [LoggerUtils] University Name Entered 
-2020-01-16 17:16:53,785 INFO  [LoggerUtils] Percentage Entered 
-2020-01-16 17:16:54,890 INFO  [LoggerUtils] Personal Details Enterd, Next Button Clicked 
-2020-01-16 17:16:57,978 INFO  [LoggerUtils] Total Experience  Entered 
-2020-01-16 17:16:59,204 INFO  [LoggerUtils] Galentic Email-ID  Entered 
-2020-01-16 17:17:02,574 INFO  [LoggerUtils] Employee Type  Selected 
-2020-01-16 17:17:05,720 INFO  [LoggerUtils] Employee Designation  Selected 
-2020-01-16 17:17:07,999 INFO  [LoggerUtils] Employee Assign Project  Selected 
-2020-01-16 17:17:09,091 INFO  [LoggerUtils] Remarks  Entered 
-2020-01-16 17:17:10,215 INFO  [LoggerUtils] Bank Name  Entered 
-2020-01-16 17:17:11,333 INFO  [LoggerUtils] Employee Location  Selected 
-2020-01-16 17:17:12,491 INFO  [LoggerUtils] Bank Account Number  Entered 
-2020-01-16 17:17:13,592 INFO  [LoggerUtils] UAN Number  Entered 
-2020-01-16 17:17:14,676 INFO  [LoggerUtils] PF Number  Entered 
-2020-01-16 17:17:15,786 INFO  [LoggerUtils] Employement Details Feild, Next Button Clicked 
-2020-01-16 17:17:17,925 INFO  [LoggerUtils] Employee's Salary Details Entered, Next Button Clicked 
-2020-01-16 17:17:20,015 INFO  [LoggerUtils] Employee's Salary Details Entered, Next Button Clikced 
-2020-01-16 17:17:21,128 INFO  [LoggerUtils] Finish Button Clicked 
-2020-01-16 17:17:22,223 INFO  [LoggerUtils] Proceed Ok button Clicked 
-2020-01-16 17:18:14,479 ERROR [LoggerUtils] Exception In Employee Creation :  
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: /html[1]/body[1]/div[6]/p[1]/b[1] (tried for 50 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-	at modules.employee.pageobject.EmployeeCreationPage.dialogMSG(EmployeeCreationPage.java:537)
-	at modules.employee.tests.EmployeeCreationTest.NewEmp(EmployeeCreationTest.java:384)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at testDrivers.TestDriver.tDriver(TestDriver.java:141)
-	at modules.execution.TestExecution.main(TestExecution.java:22)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: /html[1]/body[1]/div[6]/p[1]/b[1]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
-System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
-Driver info: driver.version: TestDriver
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-	at java.util.Optional.orElseThrow(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	... 8 more
-2020-01-16 17:18:14,866 ERROR [LoggerUtils] Failed in test case execution 
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: /html[1]/body[1]/div[6]/p[1]/b[1] (tried for 50 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-	at modules.employee.pageobject.EmployeeCreationPage.dialogMSG(EmployeeCreationPage.java:537)
-	at modules.employee.tests.EmployeeCreationTest.NewEmp(EmployeeCreationTest.java:384)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at testDrivers.TestDriver.tDriver(TestDriver.java:141)
-	at modules.execution.TestExecution.main(TestExecution.java:22)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: /html[1]/body[1]/div[6]/p[1]/b[1]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
-System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
-Driver info: driver.version: TestDriver
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-	at java.util.Optional.orElseThrow(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	... 8 more
-2020-01-16 17:18:15,696 INFO  [LoggerUtils] Driver tear down 
-2020-01-16 17:18:15,696 INFO  [LoggerUtils] Test Failed - newemp_002 
-2020-01-16 17:18:15,731 INFO  [LoggerUtils] ****************************************** 
-2020-01-16 17:18:15,731 INFO  [LoggerUtils] Test Case ID: newemp_003 
-2020-01-16 17:18:15,731 INFO  [LoggerUtils] ****************************************** 
-2020-01-16 17:18:19,094 INFO  [LoggerUtils] Driver Setup 
-2020-01-16 17:18:20,538 INFO  [LoggerUtils] User Name: admin 
-2020-01-16 17:18:20,624 INFO  [LoggerUtils] Password: password 
-2020-01-16 17:18:25,289 INFO  [LoggerUtils] HR Department Menu clicked 
-2020-01-16 17:18:26,388 INFO  [LoggerUtils] Employee Menu clicked 
-2020-01-16 17:18:27,229 INFO  [LoggerUtils] Add Employee Menu clicked 
-2020-01-16 17:18:28,376 INFO  [LoggerUtils] First Name Entered 
-2020-01-16 17:18:29,485 INFO  [LoggerUtils] Middle Name Entered 
-2020-01-16 17:18:30,623 INFO  [LoggerUtils] Last Name Entered 
-2020-01-16 17:18:31,823 INFO  [LoggerUtils] Email-id Entered 
-2020-01-16 17:18:32,999 INFO  [LoggerUtils] Aadhaar No entered 
-2020-01-16 17:18:34,170 INFO  [LoggerUtils] Pan No entered 
-2020-01-16 17:18:36,550 INFO  [LoggerUtils] Permanant Address Entered 
-2020-01-16 17:18:37,729 INFO  [LoggerUtils] Blood Group Selected 
-2020-01-16 17:18:38,846 INFO  [LoggerUtils] Copy above address button clicked 
-2020-01-16 17:18:38,846 INFO  [LoggerUtils] Communication Address  Entered 
-2020-01-16 17:18:39,990 INFO  [LoggerUtils] Contact Number  Entered 
-2020-01-16 17:18:41,145 INFO  [LoggerUtils] Emergency Contact Number Entered 
-2020-01-16 17:18:42,249 INFO  [LoggerUtils] Identity Mark  Entered 
-2020-01-16 17:18:43,424 INFO  [LoggerUtils] Emergency Contact Relation Selected 
-2020-01-16 17:18:44,554 INFO  [LoggerUtils] Personal Details Filed, Next Button Clicked 
-2020-01-16 17:18:47,691 INFO  [LoggerUtils] Qualification Details Entered 
-2020-01-16 17:18:48,811 INFO  [LoggerUtils] Passing Year Entered 
-2020-01-16 17:18:49,916 INFO  [LoggerUtils] University Name Entered 
-2020-01-16 17:18:51,024 INFO  [LoggerUtils] Percentage Entered 
-2020-01-16 17:18:52,135 INFO  [LoggerUtils] Personal Details Enterd, Next Button Clicked 
-2020-01-16 17:18:55,230 INFO  [LoggerUtils] Total Experience  Entered 
-2020-01-16 17:18:56,418 INFO  [LoggerUtils] Galentic Email-ID  Entered 
-2020-01-16 17:18:59,782 INFO  [LoggerUtils] Employee Type  Selected 
-2020-01-16 17:19:02,931 INFO  [LoggerUtils] Employee Designation  Selected 
-2020-01-16 17:19:05,218 INFO  [LoggerUtils] Employee Assign Project  Selected 
-2020-01-16 17:19:06,306 INFO  [LoggerUtils] Remarks  Entered 
-2020-01-16 17:19:07,420 INFO  [LoggerUtils] Bank Name  Entered 
-2020-01-16 17:19:08,553 INFO  [LoggerUtils] Employee Location  Selected 
-2020-01-16 17:19:09,708 INFO  [LoggerUtils] Bank Account Number  Entered 
-2020-01-16 17:19:10,813 INFO  [LoggerUtils] UAN Number  Entered 
-2020-01-16 17:19:11,916 INFO  [LoggerUtils] PF Number  Entered 
-2020-01-16 17:19:13,033 INFO  [LoggerUtils] Employement Details Feild, Next Button Clicked 
-2020-01-16 17:19:15,158 INFO  [LoggerUtils] Employee's CTC Entered 
-2020-01-16 17:19:16,248 INFO  [LoggerUtils] Employee's Baisc Salary Entered 
-2020-01-16 17:19:17,343 INFO  [LoggerUtils] Employee's HRA Amount Entered 
-2020-01-16 17:19:18,473 INFO  [LoggerUtils] Employee's Convyence Allowance Entered 
-2020-01-16 17:19:19,598 INFO  [LoggerUtils] Employee's Medical Allowance Entered 
-2020-01-16 17:19:20,703 INFO  [LoggerUtils] Employee's Mobile Allowance Entered 
-2020-01-16 17:19:21,816 INFO  [LoggerUtils] Employee's Executive Allowance Entered 
-2020-01-16 17:19:22,925 INFO  [LoggerUtils] Employee's Insurance Benefit Entered 
-2020-01-16 17:19:24,016 INFO  [LoggerUtils] Employee's Variable Pay Entered 
-2020-01-16 17:19:25,120 INFO  [LoggerUtils] Employee's EPF Amount Entered 
-2020-01-16 17:19:26,250 INFO  [LoggerUtils] Employee's Joining Bonus Enterd 
-2020-01-16 17:19:27,362 INFO  [LoggerUtils] Employee's Salary Details Entered 
-2020-01-16 17:19:29,483 INFO  [LoggerUtils] Finish Button Clicked 
-2020-01-16 17:19:30,585 INFO  [LoggerUtils] Proceed Ok button Clicked 
-2020-01-16 17:20:22,800 ERROR [LoggerUtils] Exception In Employee Creation :  
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: /html[1]/body[1]/div[6]/p[1]/b[1] (tried for 50 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-	at modules.employee.pageobject.EmployeeCreationPage.dialogMSG(EmployeeCreationPage.java:537)
-	at modules.employee.tests.EmployeeCreationTest.NewEmp(EmployeeCreationTest.java:384)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at testDrivers.TestDriver.tDriver(TestDriver.java:141)
-	at modules.execution.TestExecution.main(TestExecution.java:22)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: /html[1]/body[1]/div[6]/p[1]/b[1]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
-System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
-Driver info: driver.version: TestDriver
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-	at java.util.Optional.orElseThrow(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	... 8 more
-2020-01-16 17:20:23,163 ERROR [LoggerUtils] Failed in test case execution 
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: /html[1]/body[1]/div[6]/p[1]/b[1] (tried for 50 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-	at modules.employee.pageobject.EmployeeCreationPage.dialogMSG(EmployeeCreationPage.java:537)
-	at modules.employee.tests.EmployeeCreationTest.NewEmp(EmployeeCreationTest.java:384)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at testDrivers.TestDriver.tDriver(TestDriver.java:141)
-	at modules.execution.TestExecution.main(TestExecution.java:22)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: /html[1]/body[1]/div[6]/p[1]/b[1]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
-System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
-Driver info: driver.version: TestDriver
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-	at java.util.Optional.orElseThrow(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	... 8 more
-2020-01-16 17:20:23,780 INFO  [LoggerUtils] Driver tear down 
-2020-01-16 17:20:23,780 INFO  [LoggerUtils] Test Failed - newemp_003 
-2020-01-16 17:23:22,390 INFO  [LoggerUtils] ****************************************** 
-2020-01-16 17:23:22,391 INFO  [LoggerUtils] Test Case ID: newemp_001 
-2020-01-16 17:23:22,391 INFO  [LoggerUtils] ****************************************** 
-2020-01-16 17:23:27,138 INFO  [LoggerUtils] Driver Setup 
-2020-01-16 17:23:28,463 INFO  [LoggerUtils] User Name: admin 
-2020-01-16 17:23:28,556 INFO  [LoggerUtils] Password: password 
-2020-01-16 17:23:33,343 INFO  [LoggerUtils] HR Department Menu clicked 
-2020-01-16 17:23:34,439 INFO  [LoggerUtils] Employee Menu clicked 
-2020-01-16 17:23:35,675 INFO  [LoggerUtils] Add Employee Menu clicked 
-2020-01-16 17:23:36,780 INFO  [LoggerUtils] First Name Entered 
-2020-01-16 17:23:37,879 INFO  [LoggerUtils] Middle Name Entered 
-2020-01-16 17:23:39,000 INFO  [LoggerUtils] Last Name Entered 
-2020-01-16 17:23:40,208 INFO  [LoggerUtils] Email-id Entered 
-2020-01-16 17:23:41,368 INFO  [LoggerUtils] Aadhaar No entered 
-2020-01-16 17:23:42,531 INFO  [LoggerUtils] Pan No entered 
-2020-01-16 17:23:44,903 INFO  [LoggerUtils] Permanant Address Entered 
-2020-01-16 17:23:46,104 INFO  [LoggerUtils] Blood Group Selected 
-2020-01-16 17:23:47,222 INFO  [LoggerUtils] Copy above address button clicked 
-2020-01-16 17:23:47,222 INFO  [LoggerUtils] Communication Address  Entered 
-2020-01-16 17:23:48,356 INFO  [LoggerUtils] Contact Number  Entered 
-2020-01-16 17:23:49,510 INFO  [LoggerUtils] Emergency Contact Number Entered 
-2020-01-16 17:23:50,619 INFO  [LoggerUtils] Identity Mark  Entered 
-2020-01-16 17:23:51,799 INFO  [LoggerUtils] Emergency Contact Relation Selected 
-2020-01-16 17:23:57,072 INFO  [LoggerUtils] Personal Details Filed, Next Button Clicked 
-2020-01-16 17:24:00,215 INFO  [LoggerUtils] Qualification Details Entered 
-2020-01-16 17:24:01,328 INFO  [LoggerUtils] Passing Year Entered 
-2020-01-16 17:24:02,431 INFO  [LoggerUtils] University Name Entered 
-2020-01-16 17:24:03,521 INFO  [LoggerUtils] Percentage Entered 
-2020-01-16 17:24:04,666 INFO  [LoggerUtils] Personal Details Enterd, Next Button Clicked 
-2020-01-16 17:24:07,764 INFO  [LoggerUtils] Total Experience  Entered 
-2020-01-16 17:24:08,967 INFO  [LoggerUtils] Galentic Email-ID  Entered 
-2020-01-16 17:24:12,338 INFO  [LoggerUtils] Employee Type  Selected 
-2020-01-16 17:24:15,474 INFO  [LoggerUtils] Employee Designation  Selected 
-2020-01-16 17:24:17,751 INFO  [LoggerUtils] Employee Assign Project  Selected 
-2020-01-16 17:24:18,851 INFO  [LoggerUtils] Remarks  Entered 
-2020-01-16 17:24:19,986 INFO  [LoggerUtils] Bank Name  Entered 
-2020-01-16 17:24:21,101 INFO  [LoggerUtils] Employee Location  Selected 
-2020-01-16 17:24:22,275 INFO  [LoggerUtils] Bank Account Number  Entered 
-2020-01-16 17:24:23,394 INFO  [LoggerUtils] UAN Number  Entered 
-2020-01-16 17:24:24,511 INFO  [LoggerUtils] PF Number  Entered 
-2020-01-16 17:24:25,629 INFO  [LoggerUtils] Employement Details Feild, Next Button Clicked 
-2020-01-16 17:24:27,745 INFO  [LoggerUtils] Employee's Stipend Entered 
-2020-01-16 17:24:29,846 INFO  [LoggerUtils] Employee's Salary Details Entered, Next Button Clikced 
-2020-01-16 17:24:30,946 INFO  [LoggerUtils] Choose File Button Clicked 
-2020-01-16 17:24:36,110 INFO  [LoggerUtils] Document Type Entered 
-2020-01-16 17:24:37,223 INFO  [LoggerUtils] Finish Button Clicked 
-2020-01-16 17:24:38,326 INFO  [LoggerUtils] Proceed Ok button Clicked 
-2020-01-16 17:25:30,703 ERROR [LoggerUtils] Exception In Employee Creation :  
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: /html[1]/body[1]/div[6]/p[1]/b[1] (tried for 50 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-	at modules.employee.pageobject.EmployeeCreationPage.dialogMSG(EmployeeCreationPage.java:537)
-	at modules.employee.tests.EmployeeCreationTest.NewEmp(EmployeeCreationTest.java:384)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at testDrivers.TestDriver.tDriver(TestDriver.java:141)
-	at modules.execution.TestExecution.main(TestExecution.java:22)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: /html[1]/body[1]/div[6]/p[1]/b[1]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
-System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
-Driver info: driver.version: TestDriver
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-	at java.util.Optional.orElseThrow(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	... 8 more
-2020-01-16 17:25:31,064 ERROR [LoggerUtils] Failed in test case execution 
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: /html[1]/body[1]/div[6]/p[1]/b[1] (tried for 50 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-	at modules.employee.pageobject.EmployeeCreationPage.dialogMSG(EmployeeCreationPage.java:537)
-	at modules.employee.tests.EmployeeCreationTest.NewEmp(EmployeeCreationTest.java:384)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at testDrivers.TestDriver.tDriver(TestDriver.java:141)
-	at modules.execution.TestExecution.main(TestExecution.java:22)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: /html[1]/body[1]/div[6]/p[1]/b[1]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
-System info: host: 'ADMIN-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
-Driver info: driver.version: TestDriver
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-	at java.util.Optional.orElseThrow(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	... 8 more
-2020-01-16 17:25:31,691 INFO  [LoggerUtils] Driver tear down 
-2020-01-16 17:25:31,691 INFO  [LoggerUtils] Test Failed - newemp_001 
-2020-01-24 14:29:32,917 INFO  [LoggerUtils] ****************************************** 
-2020-01-24 14:29:32,918 INFO  [LoggerUtils] Test Case ID: newsalary_001 
-2020-01-24 14:29:32,918 INFO  [LoggerUtils] ****************************************** 
-2020-01-24 14:29:33,493 ERROR [LoggerUtils] Error in TestDriver - newsalary_001 
-java.lang.ArrayIndexOutOfBoundsException: 3
-	at testDrivers.TestDriver.tDriver(TestDriver.java:108)
-	at modules.execution.TestExecution.main(TestExecution.java:22)
-2020-01-24 14:30:28,981 INFO  [LoggerUtils] ****************************************** 
-2020-01-24 14:30:28,981 INFO  [LoggerUtils] Test Case ID: newsalary_001 
-2020-01-24 14:30:28,981 INFO  [LoggerUtils] ****************************************** 
-2020-01-24 14:30:33,827 INFO  [LoggerUtils] Driver Setup 
-2020-01-24 14:30:36,455 INFO  [LoggerUtils] User Name: admin 
-2020-01-24 14:30:36,541 INFO  [LoggerUtils] Password: password 
-2020-01-24 14:30:41,270 INFO  [LoggerUtils] Payroll Department Menu clicked 
-2020-01-24 14:30:43,471 INFO  [LoggerUtils] Menu Salary Slip Generator Clicked 
-2020-01-24 14:30:44,567 INFO  [LoggerUtils] Text Entered in search box 
-2020-01-24 14:30:45,681 INFO  [LoggerUtils] Search Record Selected 
-2020-01-24 14:30:46,803 INFO  [LoggerUtils] Process Salary Icon Clicked 
-2020-01-24 14:30:47,904 INFO  [LoggerUtils] Process Salary Button Clicked 
-2020-01-24 14:30:50,012 INFO  [LoggerUtils] Confirmation Ok Button Clicked 
-2020-01-24 14:30:53,272 INFO  [LoggerUtils] Unable to Process Salary 
-2020-01-24 14:30:55,915 INFO  [LoggerUtils] Driver tear down 
-2020-01-24 14:30:55,916 INFO  [LoggerUtils] Test Failed - newsalary_001 
-2020-01-24 14:32:13,826 INFO  [LoggerUtils] ****************************************** 
-2020-01-24 14:32:13,826 INFO  [LoggerUtils] Test Case ID: newsalary_001 
-2020-01-24 14:32:13,826 INFO  [LoggerUtils] ****************************************** 
-2020-01-24 14:32:18,382 INFO  [LoggerUtils] Driver Setup 
-2020-01-24 14:32:19,484 INFO  [LoggerUtils] User Name: admin 
-2020-01-24 14:32:19,577 INFO  [LoggerUtils] Password: password 
-2020-01-24 14:32:24,496 INFO  [LoggerUtils] Payroll Department Menu clicked 
-2020-01-24 14:32:26,249 INFO  [LoggerUtils] Menu Salary Slip Generator Clicked 
-2020-01-24 14:32:27,310 INFO  [LoggerUtils] Text Entered in search box 
-2020-01-24 14:32:28,422 INFO  [LoggerUtils] Search Record Selected 
-2020-01-24 14:32:29,529 INFO  [LoggerUtils] Process Salary Icon Clicked 
-2020-01-24 14:32:30,651 INFO  [LoggerUtils] Process Salary Button Clicked 
-2020-01-24 14:32:32,756 INFO  [LoggerUtils] Confirmation Ok Button Clicked 
-2020-01-24 14:32:34,929 INFO  [LoggerUtils] Salary Processed Successfully 
-2020-01-24 14:32:37,570 INFO  [LoggerUtils] Driver tear down 
-2020-01-24 14:32:37,704 INFO  [LoggerUtils] Test Completed Successfully - newsalary_001 
-2020-01-24 14:33:25,602 INFO  [LoggerUtils] ****************************************** 
-2020-01-24 14:33:25,602 INFO  [LoggerUtils] Test Case ID: newsalary_001 
-2020-01-24 14:33:25,602 INFO  [LoggerUtils] ****************************************** 
-2020-01-24 14:33:30,112 INFO  [LoggerUtils] Driver Setup 
-2020-01-24 14:33:34,024 INFO  [LoggerUtils] User Name: admin 
-2020-01-24 14:33:34,123 INFO  [LoggerUtils] Password: password 
-2020-01-24 14:33:38,980 INFO  [LoggerUtils] Payroll Department Menu clicked 
-2020-01-24 14:33:40,764 INFO  [LoggerUtils] Menu Salary Slip Generator Clicked 
-2020-01-24 14:33:41,865 INFO  [LoggerUtils] Text Entered in search box 
-2020-01-24 14:33:42,966 INFO  [LoggerUtils] Search Record Selected 
-2020-01-24 14:33:44,084 INFO  [LoggerUtils] Process Salary Icon Clicked 
-2020-01-24 14:33:45,205 INFO  [LoggerUtils] Process Salary Button Clicked 
-2020-01-24 14:33:47,314 INFO  [LoggerUtils] Confirmation Ok Button Clicked 
-2020-01-24 14:33:49,488 INFO  [LoggerUtils] Salary Processed Successfully 
-2020-01-24 14:33:52,130 INFO  [LoggerUtils] Driver tear down 
-2020-01-24 14:33:52,277 INFO  [LoggerUtils] Test Completed Successfully - newsalary_001 
-2020-01-27 16:47:01,278 INFO  [LoggerUtils] ****************************************** 
-2020-01-27 16:47:01,278 INFO  [LoggerUtils] Test Case ID: newsalary_001 
-2020-01-27 16:47:01,278 INFO  [LoggerUtils] ****************************************** 
-2020-01-27 16:47:09,012 INFO  [LoggerUtils] Driver Setup 
+2020-01-31 16:41:21,316 INFO  [LoggerUtils] ****************************************** 
+2020-01-31 16:41:21,316 INFO  [LoggerUtils] Test Case ID: null 
+2020-01-31 16:41:21,316 INFO  [LoggerUtils] ****************************************** 
+2020-01-31 16:42:32,730 INFO  [LoggerUtils] ****************************************** 
+2020-01-31 16:42:32,730 INFO  [LoggerUtils] Test Case ID: null 
+2020-01-31 16:42:32,730 INFO  [LoggerUtils] ****************************************** 
+2020-01-31 16:42:32,778 ERROR [LoggerUtils] Error in TestDriver - null 
+java.lang.NullPointerException
+	at testDrivers.TestDriver.main(TestDriver.java:106)
+2020-01-31 16:46:45,344 INFO  [LoggerUtils] ****************************************** 
+2020-01-31 16:46:45,345 INFO  [LoggerUtils] Test Case ID: null 
+2020-01-31 16:46:45,345 INFO  [LoggerUtils] ****************************************** 
+2020-01-31 16:46:45,381 ERROR [LoggerUtils] Error in TestDriver - null 
+java.lang.NullPointerException
+	at testDrivers.TestDriver.main(TestDriver.java:106)
+2020-01-31 16:57:38,837 INFO  [LoggerUtils] ****************************************** 
+2020-01-31 16:57:38,837 INFO  [LoggerUtils] Test Case ID: null 
+2020-01-31 16:57:38,837 INFO  [LoggerUtils] ****************************************** 
+2020-01-31 16:57:38,884 ERROR [LoggerUtils] Error in TestDriver - null 
+java.lang.NullPointerException
+	at testDrivers.TestDriver.main(TestDriver.java:104)
+2020-01-31 16:59:16,934 INFO  [LoggerUtils] ****************************************** 
+2020-01-31 16:59:16,935 INFO  [LoggerUtils] Test Case ID: null 
+2020-01-31 16:59:16,935 INFO  [LoggerUtils] ****************************************** 
+2020-01-31 16:59:16,978 ERROR [LoggerUtils] Error in TestDriver - null 
+java.lang.NullPointerException
+	at testDrivers.TestDriver.main(TestDriver.java:104)
+2020-02-03 10:31:44,300 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 10:31:44,330 INFO  [LoggerUtils] Test Case ID: EmployeeConfig 
+2020-02-03 10:31:44,330 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 10:32:12,755 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 10:32:12,755 INFO  [LoggerUtils] Test Case ID: EmployeeConfig 
+2020-02-03 10:32:12,755 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 10:32:28,266 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 10:32:28,266 INFO  [LoggerUtils] Test Case ID: EmployeeConfig 
+2020-02-03 10:32:28,266 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 10:33:22,136 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 10:33:22,136 INFO  [LoggerUtils] Test Case ID: EmployeeConfig 
+2020-02-03 10:33:22,136 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:10:03,816 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:10:03,817 INFO  [LoggerUtils] Test Case ID: EmployeeConfig 
+2020-02-03 12:10:03,817 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:10:04,267 ERROR [LoggerUtils] Error in TestDriver - EmployeeConfig 
+java.lang.NullPointerException
+	at testDrivers.TestDriver.main(TestDriver.java:104)
+2020-02-03 12:11:24,278 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:11:24,278 INFO  [LoggerUtils] Test Case ID: EmployeeConfig 
+2020-02-03 12:11:24,278 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:11:24,803 ERROR [LoggerUtils] Error in TestDriver - EmployeeConfig 
+java.lang.NullPointerException
+	at testDrivers.TestDriver.main(TestDriver.java:104)
+2020-02-03 12:12:10,670 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:12:10,671 INFO  [LoggerUtils] Test Case ID: EmployeeConfig 
+2020-02-03 12:12:10,671 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:12:11,108 ERROR [LoggerUtils] Error in TestDriver - EmployeeConfig 
+java.lang.NullPointerException
+	at testDrivers.TestDriver.main(TestDriver.java:104)
+2020-02-03 12:13:37,854 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:13:37,854 INFO  [LoggerUtils] Test Case ID: EmployeeConfig 
+2020-02-03 12:13:37,854 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:13:38,314 ERROR [LoggerUtils] Error in TestDriver - EmployeeConfig 
+java.lang.NullPointerException
+	at testDrivers.TestDriver.main(TestDriver.java:104)
+2020-02-03 12:14:14,699 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:14:14,700 INFO  [LoggerUtils] Test Case ID: EmployeeConfig 
+2020-02-03 12:14:14,700 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:14:15,470 ERROR [LoggerUtils] Error in TestDriver - EmployeeConfig 
+java.lang.NullPointerException
+	at testDrivers.TestDriver.main(TestDriver.java:104)
+2020-02-03 12:14:22,430 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:14:22,430 INFO  [LoggerUtils] Test Case ID: EmployeeConfig 
+2020-02-03 12:14:22,430 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:14:23,205 ERROR [LoggerUtils] Error in TestDriver - EmployeeConfig 
+java.lang.NullPointerException
+	at testDrivers.TestDriver.main(TestDriver.java:104)
+2020-02-03 12:14:31,187 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:14:31,187 INFO  [LoggerUtils] Test Case ID: EmployeeConfig 
+2020-02-03 12:14:31,188 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:14:31,965 ERROR [LoggerUtils] Error in TestDriver - EmployeeConfig 
+java.lang.NullPointerException
+	at testDrivers.TestDriver.main(TestDriver.java:104)
+2020-02-03 12:14:39,647 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:14:39,648 INFO  [LoggerUtils] Test Case ID: EmployeeConfig 
+2020-02-03 12:14:39,648 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:23:32,596 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:23:32,597 INFO  [LoggerUtils] Test Case ID: EmployeeConfig 
+2020-02-03 12:23:32,597 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:23:33,070 ERROR [LoggerUtils] Error in TestDriver - EmployeeConfig 
+java.lang.NullPointerException
+	at testDrivers.TestDriver.main(TestDriver.java:104)
+2020-02-03 12:24:04,426 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:24:04,426 INFO  [LoggerUtils] Test Case ID: EmployeeConfig 
+2020-02-03 12:24:04,426 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:26:26,110 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:26:26,110 INFO  [LoggerUtils] Test Case ID: EmployeeConfig 
+2020-02-03 12:26:26,110 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:26:26,551 ERROR [LoggerUtils] Error in TestDriver - EmployeeConfig 
+java.lang.NullPointerException
+	at testDrivers.TestDriver.main(TestDriver.java:97)
+2020-02-03 12:27:31,420 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:27:31,421 INFO  [LoggerUtils] Test Case ID: EmployeeConfig 
+2020-02-03 12:27:31,421 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:27:31,863 ERROR [LoggerUtils] Error in TestDriver - EmployeeConfig 
+java.lang.NullPointerException
+	at testDrivers.TestDriver.main(TestDriver.java:97)
+2020-02-03 12:28:07,744 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:28:07,745 INFO  [LoggerUtils] Test Case ID: newemp_001 
+2020-02-03 12:28:07,745 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:41:38,897 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:41:38,898 INFO  [LoggerUtils] Test Case ID: newemp_001 
+2020-02-03 12:41:38,898 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 12:41:44,233 INFO  [LoggerUtils] Driver Setup 
+2020-02-03 12:41:48,446 INFO  [LoggerUtils] User Name: admin 
+2020-02-03 12:41:48,557 INFO  [LoggerUtils] Password: password 
+2020-02-03 12:41:53,246 INFO  [LoggerUtils] HR Department Menu clicked 
+2020-02-03 12:41:54,331 INFO  [LoggerUtils] Employee Menu clicked 
+2020-02-03 12:41:55,302 INFO  [LoggerUtils] Add Employee Menu clicked 
+2020-02-03 12:41:56,409 INFO  [LoggerUtils] First Name Entered 
+2020-02-03 12:41:57,491 INFO  [LoggerUtils] Middle Name Entered 
+2020-02-03 12:41:58,608 INFO  [LoggerUtils] Last Name Entered 
+2020-02-03 12:41:59,812 INFO  [LoggerUtils] Email-id Entered 
+2020-02-03 12:42:00,953 INFO  [LoggerUtils] Aadhaar No entered 
+2020-02-03 12:42:02,142 INFO  [LoggerUtils] Pan No entered 
+2020-02-03 12:42:04,495 INFO  [LoggerUtils] Permanant Address Entered 
+2020-02-03 12:42:05,710 INFO  [LoggerUtils] Blood Group Selected 
+2020-02-03 12:42:06,814 INFO  [LoggerUtils] Copy above address button clicked 
+2020-02-03 12:42:06,814 INFO  [LoggerUtils] Communication Address  Entered 
+2020-02-03 12:42:07,948 INFO  [LoggerUtils] Contact Number  Entered 
+2020-02-03 12:42:09,093 INFO  [LoggerUtils] Emergency Contact Number Entered 
+2020-02-03 12:42:10,212 INFO  [LoggerUtils] Identity Mark  Entered 
+2020-02-03 12:42:11,427 INFO  [LoggerUtils] Emergency Contact Relation Selected 
+2020-02-03 12:42:16,759 INFO  [LoggerUtils] Personal Details Filed, Next Button Clicked 
+2020-02-03 12:42:19,889 INFO  [LoggerUtils] Qualification Details Entered 
+2020-02-03 12:42:21,003 INFO  [LoggerUtils] Passing Year Entered 
+2020-02-03 12:42:22,107 INFO  [LoggerUtils] University Name Entered 
+2020-02-03 12:42:23,194 INFO  [LoggerUtils] Percentage Entered 
+2020-02-03 12:42:24,299 INFO  [LoggerUtils] Personal Details Enterd, Next Button Clicked 
+2020-02-03 12:42:27,454 INFO  [LoggerUtils] Total Experience  Entered 
+2020-02-03 12:42:28,646 INFO  [LoggerUtils] Galentic Email-ID  Entered 
+2020-02-03 12:42:32,033 INFO  [LoggerUtils] Employee Type  Selected 
+2020-02-03 12:42:35,182 INFO  [LoggerUtils] Employee Designation  Selected 
+2020-02-03 12:42:37,467 INFO  [LoggerUtils] Employee Assign Project  Selected 
+2020-02-03 12:42:38,563 INFO  [LoggerUtils] Remarks  Entered 
+2020-02-03 12:42:39,667 INFO  [LoggerUtils] Bank Name  Entered 
+2020-02-03 12:42:40,791 INFO  [LoggerUtils] Employee Location  Selected 
+2020-02-03 12:42:41,956 INFO  [LoggerUtils] Bank Account Number  Entered 
+2020-02-03 12:42:43,069 INFO  [LoggerUtils] UAN Number  Entered 
+2020-02-03 12:42:44,202 INFO  [LoggerUtils] PF Number  Entered 
+2020-02-03 12:42:45,322 INFO  [LoggerUtils] Employement Details Feild, Next Button Clicked 
+2020-02-03 12:42:47,448 INFO  [LoggerUtils] Employee's Stipend Entered 
+2020-02-03 12:42:49,552 INFO  [LoggerUtils] Employee's Salary Details Entered, Next Button Clikced 
+2020-02-03 12:42:50,648 INFO  [LoggerUtils] Choose File Button Clicked 
+2020-02-03 12:42:55,878 INFO  [LoggerUtils] Document Type Entered 
+2020-02-03 12:42:57,011 INFO  [LoggerUtils] Finish Button Clicked 
+2020-02-03 12:42:58,105 INFO  [LoggerUtils] Proceed Ok button Clicked 
+2020-02-03 16:18:18,541 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 16:18:18,559 INFO  [LoggerUtils] Test Case ID: EmployeeConfig 
+2020-02-03 16:18:18,559 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 16:18:19,007 ERROR [LoggerUtils] Error in TestDriver - EmployeeConfig 
+java.lang.NullPointerException
+	at testDrivers.TestDriver.main(TestDriver.java:105)
+2020-02-03 16:19:02,865 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 16:19:02,865 INFO  [LoggerUtils] Test Case ID: newemp_002 
+2020-02-03 16:19:02,865 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 16:19:07,629 INFO  [LoggerUtils] Driver Setup 
+2020-02-03 16:19:08,611 INFO  [LoggerUtils] User Name: admin 
+2020-02-03 16:19:08,695 INFO  [LoggerUtils] Password: password 
+2020-02-03 16:19:13,329 INFO  [LoggerUtils] HR Department Menu clicked 
+2020-02-03 16:19:14,419 INFO  [LoggerUtils] Employee Menu clicked 
+2020-02-03 16:19:15,254 INFO  [LoggerUtils] Add Employee Menu clicked 
+2020-02-03 16:19:16,375 INFO  [LoggerUtils] First Name Entered 
+2020-02-03 16:19:17,475 INFO  [LoggerUtils] Middle Name Entered 
+2020-02-03 16:19:18,584 INFO  [LoggerUtils] Last Name Entered 
+2020-02-03 16:19:19,749 INFO  [LoggerUtils] Email-id Entered 
+2020-02-03 16:19:20,895 INFO  [LoggerUtils] Aadhaar No entered 
+2020-02-03 16:19:22,045 INFO  [LoggerUtils] Pan No entered 
+2020-02-03 16:19:24,335 INFO  [LoggerUtils] Permanant Address Entered 
+2020-02-03 16:19:25,529 INFO  [LoggerUtils] Blood Group Selected 
+2020-02-03 16:19:26,916 INFO  [LoggerUtils] Communication Address  Entered 
+2020-02-03 16:19:28,069 INFO  [LoggerUtils] Contact Number  Entered 
+2020-02-03 16:19:29,218 INFO  [LoggerUtils] Emergency Contact Number Entered 
+2020-02-03 16:19:30,333 INFO  [LoggerUtils] Identity Mark  Entered 
+2020-02-03 16:19:31,480 INFO  [LoggerUtils] Emergency Contact Relation Selected 
+2020-02-03 16:19:32,617 INFO  [LoggerUtils] Personal Details Filed, Next Button Clicked 
+2020-02-03 16:19:35,767 INFO  [LoggerUtils] Qualification Details Entered 
+2020-02-03 16:19:36,887 INFO  [LoggerUtils] Passing Year Entered 
+2020-02-03 16:19:37,992 INFO  [LoggerUtils] University Name Entered 
+2020-02-03 16:19:39,095 INFO  [LoggerUtils] Percentage Entered 
+2020-02-03 16:19:40,198 INFO  [LoggerUtils] Personal Details Enterd, Next Button Clicked 
+2020-02-03 16:19:43,292 INFO  [LoggerUtils] Total Experience  Entered 
+2020-02-03 16:19:44,442 INFO  [LoggerUtils] Galentic Email-ID  Entered 
+2020-02-03 16:19:47,787 INFO  [LoggerUtils] Employee Type  Selected 
+2020-02-03 16:19:50,909 INFO  [LoggerUtils] Employee Designation  Selected 
+2020-02-03 16:19:53,175 INFO  [LoggerUtils] Employee Assign Project  Selected 
+2020-02-03 16:19:54,267 INFO  [LoggerUtils] Remarks  Entered 
+2020-02-03 16:19:55,427 INFO  [LoggerUtils] Bank Name  Entered 
+2020-02-03 16:19:56,546 INFO  [LoggerUtils] Employee Location  Selected 
+2020-02-03 16:19:57,717 INFO  [LoggerUtils] Bank Account Number  Entered 
+2020-02-03 16:19:58,836 INFO  [LoggerUtils] UAN Number  Entered 
+2020-02-03 16:19:59,945 INFO  [LoggerUtils] PF Number  Entered 
+2020-02-03 16:20:01,053 INFO  [LoggerUtils] Employement Details Feild, Next Button Clicked 
+2020-02-03 16:20:03,163 INFO  [LoggerUtils] Employee's Salary Details Entered, Next Button Clicked 
+2020-02-03 16:20:05,262 INFO  [LoggerUtils] Employee's Salary Details Entered, Next Button Clikced 
+2020-02-03 16:20:06,356 INFO  [LoggerUtils] Finish Button Clicked 
+2020-02-03 16:20:07,436 INFO  [LoggerUtils] Proceed Ok button Clicked 
+2020-02-03 16:20:11,047 INFO  [LoggerUtils] Employee Updated Successfully 
+2020-02-03 16:20:11,493 INFO  [LoggerUtils] Ok Button Clicked 
+2020-02-03 16:20:13,645 INFO  [LoggerUtils] Employee Searching Using Aadhaar Card No. 
+2020-02-03 16:20:14,682 INFO  [LoggerUtils] Employee ID is : C_00001 
+2020-02-03 16:20:17,316 INFO  [LoggerUtils] Driver tear down 
+2020-02-03 16:20:17,503 INFO  [LoggerUtils] Test Completed Successfully - newemp_002 
+2020-02-03 16:21:25,517 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 16:21:25,517 INFO  [LoggerUtils] Test Case ID: newemp_003 
+2020-02-03 16:21:25,517 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 16:21:30,249 INFO  [LoggerUtils] Driver Setup 
+2020-02-03 16:21:31,667 INFO  [LoggerUtils] User Name: admin 
+2020-02-03 16:21:31,763 INFO  [LoggerUtils] Password: password 
+2020-02-03 16:21:36,899 INFO  [LoggerUtils] HR Department Menu clicked 
+2020-02-03 16:21:38,003 INFO  [LoggerUtils] Employee Menu clicked 
+2020-02-03 16:21:38,719 INFO  [LoggerUtils] Add Employee Menu clicked 
+2020-02-03 16:21:39,846 INFO  [LoggerUtils] First Name Entered 
+2020-02-03 16:21:40,939 INFO  [LoggerUtils] Middle Name Entered 
+2020-02-03 16:21:42,065 INFO  [LoggerUtils] Last Name Entered 
+2020-02-03 16:21:43,255 INFO  [LoggerUtils] Email-id Entered 
+2020-02-03 16:21:44,411 INFO  [LoggerUtils] Aadhaar No entered 
+2020-02-03 16:21:45,578 INFO  [LoggerUtils] Pan No entered 
+2020-02-03 16:21:47,933 INFO  [LoggerUtils] Permanant Address Entered 
+2020-02-03 16:21:49,134 INFO  [LoggerUtils] Blood Group Selected 
+2020-02-03 16:21:50,255 INFO  [LoggerUtils] Copy above address button clicked 
+2020-02-03 16:21:50,255 INFO  [LoggerUtils] Communication Address  Entered 
+2020-02-03 16:21:51,400 INFO  [LoggerUtils] Contact Number  Entered 
+2020-02-03 16:21:52,544 INFO  [LoggerUtils] Emergency Contact Number Entered 
+2020-02-03 16:21:53,664 INFO  [LoggerUtils] Identity Mark  Entered 
+2020-02-03 16:21:54,845 INFO  [LoggerUtils] Emergency Contact Relation Selected 
+2020-02-03 16:21:55,963 INFO  [LoggerUtils] Personal Details Filed, Next Button Clicked 
+2020-02-03 16:21:59,114 INFO  [LoggerUtils] Qualification Details Entered 
+2020-02-03 16:22:00,222 INFO  [LoggerUtils] Passing Year Entered 
+2020-02-03 16:22:01,316 INFO  [LoggerUtils] University Name Entered 
+2020-02-03 16:22:02,423 INFO  [LoggerUtils] Percentage Entered 
+2020-02-03 16:22:03,538 INFO  [LoggerUtils] Personal Details Enterd, Next Button Clicked 
+2020-02-03 16:22:06,630 INFO  [LoggerUtils] Total Experience  Entered 
+2020-02-03 16:22:07,807 INFO  [LoggerUtils] Galentic Email-ID  Entered 
+2020-02-03 16:22:11,204 INFO  [LoggerUtils] Employee Type  Selected 
+2020-02-03 16:22:14,337 INFO  [LoggerUtils] Employee Designation  Selected 
+2020-02-03 16:22:16,589 INFO  [LoggerUtils] Employee Assign Project  Selected 
+2020-02-03 16:22:17,688 INFO  [LoggerUtils] Remarks  Entered 
+2020-02-03 16:22:18,837 INFO  [LoggerUtils] Bank Name  Entered 
+2020-02-03 16:22:19,976 INFO  [LoggerUtils] Employee Location  Selected 
+2020-02-03 16:22:21,127 INFO  [LoggerUtils] Bank Account Number  Entered 
+2020-02-03 16:22:22,215 INFO  [LoggerUtils] UAN Number  Entered 
+2020-02-03 16:22:23,308 INFO  [LoggerUtils] PF Number  Entered 
+2020-02-03 16:22:24,432 INFO  [LoggerUtils] Employement Details Feild, Next Button Clicked 
+2020-02-03 16:22:26,590 INFO  [LoggerUtils] Employee's CTC Entered 
+2020-02-03 16:22:27,709 INFO  [LoggerUtils] Employee's Baisc Salary Entered 
+2020-02-03 16:22:28,849 INFO  [LoggerUtils] Employee's HRA Amount Entered 
+2020-02-03 16:22:29,977 INFO  [LoggerUtils] Employee's Convyence Allowance Entered 
+2020-02-03 16:22:31,099 INFO  [LoggerUtils] Employee's Medical Allowance Entered 
+2020-02-03 16:22:32,190 INFO  [LoggerUtils] Employee's Mobile Allowance Entered 
+2020-02-03 16:22:33,296 INFO  [LoggerUtils] Employee's Executive Allowance Entered 
+2020-02-03 16:22:34,409 INFO  [LoggerUtils] Employee's Insurance Benefit Entered 
+2020-02-03 16:22:35,503 INFO  [LoggerUtils] Employee's Variable Pay Entered 
+2020-02-03 16:22:36,635 INFO  [LoggerUtils] Employee's EPF Amount Entered 
+2020-02-03 16:22:37,722 INFO  [LoggerUtils] Employee's Joining Bonus Enterd 
+2020-02-03 16:22:38,783 INFO  [LoggerUtils] Employee's Salary Details Entered 
+2020-02-03 16:22:40,880 INFO  [LoggerUtils] Finish Button Clicked 
+2020-02-03 16:22:41,973 INFO  [LoggerUtils] Proceed Ok button Clicked 
+2020-02-03 16:22:46,093 INFO  [LoggerUtils] Employee Updated Successfully 
+2020-02-03 16:22:46,696 INFO  [LoggerUtils] Ok Button Clicked 
+2020-02-03 16:22:48,874 INFO  [LoggerUtils] Employee Searching Using Aadhaar Card No. 
+2020-02-03 16:22:49,940 INFO  [LoggerUtils] Employee ID is : 00001 
+2020-02-03 16:22:52,590 INFO  [LoggerUtils] Driver tear down 
+2020-02-03 16:22:52,751 ERROR [LoggerUtils] Error in TestDriver - newemp_003 
+java.lang.ClassCastException: org.json.JSONObject cannot be cast to java.util.Map
+	at projlib.Applib.consoleOutput(Applib.java:40)
+	at testDrivers.TestDriver.main(TestDriver.java:174)
+2020-02-03 16:28:00,435 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 16:28:00,435 INFO  [LoggerUtils] Test Case ID: newemp_001 
+2020-02-03 16:28:00,435 INFO  [LoggerUtils] ****************************************** 
+2020-02-03 16:28:05,159 INFO  [LoggerUtils] Driver Setup 
+2020-02-03 16:28:06,287 INFO  [LoggerUtils] User Name: admin 
+2020-02-03 16:28:06,360 INFO  [LoggerUtils] Password: password 
+2020-02-03 16:28:10,905 INFO  [LoggerUtils] HR Department Menu clicked 
+2020-02-03 16:28:11,982 INFO  [LoggerUtils] Employee Menu clicked 
+2020-02-03 16:28:12,879 INFO  [LoggerUtils] Add Employee Menu clicked 
+2020-02-03 16:28:13,998 INFO  [LoggerUtils] First Name Entered 
+2020-02-03 16:28:15,083 INFO  [LoggerUtils] Middle Name Entered 
+2020-02-03 16:28:16,169 INFO  [LoggerUtils] Last Name Entered 
+2020-02-03 16:28:17,362 INFO  [LoggerUtils] Email-id Entered 
+2020-02-03 16:28:18,518 INFO  [LoggerUtils] Aadhaar No entered 
+2020-02-03 16:28:19,671 INFO  [LoggerUtils] Pan No entered 
+2020-02-03 16:28:22,064 INFO  [LoggerUtils] Permanant Address Entered 
+2020-02-03 16:28:23,235 INFO  [LoggerUtils] Blood Group Selected 
+2020-02-03 16:28:24,344 INFO  [LoggerUtils] Copy above address button clicked 
+2020-02-03 16:28:24,344 INFO  [LoggerUtils] Communication Address  Entered 
+2020-02-03 16:28:25,489 INFO  [LoggerUtils] Contact Number  Entered 
+2020-02-03 16:28:26,639 INFO  [LoggerUtils] Emergency Contact Number Entered 
+2020-02-03 16:28:27,744 INFO  [LoggerUtils] Identity Mark  Entered 
+2020-02-03 16:28:28,929 INFO  [LoggerUtils] Emergency Contact Relation Selected 
+2020-02-03 16:28:34,189 INFO  [LoggerUtils] Personal Details Filed, Next Button Clicked 
+2020-02-03 16:28:37,348 INFO  [LoggerUtils] Qualification Details Entered 
+2020-02-03 16:28:38,443 INFO  [LoggerUtils] Passing Year Entered 
+2020-02-03 16:28:39,540 INFO  [LoggerUtils] University Name Entered 
+2020-02-03 16:28:40,630 INFO  [LoggerUtils] Percentage Entered 
+2020-02-03 16:28:41,741 INFO  [LoggerUtils] Personal Details Enterd, Next Button Clicked 
+2020-02-03 16:28:44,852 INFO  [LoggerUtils] Total Experience  Entered 
+2020-02-03 16:28:46,038 INFO  [LoggerUtils] Galentic Email-ID  Entered 
+2020-02-03 16:28:49,408 INFO  [LoggerUtils] Employee Type  Selected 
+2020-02-03 16:28:52,526 INFO  [LoggerUtils] Employee Designation  Selected 
+2020-02-03 16:28:54,775 INFO  [LoggerUtils] Employee Assign Project  Selected 
+2020-02-03 16:28:55,884 INFO  [LoggerUtils] Remarks  Entered 
+2020-02-03 16:28:57,017 INFO  [LoggerUtils] Bank Name  Entered 
+2020-02-03 16:28:58,133 INFO  [LoggerUtils] Employee Location  Selected 
+2020-02-03 16:28:59,315 INFO  [LoggerUtils] Bank Account Number  Entered 
+2020-02-03 16:29:00,417 INFO  [LoggerUtils] UAN Number  Entered 
+2020-02-03 16:29:01,522 INFO  [LoggerUtils] PF Number  Entered 
+2020-02-03 16:29:02,650 INFO  [LoggerUtils] Employement Details Feild, Next Button Clicked 
+2020-02-03 16:29:04,761 INFO  [LoggerUtils] Employee's Stipend Entered 
+2020-02-03 16:29:06,856 INFO  [LoggerUtils] Employee's Salary Details Entered, Next Button Clikced 
+2020-02-03 16:29:07,968 INFO  [LoggerUtils] Choose File Button Clicked 
+2020-02-03 16:29:13,135 INFO  [LoggerUtils] Document Type Entered 
+2020-02-03 16:29:14,253 INFO  [LoggerUtils] Finish Button Clicked 
+2020-02-03 16:29:15,328 INFO  [LoggerUtils] Proceed Ok button Clicked 
+2020-02-03 16:29:19,439 INFO  [LoggerUtils] Employee Updated Successfully 
+2020-02-03 16:29:19,895 INFO  [LoggerUtils] Ok Button Clicked 
+2020-02-03 16:29:22,032 INFO  [LoggerUtils] Employee Searching Using Aadhaar Card No. 
+2020-02-03 16:29:23,072 INFO  [LoggerUtils] Employee ID is : TR_00001 
+2020-02-03 16:29:25,924 INFO  [LoggerUtils] Driver tear down 
+2020-02-03 16:29:26,063 INFO  [LoggerUtils] Test Completed Successfully - newemp_001 
