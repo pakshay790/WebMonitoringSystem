@@ -21,6 +21,9 @@ public class TestDriver
 {
 	ExtentHtmlReporter htmlReporter;
 	public static ExtentReports extent;
+	static  long startTime;
+	 static long endTime;
+     static String executionTime;
 //	ExtentTest test;
 
 
@@ -79,6 +82,7 @@ public class TestDriver
         hMapRetObj.put("depUpdateVal", "");
         String depVal = "";
         String depData = "";
+       
         
         String testId = args[0];
     	String testConfig = args[1];
@@ -93,6 +97,7 @@ public class TestDriver
     	Globals gbl = new Globals(filePath);
     	try {
         	
+    		startTime = System.nanoTime();
         	LoggerUtils.logInfo("******************************************");
         	LoggerUtils.logInfo("Test Case ID: " + testId);
         	LoggerUtils.logInfo("******************************************");
@@ -169,8 +174,10 @@ public class TestDriver
         					, Integer.parseInt(hMapConfig.get("DepUpdUpdateCol"))
         					, hMapRetObj.get("depUpdateVal"));
             	}           	
+            	endTime = System.nanoTime();
+            	executionTime = String.valueOf(Applib.calculateExecutionTime(endTime, startTime));
             	consoleData.put("status",Globals.RES_PASS);
-            	consoleData.put("execution_time","0.0");
+            	consoleData.put("execution_time",executionTime);
             	Applib.consoleOutput(consoleData);
             	
               	
@@ -179,9 +186,10 @@ public class TestDriver
             }
             else
             {
-
+            	endTime = System.nanoTime();
+            	executionTime = String.valueOf(Applib.calculateExecutionTime(endTime, startTime));
             	consoleData.put("status",Globals.RES_FAILED);
-            	consoleData.put("execution_time","0.0");
+            	consoleData.put("execution_time",executionTime);
             	Applib.consoleOutput(consoleData);
 //            	test.fail("Test Failed - " + testId);
             	LoggerUtils.logInfo("Test Failed - " + testId);            	
@@ -189,6 +197,8 @@ public class TestDriver
 
         } catch (Exception e) {
         	e.printStackTrace();
+        	endTime = System.nanoTime();
+        	executionTime = String.valueOf(Applib.calculateExecutionTime(endTime, startTime));
         	consoleData.put("status",Globals.RES_FAILED);
         	consoleData.put("execution_time","0.0");
         	try {

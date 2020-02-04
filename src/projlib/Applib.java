@@ -37,4 +37,12 @@ public class Applib
 			 
 	        System.out.println(new JSONObject(consoleData));    			
 	}
+	
+	public static long calculateExecutionTime(long endTime, long startTime) {
+		
+		long timeElapsed = endTime - startTime;
+		long executionTime = timeElapsed/1000000000;
+		return executionTime;
+		
+	}
 }
