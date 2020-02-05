@@ -382,9 +382,9 @@ public class EmployeeCreationTest {
 			Thread.sleep(2000);
 			
 			WebElement successMSG = EmployeeCreationPage.dialogMSG(driver);
-			Thread.sleep(1000);
+			Thread.sleep(2000);
 			String successMessage = successMSG.getText();
-			
+			Thread.sleep(2000);
 			if (successMessage.equals(Globals.EMP_CREATED_SUCCESS)) 	
 			{
 				LoggerUtils.logInfo("Employee Updated Successfully");

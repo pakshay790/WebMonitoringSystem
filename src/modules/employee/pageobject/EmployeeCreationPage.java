@@ -534,7 +534,7 @@ public class EmployeeCreationPage {
 	{
 		WebElement element=null;
 		WebDriverWait wait=new WebDriverWait(driver, 50);
-		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/div[6]/p[1]/b[1]")));
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/div[6]/p[1]")));
 		return element;
 	}
 	
