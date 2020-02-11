@@ -74,11 +74,59 @@ public class EmployeeCreationPage {
 		return element;
 	}
 	
-	public static WebElement selDOBVal(WebDriver driver)
+	public static WebElement selYear(WebDriver driver)
 	{
 		WebElement element=null;
 		WebDriverWait wait=new WebDriverWait(driver, 50);
-		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[contains(text(),'03')]")));
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/div[3]/div[2]")));
+		return element;
+	}
+	
+	public static WebElement btnBackYear(WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='dtp-date']//div//a[@class='dtp-select-year-before']//i[@class='material-icons'][contains(text(),'chevron_left')]")));
+		return element;
+	}
+	
+	public static WebElement btnForwardYear(WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='dtp-date']//div//a[@class='dtp-select-year-after']//i[@class='material-icons'][contains(text(),'chevron_right')]")));
+		return element;
+	}
+	
+	public static WebElement selMonth(WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]")));
+		return element;
+	}
+	
+	public static WebElement btnBackMonth(WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='dtp-date']//div//a[@class='dtp-select-month-before']//i[@class='material-icons'][contains(text(),'chevron_left')]")));
+		return element;
+	}
+	
+	public static WebElement btnForwardMonth(WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='dtp-date']//div//a[@class='dtp-select-month-after']//i[@class='material-icons'][contains(text(),'chevron_right')]")));
+		return element;
+	}
+	
+	public static WebElement selDay(WebDriver driver, String lblDay)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[contains(text(),'"+lblDay+"')]")));
 		return element;
 	}
 	
@@ -86,7 +134,7 @@ public class EmployeeCreationPage {
 	{
 		WebElement element=null;
 		WebDriverWait wait=new WebDriverWait(driver, 50);
-		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@id='dtp_NPIPr']//button[@class='dtp-btn-ok btn btn-flat btn-sm'][contains(text(),'OK')]")));
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/div[4]/div[1]/div[2]/button[4]")));
 		return element;
 	}
 	
@@ -561,6 +609,57 @@ public class EmployeeCreationPage {
 		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/section[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[2]/table[1]/tbody[1]/tr[1]/td[1]")));
 		return element;
 	}
+
+	public static WebElement selDOJMonth(WebDriver driver) {
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]")));
+		return element;
+	}
+
+	public static WebElement btnDOJForwardMonth(WebDriver driver) {
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='dtp-date']//div//a[@class='dtp-select-month-after']//i[@class='material-icons'][contains(text(),'chevron_right')]")));
+		return element;
+	}
+
+	public static WebElement btnDOJBackMonth(WebDriver driver) {
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/i[1]")));
+		return element;
+	}
+
+	public static WebElement selDOJYear(WebDriver driver) {
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/div[3]/div[1]/div[1]/div[1]/div[3]/div[2]")));
+		return element;
+	}
+
+	public static WebElement btnDOJForwardYear(WebDriver driver) {
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='dtp-date']//div//a[@class='dtp-select-month-after']//i[@class='material-icons'][contains(text(),'chevron_right')]")));
+		return element;
+	}
+
+	public static WebElement btnDOJBackYear(WebDriver driver) {
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/a[1]/i[1]")));
+		return element;
+	}
+
+	public static WebElement selDOJDay(WebDriver driver, String lblDOJDay) {
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[@class='dtp-select-day'][contains(text(),'"+lblDOJDay+"')]")));
+		return element;
+	}
+	
+	
 	
 
 	

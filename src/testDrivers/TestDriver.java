@@ -83,16 +83,16 @@ public class TestDriver
         String depVal = "";
         String depData = "";
        
+//        
+//        String testId = args[0];
+//    	String testConfig = args[1];
+//    	String testConfigSheet   = args[2];
+//    	String filePath = args[3];
         
-        String testId = args[0];
-    	String testConfig = args[1];
-    	String testConfigSheet   = args[2];
-    	String filePath = args[3];
-        
-//        String testId = "newemp_001";
-//    	String testConfig = "EmployeeConfig";
-//    	String testConfigSheet  = "NewEmp";
-//    	String filePath = "E:\\Project\\HRMSAutomation\\";
+        String testId = "newemp_001";
+    	String testConfig = "EmployeeConfig";
+    	String testConfigSheet  = "NewEmp";
+    	String filePath = "E:\\Project\\HRMSAutomation\\";
     	
     	Globals gbl = new Globals(filePath);
     	try {
@@ -199,8 +199,8 @@ public class TestDriver
         	e.printStackTrace();
         	endTime = System.nanoTime();
         	executionTime = String.valueOf(Applib.calculateExecutionTime(endTime, startTime));
-        	consoleData.put("status",Globals.RES_FAILED);
-        	consoleData.put("execution_time","0.0");
+        	consoleData.put("status",Globals.RES_EXCEPTION);
+        	consoleData.put("execution_time",executionTime);
         	try {
 				Applib.consoleOutput(consoleData);
 			} catch (JSONException e1) {

@@ -4,6 +4,7 @@ import java.io.File;
 import java.util.HashMap;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -82,14 +83,29 @@ public class EmployeeCreationTest {
 			LoggerUtils.logInfo("Pan No entered");
 			Thread.sleep(2000);
 			
-//			WebElement dob = EmployeeCreationPage.selDOB(driver);
-//			dob.sendKeys(datArr[12]);
-//			
-//			String arrDate[] = datArr[12].split("\\/");
-//			WebElement dobVal = EmployeeCreationPage.selDOBVal(driver);
-//			dobVal.click();
-//			Thread.sleep(1000);
+			WebElement selDOB = EmployeeCreationPage.selDOB(driver);
+			selDOB.click();
+			Thread.sleep(1000);
 			
+			String [] arrDOBDate = datArr[12].split("\\-");
+			
+			// Selecting Month From Date
+			selMonth(arrDOBDate,driver,EmployeeCreationPage.selMonth(driver),EmployeeCreationPage.btnForwardMonth(driver),EmployeeCreationPage.btnBackMonth(driver));
+			
+			// Selecting Year  From Date
+			selYear(arrDOBDate,driver,EmployeeCreationPage.selYear(driver),EmployeeCreationPage.btnForwardYear(driver),EmployeeCreationPage.btnBackYear(driver));
+			
+			// Selecting Day from Date
+			WebElement selDay  = EmployeeCreationPage.selDay(driver, arrDOBDate[0]);
+			selDay.click();
+			LoggerUtils.logInfo("DOB Date Selected");
+			Thread.sleep(1000);
+			
+			WebElement btnDOBOK = EmployeeCreationPage.btnDOBOk(driver);
+			btnDOBOK.click();
+			LoggerUtils.logInfo("Date of Birth Selected");
+			Thread.sleep(1000);
+
 			WebElement parmAddress = EmployeeCreationPage.parmAddress(driver);
 			parmAddress.sendKeys(datArr[13]);
 			LoggerUtils.logInfo("Permanant Address Entered");
@@ -199,6 +215,24 @@ public class EmployeeCreationTest {
 			WebElement doj = EmployeeCreationPage.txtDOJ(driver);
 			doj.click();
 			Thread.sleep(1000);
+			
+			String [] arrDOJDate = datArr[27].split("\\-");
+			
+			// Selecting Month From Date
+			selMonth(arrDOJDate,driver,EmployeeCreationPage.selDOJMonth(driver),EmployeeCreationPage.btnDOJForwardMonth(driver),EmployeeCreationPage.btnDOJBackMonth(driver));
+			
+			// Selecting Year  From Date
+			selYear(arrDOJDate,driver,EmployeeCreationPage.selDOJYear(driver),EmployeeCreationPage.btnDOJForwardYear(driver),EmployeeCreationPage.btnDOJBackYear(driver));
+			Thread.sleep(1000); 
+			
+			System.out.println(arrDOJDate[0]);
+			// Selecting Day from Date
+			WebElement selDOJDay  = EmployeeCreationPage.selDOJDay(driver,arrDOJDate[0]);
+			selDOJDay.click();
+			LoggerUtils.logInfo("DOB Date Selected");
+			Thread.sleep(1000);
+			
+			
 			WebElement btnOkDOJ = EmployeeCreationPage.btnOkDOJ(driver);
 			btnOkDOJ.click();
 			Thread.sleep(1000);
@@ -430,6 +464,50 @@ public class EmployeeCreationTest {
 			Genlib.webDriverTearDown(driver);
 		}
 		return hMapRetObj;
+	}
+	
+	private static void selMonth(String[] arrDate, WebDriver driver, WebElement objSelMonth, WebElement btnForwardMonth,
+			WebElement btnBackMonth) throws InterruptedException {
+		WebElement selMonth = objSelMonth;
+		String currentMonth;
+		String dataMonth = arrDate[1];
+		
+		Thread.sleep(1000);
+		
+		for (int i = 0; i < 12; i++) {
+			currentMonth = selMonth.getText();
+			
+			if (!currentMonth.equals(dataMonth)) {
+				WebElement BackMonth =btnBackMonth;
+				BackMonth.click();
+				Thread.sleep(1000);			
+			}
+		}
+		
+	}
+
+	private static void selYear(String[] arrDate, WebDriver driver, WebElement objSelYear, WebElement objForwardYear, WebElement objBackYear) throws InterruptedException {
+		WebElement selYear = objSelYear ;
+		int currentYear = Integer.parseInt(selYear.getText());
+		Thread.sleep(1000);
+		
+		int dataYear =  Integer.parseInt(arrDate[2]);
+		int difference = Math.abs(dataYear - currentYear);
+		
+		if (currentYear < dataYear)
+		{
+			WebElement forwardYear = objForwardYear ;
+			for (int i = 0; i <difference; i++) {
+				forwardYear.click();
+			}
+		}
+		else {
+			WebElement backYear = objBackYear;
+			for (int i = 0; i <difference; i++) {
+				backYear.click();
+			}
+		}
+		
 	}
 
 	public static void testSetUp(WebDriver driver, String[] datArr) throws Exception {
