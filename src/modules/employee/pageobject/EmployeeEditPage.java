@@ -675,8 +675,68 @@ public class EmployeeEditPage {
 		return element;
 	}
 	
+	public static WebElement txtExitDate (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='emp_exit_date']")));
+		return element;
+	}
 	
+	public static WebElement lblExitMonth (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]")));
+		return element;
+	}
 	
-
+	public static WebElement btnForwardExitMonth (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]/i[1]")));
+		return element;
+	}
+	
+	public static WebElement btnBackExitMonth (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/i[1]")));
+		return element;
+	}
+	
+	public static WebElement lblExitYear (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/div[3]/div[2]")));
+		return element;
+	}
+	
+	public static WebElement btnForwardExitYear (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/div[3]/div[3]/a[1]/i[1]")));
+		return element;
+	}
+	
+	public static WebElement btnBackExitYear (WebDriver driver)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/div[3]/div[1]/a[1]/i[1]")));
+		return element;
+	}
+	
+	public static WebElement selExitDay(WebDriver driver, String lblExitDay)
+	{
+		WebElement element=null;
+		WebDriverWait wait=new WebDriverWait(driver, 50);
+		element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[contains(text(),'"+lblExitDay+"')]")));
+		return element;
+	}
 	
 }

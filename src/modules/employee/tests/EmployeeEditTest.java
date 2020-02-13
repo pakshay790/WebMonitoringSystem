@@ -190,13 +190,36 @@ public class EmployeeEditTest {
 					Thread.sleep(2000);
 
 					// To Exit employee
-				} else if (datArr[38].equals("YES")) {			
+				} else if (datArr[38].equals("YES")) {	
+					
+					String arrExitDate[] = datArr[56].split("\\-");
+					
 					WebElement selExit = EmployeeEditPage.selExitDate(driver);
 					selExit.click();
 					Thread.sleep(1000);
+					
+					// Selecting Exit Month
+					Applib.selMonth(arrExitDate, driver, EmployeeEditPage.lblExitMonth(driver), EmployeeEditPage.btnForwardExitMonth(driver), EmployeeEditPage.btnBackExitMonth(driver));
+					LoggerUtils.logInfo("Exit Month Selected");
+					Thread.sleep(1000);
+					
+					// Selecting Exit Year	
+					Applib.selYear(arrExitDate, driver, EmployeeEditPage.lblExitYear(driver), EmployeeEditPage.btnForwardExitYear(driver), EmployeeEditPage.btnBackExitYear(driver));
+					LoggerUtils.logInfo("Exit Year Selected");
+					Thread.sleep(1000);
+					
+					
+					// Selecting a Exit Day
+					WebElement selExitDay = EmployeeEditPage.selExitDay(driver, arrExitDate[0]);
+					selExitDay.click();
+					LoggerUtils.logInfo("Exit Date Selected");
+					Thread.sleep(1000);
+					
+
 					WebElement btnOkExitDate = EmployeeEditPage.btnOkExitDate(driver);
 					btnOkExitDate.click();
 					LoggerUtils.logInfo("Employee Exit date entered");
+					Thread.sleep(1000);
 					
 					WebElement selEmpStatus = EmployeeEditPage.empStatus(driver);
 					selEmpStatus.click();
@@ -208,7 +231,7 @@ public class EmployeeEditTest {
 					Thread.sleep(2000);			
 				} 
 				
-				// To change employe's baisc employment details
+				// To change employe's basic employment details
 				else {
 					WebElement designation = EmployeeEditPage.designation(driver);
 					Thread.sleep(1000);

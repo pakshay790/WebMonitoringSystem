@@ -6,6 +6,7 @@ import java.util.Map;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 
 public class Applib 
@@ -43,6 +44,49 @@ public class Applib
 		long timeElapsed = endTime - startTime;
 		long executionTime = timeElapsed/1000000000;
 		return executionTime;
+		
+	}
+	
+	public static void selMonth(String[] arrDate, WebDriver driver, WebElement objSelMonth, WebElement btnForwardMonth,
+			WebElement btnBackMonth) throws InterruptedException {
+		WebElement selMonth = objSelMonth;
+		String currentMonth;
+		String dataMonth = arrDate[1];
+		
+		Thread.sleep(1000);
+		
+		for (int i = 0; i < 12; i++) {
+			currentMonth = selMonth.getText();
+			
+			if (!currentMonth.equals(dataMonth)) {
+				WebElement BackMonth =btnBackMonth;
+				BackMonth.click();
+				Thread.sleep(500);			
+			}
+		}
+		
+	}
+	
+	public static void selYear(String[] arrDate, WebDriver driver, WebElement objSelYear, WebElement objForwardYear, WebElement objBackYear) throws InterruptedException {
+		WebElement selYear = objSelYear ;
+		int currentYear = Integer.parseInt(selYear.getText());
+		
+		int dataYear =  Integer.parseInt(arrDate[2]);
+		int difference = Math.abs(dataYear - currentYear);
+		
+		if (currentYear < dataYear)
+		{
+			WebElement forwardYear = objForwardYear ;
+			for (int i = 0; i <difference; i++) {
+				forwardYear.click();
+			}
+		}
+		else {
+			WebElement backYear = objBackYear;
+			for (int i = 0; i <difference; i++) {
+				backYear.click();
+			}
+		}
 		
 	}
 }
