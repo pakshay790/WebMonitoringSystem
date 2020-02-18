@@ -32,7 +32,7 @@ public class LeaveMusterTest {
 
 		String[] datArr = strData.split("\\|");
 		String[] arrMetaData = datArr[3].split("\\,");
-		String[] arrDepVal = depVal.split("\\|");
+		String[] arrDepVal = depVal.split("\\,");
 		try {
 			testSetUp(driver, datArr);
 			Genlib.sleep(2000);
@@ -69,7 +69,7 @@ public class LeaveMusterTest {
 			Thread.sleep(1000);
 			//Searching employe employee
 			WebElement txtSearch = ViewMusterPage.txtSearch(driver);
-			txtSearch.sendKeys(arrDepVal[0]);
+			txtSearch.sendKeys(arrDepVal[1]);
 			LoggerUtils.logInfo("Employee ID Entered");
 			Thread.sleep(1000);
 			
@@ -87,15 +87,38 @@ public class LeaveMusterTest {
 				LoggerUtils.logInfo("Add Leaves Clicked");
 				Thread.sleep(1000);
 				
+				
+				Applib.selMonth(arrDepVal, driver, ViewMusterPage.lblFromMonth(driver), ViewMusterPage.btnForwardFromMonth(driver), ViewMusterPage.btnBackwardFromMonth(driver));
+				
 			} 
 			
 			 if (arrMetaData[2].equals("ViewLeaves")) {
+//				 
+//				 WebElement btnViewLeaves = ViewMusterPage.btnViewLeaves(driver);
+//				 btnViewLeaves.click();
+//				 LoggerUtils.logInfo("View Button Clicked");
+//				 Thread.sleep(1000);
 				 
-				 WebElement btnViewLeaves = ViewMusterPage.btnViewLeaves(driver);
-				 btnViewLeaves.click();
-				 LoggerUtils.logInfo("View Button Clicked");
+				 // Checking Leave Balance
+				 WebElement lblLeaveBalance = ViewMusterPage.lblLeaveBalance(driver);
 				 Thread.sleep(1000);
-
+				 
+				Float leaveBalance = Float.parseFloat(lblLeaveBalance.getText());
+				Float datLeaveBal = Float.parseFloat(datArr[6]);
+				
+				if (Float.compare(leaveBalance,datLeaveBal) == 0) {
+						
+					 LoggerUtils.logInfo("Leave Balance is matched");
+						hMapRetObj.put("testRunStatus", Globals.PASS);
+						hMapRetObj.put("depUpdateVal","");	
+					
+				}
+				else {
+					 LoggerUtils.logInfo("Leave Balance not matched");
+					 hMapRetObj.put("testRunStatus", Globals.FAIL);
+						hMapRetObj.put("depUpdateVal","");
+				}
+ 				 
 			}
 			
 			

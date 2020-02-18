@@ -1,33 +1,26 @@
-2020-02-13 17:32:48,418 INFO  [LoggerUtils] ****************************************** 
-2020-02-13 17:32:48,418 INFO  [LoggerUtils] Test Case ID: newemp_001 
-2020-02-13 17:32:48,418 INFO  [LoggerUtils] ****************************************** 
-2020-02-13 17:32:53,282 INFO  [LoggerUtils] Driver Setup 
-2020-02-13 17:32:58,084 INFO  [LoggerUtils] User Name: admin 
-2020-02-13 17:32:58,157 INFO  [LoggerUtils] Password: password 
-2020-02-13 17:33:03,538 INFO  [LoggerUtils] HR Department Menu clicked 
-2020-02-13 17:33:04,605 INFO  [LoggerUtils] Employee Menu clicked 
-2020-02-13 17:33:05,521 INFO  [LoggerUtils] Add Employee Menu clicked 
-2020-02-13 17:33:06,654 INFO  [LoggerUtils] First Name Entered 
-2020-02-13 17:33:07,720 INFO  [LoggerUtils] Middle Name Entered 
-2020-02-13 17:33:08,860 INFO  [LoggerUtils] Last Name Entered 
-2020-02-13 17:33:10,055 INFO  [LoggerUtils] Email-id Entered 
-2020-02-13 17:33:11,208 INFO  [LoggerUtils] Aadhaar No entered 
-2020-02-13 17:33:12,356 INFO  [LoggerUtils] Pan No entered 
-2020-02-13 17:33:22,664 INFO  [LoggerUtils] DOB Date Selected 
-2020-02-13 17:33:23,749 INFO  [LoggerUtils] Date of Birth Selected 
-2020-02-13 17:33:25,132 INFO  [LoggerUtils] Permanant Address Entered 
-2020-02-13 17:33:26,326 INFO  [LoggerUtils] Blood Group Selected 
-2020-02-13 17:33:27,460 INFO  [LoggerUtils] Copy above address button clicked 
-2020-02-13 17:33:27,460 INFO  [LoggerUtils] Communication Address  Entered 
-2020-02-13 17:33:28,620 INFO  [LoggerUtils] Contact Number  Entered 
-2020-02-13 17:33:29,769 INFO  [LoggerUtils] Emergency Contact Number Entered 
-2020-02-13 17:33:30,895 INFO  [LoggerUtils] Identity Mark  Entered 
-2020-02-13 17:33:32,079 INFO  [LoggerUtils] Emergency Contact Relation Selected 
-2020-02-13 17:33:37,347 INFO  [LoggerUtils] Personal Details Filed, Next Button Clicked 
-2020-02-13 17:33:40,470 INFO  [LoggerUtils] Qualification Details Entered 
-2020-02-13 17:33:41,605 INFO  [LoggerUtils] Passing Year Entered 
-2020-02-13 17:33:42,711 INFO  [LoggerUtils] University Name Entered 
-2020-02-13 17:33:43,815 INFO  [LoggerUtils] Percentage Entered 
-2020-02-13 17:33:44,925 INFO  [LoggerUtils] Personal Details Enterd, Next Button Clicked 
-2020-02-13 17:33:48,028 INFO  [LoggerUtils] Total Experience  Entered 
-2020-02-13 17:33:49,214 INFO  [LoggerUtils] Galentic Email-ID  Entered 
+2020-02-18 15:37:37,938 INFO  [LoggerUtils] ****************************************** 
+2020-02-18 15:37:37,939 INFO  [LoggerUtils] Test Case ID: leavemuster_001 
+2020-02-18 15:37:37,939 INFO  [LoggerUtils] ****************************************** 
+2020-02-18 15:37:43,248 INFO  [LoggerUtils] Driver Setup 
+2020-02-18 15:37:47,097 INFO  [LoggerUtils] User Name: admin 
+2020-02-18 15:37:47,168 INFO  [LoggerUtils] Password: password 
+2020-02-18 15:37:53,249 INFO  [LoggerUtils] Payroll Department Menu clicked 
+2020-02-18 15:37:54,354 INFO  [LoggerUtils] Leave Muster Menu Clicked 
+2020-02-18 15:37:57,062 INFO  [LoggerUtils] View Leave Muster Clicked 
+2020-02-18 15:37:59,231 INFO  [LoggerUtils] Employee ID Entered 
+2020-02-18 15:38:00,363 INFO  [LoggerUtils] Employee Selected 
+2020-02-18 15:38:01,754 INFO  [LoggerUtils] View Button Clicked 
+2020-02-18 15:38:25,186 INFO  [LoggerUtils] ****************************************** 
+2020-02-18 15:38:25,186 INFO  [LoggerUtils] Test Case ID: leavemuster_001 
+2020-02-18 15:38:25,186 INFO  [LoggerUtils] ****************************************** 
+2020-02-18 15:38:29,928 INFO  [LoggerUtils] Driver Setup 
+2020-02-18 15:38:31,403 INFO  [LoggerUtils] User Name: admin 
+2020-02-18 15:38:31,488 INFO  [LoggerUtils] Password: password 
+2020-02-18 15:38:36,201 INFO  [LoggerUtils] Payroll Department Menu clicked 
+2020-02-18 15:38:37,323 INFO  [LoggerUtils] Leave Muster Menu Clicked 
+2020-02-18 15:38:39,492 INFO  [LoggerUtils] View Leave Muster Clicked 
+2020-02-18 15:38:41,635 INFO  [LoggerUtils] Employee ID Entered 
+2020-02-18 15:38:42,756 INFO  [LoggerUtils] Employee Selected 
+2020-02-18 15:38:44,835 INFO  [LoggerUtils] Leave Balance is matched 
+2020-02-18 15:38:45,444 INFO  [LoggerUtils] Driver tear down 
+2020-02-18 15:38:45,607 INFO  [LoggerUtils] Test Completed Successfully - leavemuster_001 

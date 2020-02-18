@@ -411,14 +411,14 @@ public class EmployeeCreationTest {
 			Thread.sleep(1000);
 			
 			WebElement btnProceedOK = EmployeeCreationPage.btnProceedOK(driver);
-			
+			btnProceedOK.click(); 
 			LoggerUtils.logInfo("Proceed Ok button Clicked");
-			Thread.sleep(4000);
+			Thread.sleep(6000);
+			
 			
 			WebElement successMSG = EmployeeCreationPage.dialogMSG(driver);
-			
 			String successMessage = successMSG.getText();
-			btnProceedOK.click(); 
+			
 			if (successMessage.equals(Globals.EMP_CREATED_SUCCESS)) 	
 			{
 				LoggerUtils.logInfo("Employee Updated Successfully");

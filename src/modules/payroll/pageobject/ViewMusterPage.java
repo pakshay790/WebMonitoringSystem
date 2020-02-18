@@ -64,4 +64,60 @@ public class ViewMusterPage {
         return element;
     }
 	//button[@class='confirm']
+	
+	public static WebElement lblLeaveBalance(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/section[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[2]/table[1]/tbody[1]/tr[1]/td[3]")));
+        return element;
+    }
+	
+	public static WebElement lblFromMonth(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]")));
+        return element;
+    }
+	
+	public static WebElement btnForwardFromMonth(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]/i[1]")));
+        return element;
+    }
+	public static WebElement btnBackwardFromMonth(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("")));
+        return element;
+    }
+	
+	public static WebElement lblFromYear(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("")));
+        return element;
+    }
+	
+	public static WebElement btnForwardFromYear(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("")));
+        return element;
+    }
+	
+	public static WebElement btnBackwardFromYear(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("")));
+        return element;
+    }
+	
 }
