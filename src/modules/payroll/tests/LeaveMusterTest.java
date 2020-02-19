@@ -3,6 +3,8 @@ package modules.payroll.tests;
 import java.io.File;
 import java.util.HashMap;
 
+import javax.swing.text.View;
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -87,8 +89,103 @@ public class LeaveMusterTest {
 				LoggerUtils.logInfo("Add Leaves Clicked");
 				Thread.sleep(1000);
 				
+				// Selecting From Date
+				WebElement txtFromDate = ViewMusterPage.txtFromDate(driver);
+				txtFromDate.click();
+				LoggerUtils.logInfo("Entering From Date");
+				Thread.sleep(1000);
 				
-				Applib.selMonth(arrDepVal, driver, ViewMusterPage.lblFromMonth(driver), ViewMusterPage.btnForwardFromMonth(driver), ViewMusterPage.btnBackwardFromMonth(driver));
+				String [] arrFromDate = datArr[7].split("\\-");
+				
+				//Selecting Month from Date	
+				Applib.selMonthForwardButton(arrFromDate, driver, ViewMusterPage.lblFromMonth(driver), ViewMusterPage.btnForwardFromMonth(driver));
+				LoggerUtils.logInfo("From Month Selected");
+				Thread.sleep(1000);
+				
+				// Selecting Year from Date
+				Applib.selYear(arrFromDate, driver, ViewMusterPage.lblFromYear(driver), ViewMusterPage.btnForwardFromYear(driver), ViewMusterPage.btnForwardFromYear(driver));
+				LoggerUtils.logInfo("From Year Selected");
+				Thread.sleep(1000);
+				
+				WebElement selDay = ViewMusterPage.selDay(driver,arrFromDate[0]);
+				selDay.click();
+				LoggerUtils.logInfo("From Day Selected");
+				Thread.sleep(2000);
+				
+				WebElement btnFromOk = ViewMusterPage.btnDateOk(driver);
+				btnFromOk.click();
+				LoggerUtils.logInfo("From Date Selected");
+				Thread.sleep(1000);
+				
+				// Selecting To Date
+				WebElement txtToDate = ViewMusterPage.txtToDate(driver);
+				txtToDate.click();
+				LoggerUtils.logInfo("Entering To Date");
+				Thread.sleep(1000);
+				
+				String [] arrToDate = datArr[8].split("\\-");
+				
+				// Selecting Month From date
+				Applib.selMonthForwardButton(arrToDate, driver, ViewMusterPage.lblToMonth(driver), ViewMusterPage.btnForwarToMonth(driver));
+				LoggerUtils.logInfo("To Month Selected");
+				Thread.sleep(1000);
+				
+				// Selecting Year from Date
+				Applib.selYear(arrToDate, driver, ViewMusterPage.lblToYear(driver), ViewMusterPage.btnForwardToYear(driver), ViewMusterPage.btnForwardToYear(driver));
+				LoggerUtils.logInfo("To Year Selected");
+				Thread.sleep(1000);
+				
+				WebElement selToDay = ViewMusterPage.selDay(driver, arrToDate[0]);
+				selToDay.click();
+				LoggerUtils.logInfo("To Day Selected");
+				Thread.sleep(1000);
+				
+				WebElement btnToOk = ViewMusterPage.btnToDateOk(driver);
+				btnToOk.click();
+				LoggerUtils.logInfo("To  Date Selected");
+				Thread.sleep(1000);
+				
+				WebElement txtRemarks = ViewMusterPage.txtRemarks(driver);
+				txtRemarks.sendKeys(datArr[9]);
+				LoggerUtils.logInfo("Remarks Entered");
+				Thread.sleep(1000);
+				
+				WebElement btnSubmit = ViewMusterPage.btnSubmitAddLeaves(driver);
+				btnSubmit.click();
+				LoggerUtils.logInfo("Submit Button Clicked");
+				Thread.sleep(1000);
+				
+				WebElement alertBtnOk = ViewMusterPage.btnOK(driver);
+				alertBtnOk.click();
+				LoggerUtils.logInfo("Alert Ok Button Clicked");
+				Thread.sleep(2000);
+				
+				WebElement alertMsg = ViewMusterPage.alertMsg(driver);
+				Thread.sleep(1000);
+				
+				if (Globals.LEAVE_SUBMITED_SUCCESS.equals(alertMsg.getText())) {			
+					
+					LoggerUtils.logInfo(Globals.LEAVE_SUBMITED_SUCCESS);
+					Thread.sleep(1000);
+					WebElement btnAlertOk = ViewMusterPage.btnOK(driver);
+					btnAlertOk.click();
+					LoggerUtils.logInfo("Alert Ok ButtonClicked");
+					Thread.sleep(1000);
+					hMapRetObj.put("testRunStatus", Globals.PASS);
+					hMapRetObj.put("depUpdateVal","");	
+					
+				} else {
+					
+					LoggerUtils.logInfo("Unable to Submit Leave Application");
+					LoggerUtils.logInfo(alertMsg.getText());
+					Thread.sleep(1000);
+					WebElement btnAlertOk = ViewMusterPage.btnOK(driver);
+					btnAlertOk.click();
+					LoggerUtils.logInfo("Alert Ok ButtonClicked");
+					Thread.sleep(1000);
+					hMapRetObj.put("testRunStatus", Globals.FAIL);
+					hMapRetObj.put("depUpdateVal","");	
+				}
 				
 			} 
 			

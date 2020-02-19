@@ -199,7 +199,7 @@ public class EmployeeEditTest {
 					Thread.sleep(1000);
 					
 					// Selecting Exit Month
-					Applib.selMonth(arrExitDate, driver, EmployeeEditPage.lblExitMonth(driver), EmployeeEditPage.btnForwardExitMonth(driver), EmployeeEditPage.btnBackExitMonth(driver));
+					Applib.selMonthBackButton(arrExitDate, driver, EmployeeEditPage.lblExitMonth(driver), EmployeeEditPage.btnBackExitMonth(driver));
 					LoggerUtils.logInfo("Exit Month Selected");
 					Thread.sleep(1000);
 					

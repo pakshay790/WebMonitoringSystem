@@ -47,8 +47,7 @@ public class Applib
 		
 	}
 	
-	public static void selMonth(String[] arrDate, WebDriver driver, WebElement objSelMonth, WebElement btnForwardMonth,
-			WebElement btnBackMonth) throws InterruptedException {
+	public static void selMonthBackButton(String[] arrDate, WebDriver driver, WebElement objSelMonth,WebElement btnBackMonth) throws InterruptedException {
 		WebElement selMonth = objSelMonth;
 		String currentMonth;
 		String dataMonth = arrDate[1];
@@ -61,6 +60,25 @@ public class Applib
 			if (!currentMonth.equals(dataMonth)) {
 				WebElement BackMonth =btnBackMonth;
 				BackMonth.click();
+				Thread.sleep(500);			
+			}
+		}
+		
+	}
+	
+	public static void selMonthForwardButton(String[] arrDate, WebDriver driver, WebElement objSelMonth, WebElement btnForwardMonth) throws InterruptedException {
+		WebElement selMonth = objSelMonth;
+		String currentMonth;
+		String dataMonth = arrDate[1];
+		
+		Thread.sleep(1000);
+		
+		for (int i = 0; i < 12; i++) {
+			currentMonth = selMonth.getText();
+			
+			if (!currentMonth.equals(dataMonth)) {
+				WebElement ForwardMonth =btnForwardMonth;
+				ForwardMonth.click();
 				Thread.sleep(500);			
 			}
 		}

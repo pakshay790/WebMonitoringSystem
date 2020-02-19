@@ -65,6 +65,21 @@ public class ViewMusterPage {
     }
 	//button[@class='confirm']
 	
+	public static WebElement txtFromDate(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='start-date']")));
+        return element;
+    }
+	
+	public static WebElement txtToDate(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='end-date']")));
+        return element;
+    }
 	public static WebElement lblLeaveBalance(WebDriver driver)
     {
         WebElement element=null;
@@ -92,7 +107,7 @@ public class ViewMusterPage {
     {
         WebElement element=null;
         WebDriverWait wait=new WebDriverWait(driver, 50);
-        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("")));
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[3]/a[2]/i[1]")));
         return element;
     }
 	
@@ -100,7 +115,7 @@ public class ViewMusterPage {
     {
         WebElement element=null;
         WebDriverWait wait=new WebDriverWait(driver, 50);
-        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("")));
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[5]/div[1]/div[1]/div[1]/div[3]/div[2]")));
         return element;
     }
 	
@@ -108,7 +123,7 @@ public class ViewMusterPage {
     {
         WebElement element=null;
         WebDriverWait wait=new WebDriverWait(driver, 50);
-        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("")));
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[5]/div[1]/div[1]/div[1]/div[3]/div[3]/a[1]/i[1]")));
         return element;
     }
 	
@@ -116,8 +131,97 @@ public class ViewMusterPage {
     {
         WebElement element=null;
         WebDriverWait wait=new WebDriverWait(driver, 50);
-        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("")));
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[5]/div[1]/div[1]/div[1]/div[3]/div[3]/a[2]/i[1]")));
         return element;
     }
+	
+	public static WebElement lblToMonth(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[2]")));
+        return element;
+    }
+	
+	public static WebElement btnForwarToMonth(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]/i[1]")));
+        return element;
+    }
+	
+	public static WebElement lblToYear(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[6]/div[1]/div[1]/div[1]/div[3]/div[2]")));
+        return element;
+    }
+	
+	public static WebElement btnForwardToYear(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[6]/div[1]/div[1]/div[1]/div[3]/div[3]/a[1]/i[1]")));
+        return element;
+    }
+
+	public static WebElement selDay(WebDriver driver, String strDay)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='dtp-select-day'][contains(text(),'"+strDay+"')]")));
+        return element;
+    }
+	
+	public static WebElement selToDay(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@id='dtp_hoKCP']//a[@class='dtp-select-day'][contains(text(),'27')]")));
+        return element;
+    }
+	
+	public static WebElement btnDateOk(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[5]/div[1]/div[2]/button[4]")));
+        return element;
+    }
+	
+	public static WebElement btnToDateOk(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[6]/div[1]/div[2]/button[4]")));
+        return element;
+    }
+	
+	public static WebElement txtRemarks(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='leaves-input']")));
+        return element;
+    }
+	
+	public static WebElement btnSubmitAddLeaves(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='save-added-leaves']")));
+        return element;
+    }
+	
+	public static WebElement alertMsg(WebDriver driver)
+    {
+        WebElement element=null;
+        WebDriverWait wait=new WebDriverWait(driver, 50);
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[9]/p[1]")));
+        return element;
+    }
+	
 	
 }

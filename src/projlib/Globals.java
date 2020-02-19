@@ -41,6 +41,7 @@ public class Globals {
 	public static String EMP_UPDATED_SUCCESS;
 	public static String CAL_UPDATED_SUCCESS;
 	public static String SAL_PROCESSED_SUCCESS;
+	public static String LEAVE_SUBMITED_SUCCESS;
 	
 	static Properties constantProp;
 	//	static Properties constantProp = Genlib.readConfig("E:/Project/HRMSAutomation/Constant.properties");
@@ -82,6 +83,9 @@ public class Globals {
 		EMP_UPDATED_SUCCESS = sysMsgProp.getProperty("empUpdatedSuccess");
 		CAL_UPDATED_SUCCESS = sysMsgProp.getProperty("calendarUpdatedSuccess");
 		SAL_PROCESSED_SUCCESS = sysMsgProp.getProperty("salProcessedSuccess");
+		LEAVE_SUBMITED_SUCCESS = sysMsgProp.getProperty("leaveSubmitedSuccess");
+		
+		
 		
 		constantProp = Genlib.readConfig(filePath+"Constant.properties");
 		TRAINEE = constantProp.getProperty("trainee");

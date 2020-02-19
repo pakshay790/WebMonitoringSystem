@@ -90,7 +90,7 @@ public class EmployeeCreationTest {
 			String [] arrDOBDate = datArr[12].split("\\-");
 			
 			// Selecting Month From Date
-			Applib.selMonth(arrDOBDate,driver,EmployeeCreationPage.selMonth(driver),EmployeeCreationPage.btnForwardMonth(driver),EmployeeCreationPage.btnBackMonth(driver));
+			Applib.selMonthBackButton(arrDOBDate,driver,EmployeeCreationPage.selMonth(driver),EmployeeCreationPage.btnBackMonth(driver));
 			
 			// Selecting Year  From Date
 			Applib.selYear(arrDOBDate,driver,EmployeeCreationPage.selYear(driver),EmployeeCreationPage.btnForwardYear(driver),EmployeeCreationPage.btnBackYear(driver));
@@ -219,7 +219,7 @@ public class EmployeeCreationTest {
 			String [] arrDOJDate = datArr[27].split("\\-");
 			
 			// Selecting Month From Date
-			Applib.selMonth(arrDOJDate,driver,EmployeeCreationPage.selDOJMonth(driver),EmployeeCreationPage.btnDOJForwardMonth(driver),EmployeeCreationPage.btnDOJBackMonth(driver));
+			Applib.selMonthBackButton(arrDOJDate,driver,EmployeeCreationPage.selDOJMonth(driver),EmployeeCreationPage.btnDOJBackMonth(driver));
 			
 			// Selecting Year  From Date
 			Applib.selYear(arrDOJDate,driver,EmployeeCreationPage.selDOJYear(driver),EmployeeCreationPage.btnDOJForwardYear(driver),EmployeeCreationPage.btnDOJBackYear(driver));
