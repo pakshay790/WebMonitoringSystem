@@ -135,7 +135,7 @@ public class LeaveMusterTest {
 				LoggerUtils.logInfo("To Year Selected");
 				Thread.sleep(1000);
 				
-				WebElement selToDay = ViewMusterPage.selDay(driver, arrToDate[0]);
+				WebElement selToDay = ViewMusterPage.selToDay(driver, arrToDate[0]);
 				selToDay.click();
 				LoggerUtils.logInfo("To Day Selected");
 				Thread.sleep(1000);

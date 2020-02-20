@@ -171,15 +171,15 @@ public class ViewMusterPage {
     {
         WebElement element=null;
         WebDriverWait wait=new WebDriverWait(driver, 50);
-        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='dtp-select-day'][contains(text(),'"+strDay+"')]")));
+        element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(text(),'"+strDay+"')]")));
         return element;
     }
 	
-	public static WebElement selToDay(WebDriver driver)
+	public static WebElement selToDay(WebDriver driver, String strDay)
     {
         WebElement element=null;
         WebDriverWait wait=new WebDriverWait(driver, 50);
-        element=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@id='dtp_hoKCP']//a[@class='dtp-select-day'][contains(text(),'27')]")));
+        element=wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText(strDay)));
         return element;
     }
 	

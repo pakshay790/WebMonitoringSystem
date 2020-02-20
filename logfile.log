@@ -1,0 +1,29 @@
+2020-02-20 12:03:35,283 INFO  [LoggerUtils] ****************************************** 
+2020-02-20 12:03:35,284 INFO  [LoggerUtils] Test Case ID: leavemuster_001 
+2020-02-20 12:03:35,284 INFO  [LoggerUtils] ****************************************** 
+2020-02-20 12:03:39,981 INFO  [LoggerUtils] Driver Setup 
+2020-02-20 12:03:41,717 INFO  [LoggerUtils] User Name: admin 
+2020-02-20 12:03:41,797 INFO  [LoggerUtils] Password: password 
+2020-02-20 12:03:46,584 INFO  [LoggerUtils] Payroll Department Menu clicked 
+2020-02-20 12:03:47,674 INFO  [LoggerUtils] Leave Muster Menu Clicked 
+2020-02-20 12:03:49,538 INFO  [LoggerUtils] View Leave Muster Clicked 
+2020-02-20 12:03:51,681 INFO  [LoggerUtils] Employee ID Entered 
+2020-02-20 12:03:52,786 INFO  [LoggerUtils] Employee Selected 
+2020-02-20 12:03:53,919 INFO  [LoggerUtils] Add Leaves Clicked 
+2020-02-20 12:03:55,059 INFO  [LoggerUtils] Entering From Date 
+2020-02-20 12:03:57,894 INFO  [LoggerUtils] From Month Selected 
+2020-02-20 12:03:59,015 INFO  [LoggerUtils] From Year Selected 
+2020-02-20 12:04:00,128 INFO  [LoggerUtils] From Day Selected 
+2020-02-20 12:04:02,225 INFO  [LoggerUtils] From Date Selected 
+2020-02-20 12:04:03,325 INFO  [LoggerUtils] Entering To Date 
+2020-02-20 12:04:06,118 INFO  [LoggerUtils] To Month Selected 
+2020-02-20 12:04:07,238 INFO  [LoggerUtils] To Year Selected 
+2020-02-20 12:04:08,359 INFO  [LoggerUtils] To Day Selected 
+2020-02-20 12:04:09,461 INFO  [LoggerUtils] To  Date Selected 
+2020-02-20 12:04:10,632 INFO  [LoggerUtils] Remarks Entered 
+2020-02-20 12:04:11,759 INFO  [LoggerUtils] Submit Button Clicked 
+2020-02-20 12:04:12,873 INFO  [LoggerUtils] Alert Ok Button Clicked 
+2020-02-20 12:04:15,979 INFO  [LoggerUtils] Leave application has been submitted successfully! 
+2020-02-20 12:04:17,094 INFO  [LoggerUtils] Alert Ok ButtonClicked 
+2020-02-20 12:04:18,760 INFO  [LoggerUtils] Driver tear down 
+2020-02-20 12:04:18,914 INFO  [LoggerUtils] Test Completed Successfully - leavemuster_001 
